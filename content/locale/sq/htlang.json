@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "i urtë",
+				"value": "0"
+			},
+			{
+				"text": "i qetë",
+				"value": "1"
+			},
+			{
+				"text": "harmonik",
+				"value": "2"
+			},
+			{
+				"text": "tekanjoz",
+				"value": "3"
+			},
+			{
+				"text": "agresiv",
+				"value": "4"
+			},
+			{
+				"text": "i zjarrtë",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "djalë i ndyrë",
+				"value": "0"
+			},
+			{
+				"text": "mistrec",
+				"value": "1"
+			},
+			{
+				"text": "djalë i këndshëm",
+				"value": "2"
+			},
+			{
+				"text": "djalë miqësor",
+				"value": "3"
+			},
+			{
+				"text": "djalë i dashur",
+				"value": "4"
+			},
+			{
+				"text": "si pëllumb",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Luani Qetë",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Ndeshja e Sezonit",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "nuk ekziston",
+				"value": "0"
+			},
+			{
+				"text": "përtokë",
+				"value": "1"
+			},
+			{
+				"text": "i mjeruar",
+				"value": "2"
+			},
+			{
+				"text": "i dobët",
+				"value": "3"
+			},
+			{
+				"text": "i kënaqshëm",
+				"value": "4"
+			},
+			{
+				"text": "i fortë",
+				"value": "5"
+			},
+			{
+				"text": "i mrekullueshëm",
+				"value": "6"
+			},
+			{
+				"text": "pak i tepruar",
+				"value": "7"
+			},
+			{
+				"text": "i tepruar",
+				"value": "8"
+			},
+			{
+				"text": "krejtësisht i tepruar",
+				"value": "9"
+			}
+		],
+		"desc": "Albanian",
+		"fans": [
+			{
+				"text": "për të vrarë",
+				"value": "0"
+			},
+			{
+				"text": "të tërbuar",
+				"value": "1"
+			},
+			{
+				"text": "të inatosur",
+				"value": "2"
+			},
+			{
+				"text": "të bezdisur",
+				"value": "3"
+			},
+			{
+				"text": "të zhgënjyer",
+				"value": "4"
+			},
+			{
+				"text": "të qetë",
+				"value": "5"
+			},
+			{
+				"text": "të kënaqur",
+				"value": "6"
+			},
+			{
+				"text": "të lumtur",
+				"value": "7"
+			},
+			{
+				"text": "në delir",
+				"value": "8"
+			},
+			{
+				"text": "të stërkënaqur",
+				"value": "9"
+			},
+			{
+				"text": "duke hedhur valle",
+				"value": "10"
+			},
+			{
+				"text": "duke ju bërë urata",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Me mirë të mos paraqitemi fare!",
+				"value": "0"
+			},
+			{
+				"text": "Do na shkelin me këmbë",
+				"value": "1"
+			},
+			{
+				"text": "Do humbasim",
+				"value": "2"
+			},
+			{
+				"text": "Ata janë favoritë",
+				"value": "3"
+			},
+			{
+				"text": "Peshorja anon nga ata",
+				"value": "4"
+			},
+			{
+				"text": "Do hahemi dhëmb për dhëmb",
+				"value": "5"
+			},
+			{
+				"text": "Peshorja anon nga ne",
+				"value": "6"
+			},
+			{
+				"text": "Ne jemi favoritë",
+				"value": "7"
+			},
+			{
+				"text": "Do fitojmë",
+				"value": "8"
+			},
+			{
+				"text": "Bukë me djathë!",
+				"value": "9"
+			},
+			{
+				"text": "Do t'i turpërojmë",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Ne nuk jemi të denjë për këtë divizion",
+				"value": "0"
+			},
+			{
+				"text": "Çdo ditë në këtë divizion është dhuratë",
+				"value": "1"
+			},
+			{
+				"text": "Na duhet të luftojmë që të qëndrojmë sipër",
+				"value": "2"
+			},
+			{
+				"text": "Një vend në mesin e tabelës është mirë",
+				"value": "3"
+			},
+			{
+				"text": "Jemi për 4 vendet e para",
+				"value": "4"
+			},
+			{
+				"text": "Përpiqu për titullin!",
+				"value": "5"
+			},
+			{
+				"text": "Ne duhet ta fitojmë këtë sezon",
+				"value": "6"
+			},
+			{
+				"text": "Ne jemi shumë më mirë sesa ky divizion!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "mashtrues",
+				"value": "0"
+			},
+			{
+				"text": "dallaveraxhi",
+				"value": "1"
+			},
+			{
+				"text": "i ndershëm",
+				"value": "2"
+			},
+			{
+				"text": "i saktë",
+				"value": "3"
+			},
+			{
+				"text": "i drejtë",
+				"value": "4"
+			},
+			{
+				"text": "shejntor",
+				"value": "5"
+			}
+		],
+		"id": "85",
+		"leagueNames": {
+			"1": "Suedia",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Liga Apache (Numri i kufizuar)",
+			"1002": "Liga e përvjetorit të Hattrickut",
+			"1003": "Liga e Akademive",
+			"101": "Malta",
+			"102": "Kirgistan",
+			"103": "Moldavia",
+			"104": "Gjeorgjia",
+			"105": "Andorra",
+			"106": "Jordani",
+			"107": "Guatemala",
+			"11": "Danimarka",
+			"110": "Trinidad dhe Tobako",
+			"111": "Nikaragua",
+			"112": "Kazakistan",
+			"113": "Surinami",
+			"117": "Lihteshtein",
+			"118": "Algjeria",
+			"119": "Mongolia",
+			"12": "Finlanda",
+			"120": "Libani",
+			"121": "Senegali",
+			"122": "Armenia",
+			"123": "Bahreni",
+			"124": "Barbados",
+			"125": "Kape Verde",
+			"126": "Bregu i Fildishtë",
+			"127": "Kuvajti",
+			"128": "Iraku",
+			"129": "Azerbajxhan",
+			"130": "Angola",
+			"131": "Mali i Zi",
+			"132": "Bangladeshi",
+			"133": "Jemeni",
+			"134": "Omani",
+			"135": "Mozambiku",
+			"136": "Brunej",
+			"137": "Gana",
+			"138": "Kamboxhia",
+			"139": "Benin",
+			"14": "Hollanda",
+			"140": "Siria",
+			"141": "Katari",
+			"142": "Tanzania",
+			"143": "Uganda",
+			"144": "Maldives",
+			"145": "Uzbekistan",
+			"146": "Kameruni",
+			"147": "Kuba",
+			"148": "Palestina",
+			"149": "São Tomé dhe Príncipe",
+			"15": "Oqeania",
+			"151": "Komora",
+			"152": "Sri Lanka",
+			"153": "Kuraçao",
+			"154": "Guami",
+			"155": "RD e Kongos",
+			"156": "Etiopia",
+			"157": "Shën Vincenti dhe Grenadinet",
+			"158": "Beliza",
+			"159": "Madagaskar",
+			"16": "Brazili",
+			"160": "Botsvana",
+			"161": "Mjanmar",
+			"162": "Zambia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Porto Riko",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepali",
+			"169": "Guajana",
+			"17": "Kanada",
+			"170": "Tahiti",
+			"171": "Guinea",
+			"172": "Bahamas",
+			"173": "Ruanda",
+			"174": "Shën Kit dhe Nevis",
+			"175": "Guinea Ekuatoriale",
+			"176": "Gjibraltar",
+			"177": "Butani",
+			"18": "Kili",
+			"19": "Kolumbia",
+			"2": "Anglia",
+			"20": "India",
+			"21": "Irlanda",
+			"22": "Japonia",
+			"23": "Peru",
+			"24": "Polonia",
+			"25": "Portugali",
+			"26": "Skocia",
+			"27": "Afrika Jugut",
+			"28": "Uruguai",
+			"29": "Venezuela",
+			"3": "Gjermania",
+			"30": "Korea Jugut",
+			"31": "Tailanda",
+			"32": "Turqia",
+			"33": "Egjipti",
+			"34": "Republika Popullore e Kinës",
+			"35": "Rusia",
+			"36": "Spanja",
+			"37": "Rumania",
+			"38": "Islanda",
+			"39": "Austria",
+			"4": "Italia",
+			"44": "Belgjika",
+			"45": "Malajzia",
+			"46": "Zvicra",
+			"47": "Singapori",
+			"5": "Franca",
+			"50": "Greqia",
+			"51": "Hungaria",
+			"52": "Çekia",
+			"53": "Letonia",
+			"54": "Indonezia",
+			"55": "Filipinet",
+			"56": "Estonia",
+			"57": "Serbia",
+			"58": "Kroacia",
+			"59": "Hong Kongu, Kina",
+			"6": "Meksika",
+			"60": "Taipei Kinës",
+			"61": "Uellsi",
+			"62": "Bullgaria",
+			"63": "Izraeli",
+			"64": "Sllovenia",
+			"66": "Lituania",
+			"67": "Sllovakia",
+			"68": "Ukraina",
+			"69": "Bosnje dhe Herzegovina",
+			"7": "Argjentina",
+			"70": "Vietnami",
+			"71": "Pakistani",
+			"72": "Paraguai",
+			"73": "Ekuadori",
+			"74": "Bolivia",
+			"75": "Nigeria",
+			"76": "Ishujt Faroe",
+			"77": "Maroku",
+			"79": "Arabia Saudite",
+			"8": "SHBA",
+			"80": "Tunizia",
+			"81": "Kosta Rika",
+			"83": "Emiratet e Bashkuara Arabe",
+			"84": "Luksemburgu",
+			"85": "Irani",
+			"88": "Republika Domenikane",
+			"89": "Qipro",
+			"9": "Norvegjia",
+			"91": "Bjellorusia",
+			"93": "Irlanda Veriut",
+			"94": "Xhamajka",
+			"95": "Kenia",
+			"96": "Panama",
+			"97": "Maqedonia e veriut",
+			"98": "Shqipëria",
+			"99": "Hondurasi"
+		},
+		"levels": [
+			{
+				"text": "zero me xhufkë",
+				"value": "0"
+			},
+			{
+				"text": "katastrofë",
+				"value": "1"
+			},
+			{
+				"text": "pashpresë",
+				"value": "2"
+			},
+			{
+				"text": "varfër",
+				"value": "3"
+			},
+			{
+				"text": "dobët",
+				"value": "4"
+			},
+			{
+				"text": "mediokër",
+				"value": "5"
+			},
+			{
+				"text": "pranueshëm",
+				"value": "6"
+			},
+			{
+				"text": "mirë",
+				"value": "7"
+			},
+			{
+				"text": "shkëlqyer",
+				"value": "8"
+			},
+			{
+				"text": "fenomenal",
+				"value": "9"
+			},
+			{
+				"text": "mahnitës",
+				"value": "10"
+			},
+			{
+				"text": "brilant",
+				"value": "11"
+			},
+			{
+				"text": "madhështor",
+				"value": "12"
+			},
+			{
+				"text": "klas botëror",
+				"value": "13"
+			},
+			{
+				"text": "mbinatyror",
+				"value": "14"
+			},
+			{
+				"text": "kolosal",
+				"value": "15"
+			},
+			{
+				"text": "jashtë-tokësor",
+				"value": "16"
+			},
+			{
+				"text": "legjendar",
+				"value": "17"
+			},
+			{
+				"text": "magjepës",
+				"value": "18"
+			},
+			{
+				"text": "utopik",
+				"value": "19"
+			},
+			{
+				"text": "hyjnor",
+				"value": "20"
+			}
+		],
+		"name": "sq",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Portier"
+			},
+			{
+				"type": "WingBack",
+				"value": "Mbrojtës Krahu"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Qendër Mbrojtës"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Qendër Mesfushor"
+			},
+			{
+				"type": "Winger",
+				"value": "Mesfushor krahu"
+			},
+			{
+				"type": "Forward",
+				"value": "Sulmues"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "Sh. ulët",
+				"value": "0"
+			},
+			{
+				"text": "Ulët",
+				"value": "0.25"
+			},
+			{
+				"text": "Lartë",
+				"value": "0.5"
+			},
+			{
+				"text": "Sh. lartë",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Mesfusha"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Mbrojtja Djathtas"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Mbrojtja Qëndrore"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Mbrojtja Majtas"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Sulmi Djathtas"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Sulmi Qëndror"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Sulmi Majtas"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Portier"
+			},
+			{
+				"type": "Stamina",
+				"value": "Rezistenca"
+			},
+			{
+				"type": "Defender",
+				"value": "Mbrojtje"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Organizim"
+			},
+			{
+				"type": "Winger",
+				"value": "Në Krah"
+			},
+			{
+				"type": "Scorer",
+				"value": "Shënim"
+			},
+			{
+				"type": "Kicker",
+				"value": "Goditje Standarte"
+			},
+			{
+				"type": "Passer",
+				"value": "Pasim"
+			},
+			{
+				"type": "Experience",
+				"value": "Eksperienca"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Karizma"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Pa veçori"
+			},
+			{
+				"type": "Technical",
+				"value": "Teknik"
+			},
+			{
+				"type": "Quick",
+				"value": "I shpejtë"
+			},
+			{
+				"type": "Powerful",
+				"value": "I fuqishëm"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "I paparashikueshëm"
+			},
+			{
+				"type": "Head",
+				"value": "Me Kokë"
+			},
+			{
+				"type": "Resilient",
+				"value": "Ripërtëritës"
+			},
+			{
+				"type": "Support",
+				"value": "Mbështetës"
+			}
+		],
+		"spirit": [
+			{
+				"text": "si Lufta e Ftohtë",
+				"value": "0"
+			},
+			{
+				"text": "të xhindosur",
+				"value": "1"
+			},
+			{
+				"text": "të tërbuar",
+				"value": "2"
+			},
+			{
+				"text": "të acaruar",
+				"value": "3"
+			},
+			{
+				"text": "të përmbajtur",
+				"value": "4"
+			},
+			{
+				"text": "të qetë",
+				"value": "5"
+			},
+			{
+				"text": "të kënaqur",
+				"value": "6"
+			},
+			{
+				"text": "të lumtur",
+				"value": "7"
+			},
+			{
+				"text": "në delir",
+				"value": "8"
+			},
+			{
+				"text": "në qiellin e shtatë",
+				"value": "9"
+			},
+			{
+				"text": "Parajsa në Tokë!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "për të vrarë",
+				"value": "0"
+			},
+			{
+				"text": "të tërbuar",
+				"value": "1"
+			},
+			{
+				"text": "të ngacmuar",
+				"value": "2"
+			},
+			{
+				"text": "të qetë",
+				"value": "3"
+			},
+			{
+				"text": "të matur",
+				"value": "4"
+			},
+			{
+				"text": "të kënaqur",
+				"value": "5"
+			},
+			{
+				"text": "në delir",
+				"value": "6"
+			},
+			{
+				"text": "të stërkënaqur",
+				"value": "7"
+			},
+			{
+				"text": "duke hedhur valle",
+				"value": "8"
+			},
+			{
+				"text": "Duke ju bërë urata",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Presing"
+			},
+			{
+				"type": "ca",
+				"value": "Kundër-sulme"
+			},
+			{
+				"type": "aim",
+				"value": "Sulmoni në Qendër"
+			},
+			{
+				"type": "aow",
+				"value": "Sulmoni nga Krahët"
+			},
+			{
+				"type": "",
+				"value": "E paditur"
+			},
+			{
+				"type": "",
+				"value": "E paditur"
+			},
+			{
+				"type": "creatively",
+				"value": "Luani me kreativitet"
+			},
+			{
+				"type": "longshots",
+				"value": "Goditje nga distanca"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "E përgjithshme (Forma)"
+			},
+			{
+				"type": "Sta",
+				"value": "Rezistencë"
+			},
+			{
+				"type": "SP",
+				"value": "Goditje Standarde"
+			},
+			{
+				"type": "Def",
+				"value": "Mbrojtje"
+			},
+			{
+				"type": "Sco",
+				"value": "Shënim"
+			},
+			{
+				"type": "Cross",
+				"value": "Në krah"
+			},
+			{
+				"type": "Shoot",
+				"value": "Shënim dhe Goditje standarte"
+			},
+			{
+				"type": "Pass",
+				"value": "Pasime"
+			},
+			{
+				"type": "PM",
+				"value": "Organizim"
+			},
+			{
+				"type": "GK",
+				"value": "Portier"
+			},
+			{
+				"type": "ThPass",
+				"value": "Pasime (Mbrojtësat + gjithë Mesfushorët)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Mbrojtje (Portieri, Mbrojtësat + gjithë Mesfushorët)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Në krah (Mesfushorat e krahut + Sulmuesit)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individuale"
+			}
+		]
+	}
+}

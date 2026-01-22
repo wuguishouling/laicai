@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "durgun",
+				"value": "0"
+			},
+			{
+				"text": "sakin",
+				"value": "1"
+			},
+			{
+				"text": "dengeli",
+				"value": "2"
+			},
+			{
+				"text": "huysuz",
+				"value": "3"
+			},
+			{
+				"text": "ateşli",
+				"value": "4"
+			},
+			{
+				"text": "dengesiz",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "pislik bir oyuncu",
+				"value": "0"
+			},
+			{
+				"text": "kavgacı bir oyuncu",
+				"value": "1"
+			},
+			{
+				"text": "canayakın bir oyuncu",
+				"value": "2"
+			},
+			{
+				"text": "sempatik bir oyuncu",
+				"value": "3"
+			},
+			{
+				"text": "popüler bir oyuncu",
+				"value": "4"
+			},
+			{
+				"text": "sevilen takım arkadaşı",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Sakin Oyna",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Sezonun Maçı",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "yok",
+				"value": "0"
+			},
+			{
+				"text": "felaket",
+				"value": "1"
+			},
+			{
+				"text": "berbat",
+				"value": "2"
+			},
+			{
+				"text": "kötü",
+				"value": "3"
+			},
+			{
+				"text": "iyi",
+				"value": "4"
+			},
+			{
+				"text": "güçlü",
+				"value": "5"
+			},
+			{
+				"text": "harika",
+				"value": "6"
+			},
+			{
+				"text": "biraz abartı",
+				"value": "7"
+			},
+			{
+				"text": "abartı",
+				"value": "8"
+			},
+			{
+				"text": "aşırı abartı",
+				"value": "9"
+			}
+		],
+		"desc": "Türkçe",
+		"fans": [
+			{
+				"text": "cinnet geçiriyorlar",
+				"value": "0"
+			},
+			{
+				"text": "köpürmüş",
+				"value": "1"
+			},
+			{
+				"text": "öfkeli",
+				"value": "2"
+			},
+			{
+				"text": "rahatsız",
+				"value": "3"
+			},
+			{
+				"text": "düş kırıklığına uğramış",
+				"value": "4"
+			},
+			{
+				"text": "sakin",
+				"value": "5"
+			},
+			{
+				"text": "hoşnut",
+				"value": "6"
+			},
+			{
+				"text": "memnun",
+				"value": "7"
+			},
+			{
+				"text": "coşkulu",
+				"value": "8"
+			},
+			{
+				"text": "uçmuş",
+				"value": "9"
+			},
+			{
+				"text": "sokaklarda halay çekiyorlar",
+				"value": "10"
+			},
+			{
+				"text": "antrenmana baklava yolluyorlar",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Sahaya çıkmamak en iyisi!",
+				"value": "0"
+			},
+			{
+				"text": "Bizden iki gömlek üstünler",
+				"value": "1"
+			},
+			{
+				"text": "Kaybedeceğiz",
+				"value": "2"
+			},
+			{
+				"text": "Bahisler onlardan yana",
+				"value": "3"
+			},
+			{
+				"text": "Bizden biraz iyiler",
+				"value": "4"
+			},
+			{
+				"text": "Dişe diş bir mücadele olur",
+				"value": "5"
+			},
+			{
+				"text": "Onlardan biraz iyiyiz",
+				"value": "6"
+			},
+			{
+				"text": "Bahisler bizden yana",
+				"value": "7"
+			},
+			{
+				"text": "Bu maçı alırız",
+				"value": "8"
+			},
+			{
+				"text": "Çantada keklik!",
+				"value": "9"
+			},
+			{
+				"text": "Sahaya gömeriz!",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Bu kümeye layık değiliz",
+				"value": "0"
+			},
+			{
+				"text": "Bu kümede oynadığımız her maç kar sayılır",
+				"value": "1"
+			},
+			{
+				"text": "Kümede kalma mücadelesi vermeliyiz",
+				"value": "2"
+			},
+			{
+				"text": "Orta sıralardan bir bilet kapsak fena olmaz",
+				"value": "3"
+			},
+			{
+				"text": "İlk 4'e girmeliyiz",
+				"value": "4"
+			},
+			{
+				"text": "Şampiyonluğa odaklanalım",
+				"value": "5"
+			},
+			{
+				"text": "Bu sezon ipi göğüslemeliyiz",
+				"value": "6"
+			},
+			{
+				"text": "Kalitemiz bu ligin çok üzerinde!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "çirkef",
+				"value": "0"
+			},
+			{
+				"text": "sahtekar",
+				"value": "1"
+			},
+			{
+				"text": "dürüst",
+				"value": "2"
+			},
+			{
+				"text": "güvenilir",
+				"value": "3"
+			},
+			{
+				"text": "erdemli",
+				"value": "4"
+			},
+			{
+				"text": "aziz gibi",
+				"value": "5"
+			}
+		],
+		"id": "19",
+		"leagueNames": {
+			"1": "İsveç",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apaçi Ligi (Limitli Sürüm)",
+			"1002": "Hattrick Yıldönümü Ligi",
+			"1003": "Homegrown League",
+			"101": "Malta",
+			"102": "Kırgızistan",
+			"103": "Moldova",
+			"104": "Gürcistan",
+			"105": "Andorra",
+			"106": "Ürdün",
+			"107": "Guatemala",
+			"11": "Danimarka",
+			"110": "Trinidad-Tobago",
+			"111": "Nikaragua",
+			"112": "Kazakistan",
+			"113": "Surinam",
+			"117": "Lihtenştayn",
+			"118": "Cezayir",
+			"119": "Moğolistan",
+			"12": "Finlandiya",
+			"120": "Lübnan",
+			"121": "Senegal",
+			"122": "Ermenistan",
+			"123": "Bahreyn",
+			"124": "Barbados",
+			"125": "Yeşil Burun Adaları",
+			"126": "Fildişi Sahili",
+			"127": "Kuveyt",
+			"128": "Irak",
+			"129": "Azerbaycan",
+			"130": "Angola",
+			"131": "Karadağ",
+			"132": "Bangladeş",
+			"133": "Yemen",
+			"134": "Umman",
+			"135": "Mozambik",
+			"136": "Brunei",
+			"137": "Gana",
+			"138": "Kamboçya",
+			"139": "Benin",
+			"14": "Hollanda",
+			"140": "Suriye",
+			"141": "Katar",
+			"142": "Tanzanya",
+			"143": "Uganda",
+			"144": "Maldivler",
+			"145": "Özbekistan",
+			"146": "Kamerun",
+			"147": "Küba",
+			"148": "Filistin",
+			"149": "Sao Tome ve Principe",
+			"15": "Okyanusya",
+			"151": "Komorlar Birliği",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "Kongo DC",
+			"156": "Etiyopya",
+			"157": "Saint Vincent ve Grenadinler",
+			"158": "Belize",
+			"159": "Madagaskar",
+			"16": "Brezilya",
+			"160": "Botsvana",
+			"161": "Myanmar",
+			"162": "Zambiya",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Porto Riko",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Guyana",
+			"17": "Kanada",
+			"170": "Tahiti",
+			"171": "Gine",
+			"172": "Bahamalar",
+			"173": "Ruanda",
+			"174": "Saint Kitts ve Nevis",
+			"175": "Ekvator Ginesi",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Şili",
+			"19": "Kolombiya",
+			"2": "İngiltere",
+			"20": "Hindistan",
+			"21": "İrlanda",
+			"22": "Japonya",
+			"23": "Peru",
+			"24": "Polonya",
+			"25": "Portekiz",
+			"26": "İskoçya",
+			"27": "Güney Afrika",
+			"28": "Uruguay",
+			"29": "Venezuela",
+			"3": "Almanya",
+			"30": "Güney Kore",
+			"31": "Tayland",
+			"32": "Türkiye",
+			"33": "Mısır",
+			"34": "Çin Halk Cumhuriyeti",
+			"35": "Rusya",
+			"36": "İspanya",
+			"37": "Romanya",
+			"38": "İzlanda",
+			"39": "Avusturya",
+			"4": "İtalya",
+			"44": "Belçika",
+			"45": "Malezya",
+			"46": "İsviçre",
+			"47": "Singapur",
+			"5": "Fransa",
+			"50": "Yunanistan",
+			"51": "Macaristan",
+			"52": "Çekya",
+			"53": "Letonya",
+			"54": "Endonezya",
+			"55": "Filipinler",
+			"56": "Estonya",
+			"57": "Sırbistan",
+			"58": "Hırvatistan",
+			"59": "Hong Kong, Çin",
+			"6": "Meksika",
+			"60": "Tayvan",
+			"61": "Galler",
+			"62": "Bulgaristan",
+			"63": "İsrail",
+			"64": "Slovenya",
+			"66": "Litvanya",
+			"67": "Slovakya",
+			"68": "Ukrayna",
+			"69": "Bosna-Hersek",
+			"7": "Arjantin",
+			"70": "Vietnam",
+			"71": "Pakistan",
+			"72": "Paraguay",
+			"73": "Ekvador",
+			"74": "Bolivya",
+			"75": "Nijerya",
+			"76": "Faroe Adaları",
+			"77": "Fas",
+			"79": "Suudi Arabistan",
+			"8": "ABD",
+			"80": "Tunus",
+			"81": "Kosta Rika",
+			"83": "Birleşik Arap Emirlikleri",
+			"84": "Lüksemburg",
+			"85": "İran",
+			"88": "Dominik Cumhuriyeti",
+			"89": "Güney Kıbrıs Rum Yönetimi",
+			"9": "Norveç",
+			"91": "Beyaz Rusya",
+			"93": "Kuzey İrlanda",
+			"94": "Jamaika",
+			"95": "Kenya",
+			"96": "Panama",
+			"97": "Kuzey Makedonya",
+			"98": "Arnavutluk",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "kazma",
+				"value": "0"
+			},
+			{
+				"text": "felaket",
+				"value": "1"
+			},
+			{
+				"text": "berbat",
+				"value": "2"
+			},
+			{
+				"text": "kötü",
+				"value": "3"
+			},
+			{
+				"text": "zayıf",
+				"value": "4"
+			},
+			{
+				"text": "vasat",
+				"value": "5"
+			},
+			{
+				"text": "yeterli",
+				"value": "6"
+			},
+			{
+				"text": "kaliteli",
+				"value": "7"
+			},
+			{
+				"text": "çok iyi",
+				"value": "8"
+			},
+			{
+				"text": "üstün",
+				"value": "9"
+			},
+			{
+				"text": "mükemmel",
+				"value": "10"
+			},
+			{
+				"text": "görkemli",
+				"value": "11"
+			},
+			{
+				"text": "muhteşem",
+				"value": "12"
+			},
+			{
+				"text": "dünya çapında",
+				"value": "13"
+			},
+			{
+				"text": "doğa üstü",
+				"value": "14"
+			},
+			{
+				"text": "devasa",
+				"value": "15"
+			},
+			{
+				"text": "dünya dışı",
+				"value": "16"
+			},
+			{
+				"text": "efsanevi",
+				"value": "17"
+			},
+			{
+				"text": "sihirli",
+				"value": "18"
+			},
+			{
+				"text": "ütopik",
+				"value": "19"
+			},
+			{
+				"text": "mucizevi",
+				"value": "20"
+			}
+		],
+		"name": "tr",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Kaleci"
+			},
+			{
+				"type": "WingBack",
+				"value": "Bek"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Stoper"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "İç Ortasaha"
+			},
+			{
+				"type": "Winger",
+				"value": "Kanat"
+			},
+			{
+				"type": "Forward",
+				"value": "Forvet"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "çok düşük",
+				"value": "0"
+			},
+			{
+				"text": "düşük",
+				"value": "0.25"
+			},
+			{
+				"text": "yüksek",
+				"value": "0.5"
+			},
+			{
+				"text": "çok yüksek",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Orta Saha"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Sağ Defans"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Göbek Defans"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Sol Defans"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Sağ Atak"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Göbek Atak"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Sol Atak"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Kalecilik"
+			},
+			{
+				"type": "Stamina",
+				"value": "Kondisyon"
+			},
+			{
+				"type": "Defender",
+				"value": "Defans"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Oyunkuruculuk"
+			},
+			{
+				"type": "Winger",
+				"value": "Kanat"
+			},
+			{
+				"type": "Scorer",
+				"value": "Golcülük"
+			},
+			{
+				"type": "Kicker",
+				"value": "Duran Toplar"
+			},
+			{
+				"type": "Passer",
+				"value": "Pas"
+			},
+			{
+				"type": "Experience",
+				"value": "Tecrübe"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Liderlik"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Özel yetenek yok"
+			},
+			{
+				"type": "Technical",
+				"value": "Teknik"
+			},
+			{
+				"type": "Quick",
+				"value": "Hızlı"
+			},
+			{
+				"type": "Powerful",
+				"value": "Güçlü"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Kestirilemez"
+			},
+			{
+				"type": "Head",
+				"value": "Kafa"
+			},
+			{
+				"type": "Resilient",
+				"value": "Çabuk İyileşen"
+			},
+			{
+				"type": "Support",
+				"value": "Destek"
+			}
+		],
+		"spirit": [
+			{
+				"text": "soğuk savaş gibi",
+				"value": "0"
+			},
+			{
+				"text": "öldürücü",
+				"value": "1"
+			},
+			{
+				"text": "köpürmüş",
+				"value": "2"
+			},
+			{
+				"text": "rahatsız",
+				"value": "3"
+			},
+			{
+				"text": "kaynaşık",
+				"value": "4"
+			},
+			{
+				"text": "huzurlu",
+				"value": "5"
+			},
+			{
+				"text": "hoşnut",
+				"value": "6"
+			},
+			{
+				"text": "memnun",
+				"value": "7"
+			},
+			{
+				"text": "coşkulu",
+				"value": "8"
+			},
+			{
+				"text": "bulutların üzerinde",
+				"value": "9"
+			},
+			{
+				"text": "Yeryüzündeki Cennet!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "cinnet geçiriyorlar",
+				"value": "0"
+			},
+			{
+				"text": "köpürmüş",
+				"value": "1"
+			},
+			{
+				"text": "rahatsız",
+				"value": "2"
+			},
+			{
+				"text": "sakin",
+				"value": "3"
+			},
+			{
+				"text": "hoşnut",
+				"value": "4"
+			},
+			{
+				"text": "memnun",
+				"value": "5"
+			},
+			{
+				"text": "coşkulu",
+				"value": "6"
+			},
+			{
+				"text": "uçmuş",
+				"value": "7"
+			},
+			{
+				"text": "sokaklarda halay çekiyorlar",
+				"value": "8"
+			},
+			{
+				"text": "antrenmana baklava yolluyorlar",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Pres"
+			},
+			{
+				"type": "ca",
+				"value": "Kontra atak"
+			},
+			{
+				"type": "aim",
+				"value": "Ortadan Atak"
+			},
+			{
+				"type": "aow",
+				"value": "Kanattan Atak"
+			},
+			{
+				"type": "",
+				"value": "Bilinmeyen"
+			},
+			{
+				"type": "",
+				"value": "Bilinmeyen"
+			},
+			{
+				"type": "creatively",
+				"value": "Yaratıcı Oyna"
+			},
+			{
+				"type": "longshots",
+				"value": "Uzaktan şutlar"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Genel (Form)"
+			},
+			{
+				"type": "Sta",
+				"value": "Kondisyon"
+			},
+			{
+				"type": "SP",
+				"value": "Duran Toplar"
+			},
+			{
+				"type": "Def",
+				"value": "Defans"
+			},
+			{
+				"type": "Sco",
+				"value": "Golcülük"
+			},
+			{
+				"type": "Cross",
+				"value": "Kanat"
+			},
+			{
+				"type": "Shoot",
+				"value": "Golcülük ve Duran Toplar"
+			},
+			{
+				"type": "Pass",
+				"value": "Pas"
+			},
+			{
+				"type": "PM",
+				"value": "Oyunkuruculuk"
+			},
+			{
+				"type": "GK",
+				"value": "Kalecilik"
+			},
+			{
+				"type": "ThPass",
+				"value": "Pas (Defanslar + Tüm ortasahalar)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Defans (Kaleciler, Defanslar + Tüm ortasahalar)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Kanat (Kanat+ Forvetler)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Bireysel"
+			}
+		]
+	}
+}

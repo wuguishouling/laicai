@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "sakit",
+				"value": "0"
+			},
+			{
+				"text": "mülayim",
+				"value": "1"
+			},
+			{
+				"text": "təmkinli",
+				"value": "2"
+			},
+			{
+				"text": "qızğın",
+				"value": "3"
+			},
+			{
+				"text": "təmkinsiz",
+				"value": "4"
+			},
+			{
+				"text": "dəyişkən",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "murdar oğlandır",
+				"value": "0"
+			},
+			{
+				"text": "davakar insandır",
+				"value": "1"
+			},
+			{
+				"text": "xoş xasiyyətli oğlandır",
+				"value": "2"
+			},
+			{
+				"text": "sevimli oğlandır",
+				"value": "3"
+			},
+			{
+				"text": "məşhur oğlandır",
+				"value": "4"
+			},
+			{
+				"text": "komandanın sevimlisidir",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Sakit oyna",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Sezonun matçı",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "mövcud deyil",
+				"value": "0"
+			},
+			{
+				"text": "fəlakətli",
+				"value": "1"
+			},
+			{
+				"text": "bərbad",
+				"value": "2"
+			},
+			{
+				"text": "pis",
+				"value": "3"
+			},
+			{
+				"text": "yaxşı",
+				"value": "4"
+			},
+			{
+				"text": "güclü",
+				"value": "5"
+			},
+			{
+				"text": "üstün",
+				"value": "6"
+			},
+			{
+				"text": "bir qədər arxayın",
+				"value": "7"
+			},
+			{
+				"text": "arxayın",
+				"value": "8"
+			},
+			{
+				"text": "lap arxayın",
+				"value": "9"
+			}
+		],
+		"desc": "Azərbaycanca",
+		"fans": [
+			{
+				"text": "məhvedici",
+				"value": "0"
+			},
+			{
+				"text": "hiddətli",
+				"value": "1"
+			},
+			{
+				"text": "hirsli",
+				"value": "2"
+			},
+			{
+				"text": "qəzəbli",
+				"value": "3"
+			},
+			{
+				"text": "ümidsiz",
+				"value": "4"
+			},
+			{
+				"text": "mülayim",
+				"value": "5"
+			},
+			{
+				"text": "məmnun",
+				"value": "6"
+			},
+			{
+				"text": "razı",
+				"value": "7"
+			},
+			{
+				"text": "xoşbəxt",
+				"value": "8"
+			},
+			{
+				"text": "həyatdan razıdırlar",
+				"value": "9"
+			},
+			{
+				"text": "küçələrdə rəqs edirlər",
+				"value": "10"
+			},
+			{
+				"text": "Sizə sevgi hekayələri göndərirlər",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Oyuna çıxmasaq yaxşıdır",
+				"value": "0"
+			},
+			{
+				"text": "Rəqib çox üstündür",
+				"value": "1"
+			},
+			{
+				"text": "Biz məğlub olacağıq",
+				"value": "2"
+			},
+			{
+				"text": "Onlar oyunun favoritidirlər",
+				"value": "3"
+			},
+			{
+				"text": "Onlar üstündür",
+				"value": "4"
+			},
+			{
+				"text": "Qələbə asan olmayacaq",
+				"value": "5"
+			},
+			{
+				"text": "Biz üstünük",
+				"value": "6"
+			},
+			{
+				"text": "Favorit bizik",
+				"value": "7"
+			},
+			{
+				"text": "Biz qalib gələcəyik",
+				"value": "8"
+			},
+			{
+				"text": "Su içmək kimi asan bir oyundur",
+				"value": "9"
+			},
+			{
+				"text": "Rəqibi darmadağın edəcəyik",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Biz bu divizionda oynamağa layiq deyilik",
+				"value": "0"
+			},
+			{
+				"text": "Bu divizionda hər gün bir mükafata bərabərdir",
+				"value": "1"
+			},
+			{
+				"text": "Burada qalmaq üçün mübarizə aparmalıyıq",
+				"value": "2"
+			},
+			{
+				"text": "Orta sıralarda yer qazansaq pis olmaz",
+				"value": "3"
+			},
+			{
+				"text": "İlk dördlüyə layiqik",
+				"value": "4"
+			},
+			{
+				"text": "Məqsədimiz yüksək yer tutmaqdır!",
+				"value": "5"
+			},
+			{
+				"text": "Bu mövsüm qalib olmalıyıq",
+				"value": "6"
+			},
+			{
+				"text": "Bu divizion üçün səviyyəmiz həddindən artıqdır!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "şərəfsiz",
+				"value": "0"
+			},
+			{
+				"text": "sədaqətsiz",
+				"value": "1"
+			},
+			{
+				"text": "səmimi",
+				"value": "2"
+			},
+			{
+				"text": "vicdanlı",
+				"value": "3"
+			},
+			{
+				"text": "ədalətli",
+				"value": "4"
+			},
+			{
+				"text": "müqəddəs kimi",
+				"value": "5"
+			}
+		],
+		"id": "100",
+		"leagueNames": {
+			"1": "İsveç",
+			"100": "Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apache Liqası (Məhdud Versiya)",
+			"1002": "Hattrick Yubiley liqası",
+			"1003": "Homegrown Liqası",
+			"101": "Malta",
+			"102": "Qırğızıstan",
+			"103": "Moldova",
+			"104": "Gürcüstan",
+			"105": "Andorra",
+			"106": "İordaniya",
+			"107": "Qvatemala",
+			"11": "Danimarka",
+			"110": "Trinidad və Tobaqo",
+			"111": "Nikaraqua",
+			"112": "Qazaxıstan",
+			"113": "Surinam",
+			"117": "Lixtenşteyn",
+			"118": "Əlcəzair",
+			"119": "Monqolustan",
+			"12": "Finlandiya",
+			"120": "Livan",
+			"121": "Seneqal",
+			"122": "Ermənistan",
+			"123": "Bəhreyn",
+			"124": "Barbados",
+			"125": "Kabo-Verde",
+			"126": "Fil Dişi Sahili",
+			"127": "Küveyt",
+			"128": "İraq",
+			"129": "Azərbaycan",
+			"130": "Anqola",
+			"131": "Monteneqro",
+			"132": "Banqladeş",
+			"133": "Yəmən",
+			"134": "Oman",
+			"135": "Mozambik",
+			"136": "Bruney",
+			"137": "Qana",
+			"138": "Kamboca",
+			"139": "Benin",
+			"14": "Hollandiya",
+			"140": "Suriya",
+			"141": "Qətər",
+			"142": "Tanzaniya",
+			"143": "Uqanda",
+			"144": "Maldiv",
+			"145": "Özbəkistan",
+			"146": "Kamerun",
+			"147": "Kuba",
+			"148": "Fələstin",
+			"149": "San Tome və Prinsipi",
+			"15": "Okeaniya",
+			"151": "Komor adaları",
+			"152": "Şri Lanka",
+			"153": "Kurasao",
+			"154": "Quam",
+			"155": "Konqo DR",
+			"156": "Efiopiya",
+			"157": "Sent-Vinsent və Qrenadin",
+			"158": "Beliz",
+			"159": "Madaqaskar",
+			"16": "Braziliya",
+			"160": "Botsvana",
+			"161": "Myanma",
+			"162": "Zambiya",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Puerto Riko",
+			"166": "Qrenada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Qayana",
+			"17": "Kanada",
+			"170": "Taiti",
+			"171": "Qvineya",
+			"172": "Baham adaları",
+			"173": "Ruanda",
+			"174": "Sent-Kits və Nevis",
+			"175": "Ekvatorial Qvineya",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Çili",
+			"19": "Kolumbiya",
+			"2": "İngiltərə",
+			"20": "Hindistan",
+			"21": "İrlandiya",
+			"22": "Yaponiya",
+			"23": "Peru",
+			"24": "Polşa",
+			"25": "Portuqaliya",
+			"26": "Şotlandiya",
+			"27": "Cənubi Afrika",
+			"28": "Uruqvay",
+			"29": "Venesuela",
+			"3": "Almaniya",
+			"30": "Canubi Koreya",
+			"31": "Tayland",
+			"32": "Türkiyə",
+			"33": "Misir",
+			"34": "Çin Xalq Respublikası",
+			"35": "Rusiya",
+			"36": "İspaniya",
+			"37": "Rumıniya",
+			"38": "İslandiya",
+			"39": "Avstriya",
+			"4": "İtaliya",
+			"44": "Belçika",
+			"45": "Malayziya",
+			"46": "İsveçrə",
+			"47": "Sinqapur",
+			"5": "Fransa",
+			"50": "Yunanıstan",
+			"51": "Macarıstan",
+			"52": "Çexiya",
+			"53": "Latviya",
+			"54": "İndoneziya",
+			"55": "Filippin",
+			"56": "Estoniya",
+			"57": "Serbiya",
+			"58": "Xorvatiya",
+			"59": "Honq Konq, Çin",
+			"6": "Meksika",
+			"60": "Çin Taybeyi",
+			"61": "Uels",
+			"62": "Bolqarıstan",
+			"63": "İsrail",
+			"64": "Sloveniya",
+			"66": "Litva",
+			"67": "Slovakiya",
+			"68": "Ukrayna",
+			"69": "Bosniya və Herseqovina",
+			"7": "Argentina",
+			"70": "Vyetnam",
+			"71": "Pakistan",
+			"72": "Paraqvay",
+			"73": "Ekvador",
+			"74": "Boliviya",
+			"75": "Nigeriya",
+			"76": "Farer adaları",
+			"77": "Mərakeş",
+			"79": "Saudiyyə Ərabistan",
+			"8": "ABŞ",
+			"80": "Tunis",
+			"81": "Kosta Rika",
+			"83": "Birləşmiş Ərəb Əmirlikləri",
+			"84": "Lüksemburq",
+			"85": "İran",
+			"88": "Dominikan Respublikası",
+			"89": "Kipr",
+			"9": "Norveç",
+			"91": "Belarus",
+			"93": "Şimali İrlandiya",
+			"94": "Yamayka",
+			"95": "Kenya",
+			"96": "Panama",
+			"97": "Şimali Makedoniya",
+			"98": "Albaniya",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "mövcud deyil",
+				"value": "0"
+			},
+			{
+				"text": "fəlakətli",
+				"value": "1"
+			},
+			{
+				"text": "bərbad",
+				"value": "2"
+			},
+			{
+				"text": "pis",
+				"value": "3"
+			},
+			{
+				"text": "zəif",
+				"value": "4"
+			},
+			{
+				"text": "yetərsiz",
+				"value": "5"
+			},
+			{
+				"text": "yetərli",
+				"value": "6"
+			},
+			{
+				"text": "yaxşı",
+				"value": "7"
+			},
+			{
+				"text": "əla",
+				"value": "8"
+			},
+			{
+				"text": "üstün",
+				"value": "9"
+			},
+			{
+				"text": "mükəmməl",
+				"value": "10"
+			},
+			{
+				"text": "parlaq",
+				"value": "11"
+			},
+			{
+				"text": "möhtəşəm",
+				"value": "12"
+			},
+			{
+				"text": "dünya səviyyəli",
+				"value": "13"
+			},
+			{
+				"text": "inanılmaz",
+				"value": "14"
+			},
+			{
+				"text": "fövqəladə",
+				"value": "15"
+			},
+			{
+				"text": "hədsiz",
+				"value": "16"
+			},
+			{
+				"text": "sehirli",
+				"value": "17"
+			},
+			{
+				"text": "möcüzəvi",
+				"value": "18"
+			},
+			{
+				"text": "əfsanəvi",
+				"value": "19"
+			},
+			{
+				"text": "ilahi",
+				"value": "20"
+			}
+		],
+		"name": "az",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Qapıçı"
+			},
+			{
+				"type": "WingBack",
+				"value": "Cinah Müdafiəçisi"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Mərkəz Müdafiəçisi"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Dayaq Yarımmüdafiəçi"
+			},
+			{
+				"type": "Winger",
+				"value": "Cinah Yarımmüdafiəçisi"
+			},
+			{
+				"type": "Forward",
+				"value": "Hücumçu"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "Çox aşağı",
+				"value": "0"
+			},
+			{
+				"text": "Aşağı",
+				"value": "0.25"
+			},
+			{
+				"text": "Yüksək",
+				"value": "0.5"
+			},
+			{
+				"text": "Çox yüksək",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Yarımmüdafiə"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Sağ Cinah Müdafiəsi"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Mərkəzi Müdafiə"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Sol Cinah Müdafiəsi"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Sağ Cinah Hücumu"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Mərkəzi Hücum"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Sol Cinah Hücumu"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Qapıçılıq"
+			},
+			{
+				"type": "Stamina",
+				"value": "Dözümlülük"
+			},
+			{
+				"type": "Defender",
+				"value": "Müdafiə"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Yarımmüdafiə"
+			},
+			{
+				"type": "Winger",
+				"value": "Cinah"
+			},
+			{
+				"type": "Scorer",
+				"value": "Hücum"
+			},
+			{
+				"type": "Kicker",
+				"value": "Standart vəziyyətlər"
+			},
+			{
+				"type": "Passer",
+				"value": "Ötürmə"
+			},
+			{
+				"type": "Experience",
+				"value": "Təcrübə"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Liderlik"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Xüsusiyyəti yoxdur"
+			},
+			{
+				"type": "Technical",
+				"value": "Texnikalı"
+			},
+			{
+				"type": "Quick",
+				"value": "Cəld"
+			},
+			{
+				"type": "Powerful",
+				"value": "Güclü"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Gözlənilməz"
+			},
+			{
+				"type": "Head",
+				"value": "Başla oynayan"
+			},
+			{
+				"type": "Resilient",
+				"value": "Elastik"
+			},
+			{
+				"type": "Support",
+				"value": "Dəstək"
+			}
+		],
+		"spirit": [
+			{
+				"text": "Soyuq Müharibə kimi",
+				"value": "0"
+			},
+			{
+				"text": "öldürücü",
+				"value": "1"
+			},
+			{
+				"text": "hiddətli",
+				"value": "2"
+			},
+			{
+				"text": "əsəbi",
+				"value": "3"
+			},
+			{
+				"text": "biganə",
+				"value": "4"
+			},
+			{
+				"text": "mülayim",
+				"value": "5"
+			},
+			{
+				"text": "razı",
+				"value": "6"
+			},
+			{
+				"text": "məmnun",
+				"value": "7"
+			},
+			{
+				"text": "sevincli",
+				"value": "8"
+			},
+			{
+				"text": "buludlarda gəzirlər",
+				"value": "9"
+			},
+			{
+				"text": "Yerdə Cənnət!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "məhvedici",
+				"value": "0"
+			},
+			{
+				"text": "hiddətli",
+				"value": "1"
+			},
+			{
+				"text": "qəzəbli",
+				"value": "2"
+			},
+			{
+				"text": "mülayim",
+				"value": "3"
+			},
+			{
+				"text": "məmnun",
+				"value": "4"
+			},
+			{
+				"text": "razı",
+				"value": "5"
+			},
+			{
+				"text": "xoşbəxt",
+				"value": "6"
+			},
+			{
+				"text": "həyatdan razıdırlar",
+				"value": "7"
+			},
+			{
+				"text": "küçələrdə rəqs edirlər",
+				"value": "8"
+			},
+			{
+				"text": "Sizə sevgi hekayələri göndərirlər",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Pressinq"
+			},
+			{
+				"type": "ca",
+				"value": "Əks-hücumlar"
+			},
+			{
+				"type": "aim",
+				"value": "Ortadan hücum"
+			},
+			{
+				"type": "aow",
+				"value": "Cinahlardan hücum"
+			},
+			{
+				"type": "",
+				"value": "Bilinmir"
+			},
+			{
+				"type": "",
+				"value": "Bilinmir"
+			},
+			{
+				"type": "creatively",
+				"value": "Kreativ oyna"
+			},
+			{
+				"type": "longshots",
+				"value": "Uzaqdan zərbələr"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Ümumi (Forma)"
+			},
+			{
+				"type": "Sta",
+				"value": "Dözümlülük"
+			},
+			{
+				"type": "SP",
+				"value": "Standart Vəziyyətlər"
+			},
+			{
+				"type": "Def",
+				"value": "Müdafiə"
+			},
+			{
+				"type": "Sco",
+				"value": "Hücum"
+			},
+			{
+				"type": "Cross",
+				"value": "Cinah"
+			},
+			{
+				"type": "Shoot",
+				"value": "Qol Vurma və Standard Vəziyyətlər"
+			},
+			{
+				"type": "Pass",
+				"value": "Ötürmə"
+			},
+			{
+				"type": "PM",
+				"value": "Yarımmüdafiə"
+			},
+			{
+				"type": "GK",
+				"value": "Qapıçı"
+			},
+			{
+				"type": "ThPass",
+				"value": "Ötürmə (Müdafiəçilər + Bütün Yarımmüdafiəçilər)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Müdafiə (Qapıçılar, Müdafiəçilər + Bütün Yarımmüdafiəçilər)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Cinah (Cinah + Hücumçular)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Fərdi"
+			}
+		]
+	}
+}

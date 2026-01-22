@@ -1,0 +1,10 @@
+
+#aspnetForm[action*="Read.aspx"] div.mainConf div.cfMessage,
+#aspnetForm[action*="Read.aspx"] div.mainConf div.cfUser
+{padding-top:0px;}
+
+#aspnetForm[action*="Read.aspx"] div.mainConf div.cfUser  div.faceCard
+{ margin-bottom:-5px;}
+
+#aspnetForm[action*="Read.aspx"] div.mainConf div.cfUser div.cfUserInfo
+{ padding-top:5px;}

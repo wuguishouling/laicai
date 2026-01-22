@@ -1,0 +1,5 @@
+a[data-author^="HT-"]:before {
+	content: "HT: ";
+	color: #ff7a7a;
+	font-weight: bold;
+}

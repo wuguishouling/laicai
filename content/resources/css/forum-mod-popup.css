@@ -1,0 +1,11 @@
+.ft-moderator-popup-align {
+	margin-inline-start: auto;
+}
+
+.ft-moderator-popup {
+	background-color: #ffcc00;
+	position: relative;
+	z-index: 99;
+	border: 1px solid black;
+	padding: 2px 8px 2px 8px;
+}

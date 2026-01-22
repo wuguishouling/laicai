@@ -1,0 +1,10 @@
+#ft_simulation_ratings-new {
+
+	bottom: 0;
+	padding: 10px 20px;
+	background-color: #3f7136;
+	color: white;
+	position:relative;
+	transform:none;
+	max-width:610px;
+}

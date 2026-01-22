@@ -1,0 +1,7 @@
+blockquote.spoiler {
+    display: none;
+}
+
+blockquote.spoiler.hidden {
+    display: block;
+}

@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "introvertéiert",
+				"value": "0"
+			},
+			{
+				"text": "roueg",
+				"value": "1"
+			},
+			{
+				"text": "ausgeglach",
+				"value": "2"
+			},
+			{
+				"text": "temperamentvoll",
+				"value": "3"
+			},
+			{
+				"text": "opbrausend",
+				"value": "4"
+			},
+			{
+				"text": "hëtzeg",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "eng eekleg Persoun",
+				"value": "0"
+			},
+			{
+				"text": "eng ëmstridde Persoun",
+				"value": "1"
+			},
+			{
+				"text": "eng agreabel Persoun",
+				"value": "2"
+			},
+			{
+				"text": "eng sympathesch Persoun",
+				"value": "3"
+			},
+			{
+				"text": "eng beléifte Persoun",
+				"value": "4"
+			},
+			{
+				"text": "eng Integratiounsfigur",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "relax spillen",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Match vun der Saison",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "inexistent",
+				"value": "0"
+			},
+			{
+				"text": "katastrophal",
+				"value": "1"
+			},
+			{
+				"text": "erbäermlech",
+				"value": "2"
+			},
+			{
+				"text": "aarmséileg",
+				"value": "3"
+			},
+			{
+				"text": "dezent",
+				"value": "4"
+			},
+			{
+				"text": "staark",
+				"value": "5"
+			},
+			{
+				"text": "wonnerbar",
+				"value": "6"
+			},
+			{
+				"text": "liicht iwwerdriwwen",
+				"value": "7"
+			},
+			{
+				"text": "iwwerdriwwen",
+				"value": "8"
+			},
+			{
+				"text": "komplett iwwerdriwwen",
+				"value": "9"
+			}
+		],
+		"desc": "Lëtzebuergesch",
+		"fans": [
+			{
+				"text": "mäerderesch",
+				"value": "0"
+			},
+			{
+				"text": "rosen",
+				"value": "1"
+			},
+			{
+				"text": "klorrosen",
+				"value": "2"
+			},
+			{
+				"text": "irritéiert",
+				"value": "3"
+			},
+			{
+				"text": "enttäuscht",
+				"value": "4"
+			},
+			{
+				"text": "roueg",
+				"value": "5"
+			},
+			{
+				"text": "zefridden",
+				"value": "6"
+			},
+			{
+				"text": "frou",
+				"value": "7"
+			},
+			{
+				"text": "immens frou",
+				"value": "8"
+			},
+			{
+				"text": "euphoresch",
+				"value": "9"
+			},
+			{
+				"text": "ausgeflippt",
+				"value": "10"
+			},
+			{
+				"text": "këssen der d'Féiss",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Besser mer weisen eis guer net",
+				"value": "0"
+			},
+			{
+				"text": "Do kréie mer der laanscht d'Baken",
+				"value": "1"
+			},
+			{
+				"text": "Mir wäerte verléieren",
+				"value": "2"
+			},
+			{
+				"text": "Si sinn d'Favoritten",
+				"value": "3"
+			},
+			{
+				"text": "Si sinn am Virdeel",
+				"value": "4"
+			},
+			{
+				"text": "Dat gëtt eng knapp Affär",
+				"value": "5"
+			},
+			{
+				"text": "Mir sinn am Virdeel",
+				"value": "6"
+			},
+			{
+				"text": "Mir sinn d'Favoritten",
+				"value": "7"
+			},
+			{
+				"text": "Mir gewannen dat",
+				"value": "8"
+			},
+			{
+				"text": "Dat gëtt einfach",
+				"value": "9"
+			},
+			{
+				"text": "Déi maache mer platt",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Mir sinn net prett fir dës Divisioun",
+				"value": "0"
+			},
+			{
+				"text": "All Dag méi an dëser Divisioun ass e Bonus",
+				"value": "1"
+			},
+			{
+				"text": "Mir mussen eis druginn, fir dran ze bleiwen",
+				"value": "2"
+			},
+			{
+				"text": "Eng Plaz an der Mëtt vun der Tabell wier flott",
+				"value": "3"
+			},
+			{
+				"text": "Mer gehéieren an d'Top 4",
+				"value": "4"
+			},
+			{
+				"text": "Eist Zil ass den Titel!",
+				"value": "5"
+			},
+			{
+				"text": "Mir mussen dës Saison gewannen",
+				"value": "6"
+			},
+			{
+				"text": "Mir sinn ze gutt fir déi heiten Divisioun!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "nidderträchteg",
+				"value": "0"
+			},
+			{
+				"text": "onéierlech",
+				"value": "1"
+			},
+			{
+				"text": "éierlech",
+				"value": "2"
+			},
+			{
+				"text": "opriichteg",
+				"value": "3"
+			},
+			{
+				"text": "tadellos",
+				"value": "4"
+			},
+			{
+				"text": "gutthäerzeg",
+				"value": "5"
+			}
+		],
+		"id": "111",
+		"leagueNames": {
+			"1": "Schweden",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apache Liga (Limited Edition)",
+			"1002": "Hattrick Jubiläumsliga",
+			"1003": "Homegrown Liga",
+			"101": "Malta",
+			"102": "Kirgisistan",
+			"103": "Moldavien",
+			"104": "Georgien",
+			"105": "Andorra",
+			"106": "Jordan",
+			"107": "Guatemala",
+			"11": "Dänemark",
+			"110": "Trinidad an Tobago",
+			"111": "Nicaragua",
+			"112": "Kasachstan",
+			"113": "Surinam",
+			"117": "Liechtenstein",
+			"118": "Algerien",
+			"119": "Mongolei",
+			"12": "Finnland",
+			"120": "Libanon",
+			"121": "Senegal",
+			"122": "Armenien",
+			"123": "Bahrain",
+			"124": "Barbados",
+			"125": "Cap Vert",
+			"126": "Elfenbeinküst",
+			"127": "Kuwait",
+			"128": "Irak",
+			"129": "Aserbaidjan",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Bangladesch",
+			"133": "Yemen",
+			"134": "Oman",
+			"135": "Mosambik",
+			"136": "Brunei",
+			"137": "Ghana",
+			"138": "Kambodja",
+			"139": "Benin",
+			"14": "Holland",
+			"140": "Syrien",
+			"141": "Katar",
+			"142": "Tansania",
+			"143": "Uganda",
+			"144": "Malediven",
+			"145": "Usbekistan",
+			"146": "Kamerun",
+			"147": "Kuba",
+			"148": "Palästina",
+			"149": "Sao Tomé a Principe",
+			"15": "Ozeanien",
+			"151": "Komoren",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "Demokratesch Republik Kongo",
+			"156": "Äthiopien",
+			"157": "Saint Vincent an d'Grenadinnen",
+			"158": "Belize",
+			"159": "Madagaskar",
+			"16": "Brasilien",
+			"160": "Botswana",
+			"161": "Myanmar",
+			"162": "Sambia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Puerto Rico",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Guyana",
+			"17": "Kanada",
+			"170": "Tahiti",
+			"171": "Guinea",
+			"172": "Bahamas",
+			"173": "Ruanda",
+			"174": "Saint Kitts & Nevis",
+			"175": "Equatorial Guinea",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Chile",
+			"19": "Kolumbien",
+			"2": "England",
+			"20": "Indien",
+			"21": "Irland",
+			"22": "Japan",
+			"23": "Peru",
+			"24": "Polen",
+			"25": "Portugal",
+			"26": "Schottland",
+			"27": "Südafrika",
+			"28": "Uruguay",
+			"29": "Venezuela",
+			"3": "Däitschland",
+			"30": "Südkorea",
+			"31": "Thailand",
+			"32": "Tierkei",
+			"33": "Ägypten",
+			"34": "China",
+			"35": "Russland",
+			"36": "Spuenien",
+			"37": "Rumänien",
+			"38": "Island",
+			"39": "Éisträich",
+			"4": "Italien",
+			"44": "Belsch",
+			"45": "Malaysia",
+			"46": "Schwäiz",
+			"47": "Singapur",
+			"5": "Frankräich",
+			"50": "Griicheland",
+			"51": "Ungarn",
+			"52": "Tschechei",
+			"53": "Lettland",
+			"54": "Indonesien",
+			"55": "Philippinnen",
+			"56": "Estland",
+			"57": "Serbien",
+			"58": "Kroatien",
+			"59": "Hong Kong, China",
+			"6": "Mexiko",
+			"60": "Taiwan",
+			"61": "Wales",
+			"62": "Bulgarien",
+			"63": "Israel",
+			"64": "Slowenien",
+			"66": "Litauen",
+			"67": "Slowakei",
+			"68": "Ukrain",
+			"69": "Bosnien-Herzegowina",
+			"7": "Argentinien",
+			"70": "Vietnam",
+			"71": "Pakistan",
+			"72": "Paraguay",
+			"73": "Ecuador",
+			"74": "Bolivien",
+			"75": "Nigeria",
+			"76": "Faröer Inselen",
+			"77": "Marokko",
+			"79": "Saudi Arabien",
+			"8": "Amerika",
+			"80": "Tunesien",
+			"81": "Costa Rica",
+			"83": "Vereenegt Arabesch Emirater",
+			"84": "Lëtzebuerg",
+			"85": "Iran",
+			"88": "Dominikanesch Republik",
+			"89": "Zypern",
+			"9": "Norwegen",
+			"91": "Belarus",
+			"93": "Nordirland",
+			"94": "Jamaika",
+			"95": "Kenia",
+			"96": "Panama",
+			"97": "Nordmazedonien",
+			"98": "Albanien",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "inexistent",
+				"value": "0"
+			},
+			{
+				"text": "katastrophal",
+				"value": "1"
+			},
+			{
+				"text": "erbäermlech",
+				"value": "2"
+			},
+			{
+				"text": "aarmséileg",
+				"value": "3"
+			},
+			{
+				"text": "schwaach",
+				"value": "4"
+			},
+			{
+				"text": "mëttelméisseg",
+				"value": "5"
+			},
+			{
+				"text": "passabel",
+				"value": "6"
+			},
+			{
+				"text": "staark",
+				"value": "7"
+			},
+			{
+				"text": "excellent",
+				"value": "8"
+			},
+			{
+				"text": "formidabel",
+				"value": "9"
+			},
+			{
+				"text": "impressionant",
+				"value": "10"
+			},
+			{
+				"text": "brilliant",
+				"value": "11"
+			},
+			{
+				"text": "fantastesch",
+				"value": "12"
+			},
+			{
+				"text": "sensationell",
+				"value": "13"
+			},
+			{
+				"text": "iwwernatierlech",
+				"value": "14"
+			},
+			{
+				"text": "onheemlech",
+				"value": "15"
+			},
+			{
+				"text": "ausserierdesch",
+				"value": "16"
+			},
+			{
+				"text": "phänomenal",
+				"value": "17"
+			},
+			{
+				"text": "magesch",
+				"value": "18"
+			},
+			{
+				"text": "utopesch",
+				"value": "19"
+			},
+			{
+				"text": "gëttlech",
+				"value": "20"
+			}
+		],
+		"name": "lb",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Golkipp"
+			},
+			{
+				"type": "WingBack",
+				"value": "Ausseverteideger"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "zentrale Verteideger"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "zentrale Mëttelfeldspiller"
+			},
+			{
+				"type": "Winger",
+				"value": "Bande"
+			},
+			{
+				"type": "Forward",
+				"value": "Stiermer"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "Ganz niddereg",
+				"value": "0"
+			},
+			{
+				"text": "Niddereg",
+				"value": "0.25"
+			},
+			{
+				"text": "Héich",
+				"value": "0.5"
+			},
+			{
+				"text": "Ganz héich",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Mëttelfeld"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Riets Verteidegung"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Zentral Verteidegung"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Lénks Verteidegung"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Rietse Stuerm"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Zentrale Stuerm"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Lénke Stuerm"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Golkipp"
+			},
+			{
+				"type": "Stamina",
+				"value": "Konditioun"
+			},
+			{
+				"type": "Defender",
+				"value": "Verteidegung"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Spillmaacher"
+			},
+			{
+				"type": "Winger",
+				"value": "Bande"
+			},
+			{
+				"type": "Scorer",
+				"value": "Buteur"
+			},
+			{
+				"type": "Kicker",
+				"value": "Strofstéiss"
+			},
+			{
+				"type": "Passer",
+				"value": "Passspill"
+			},
+			{
+				"type": "Experience",
+				"value": "Erfarung"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Féierungsqualitéit"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Keng Spezialfäegkeet"
+			},
+			{
+				"type": "Technical",
+				"value": "Dribbler"
+			},
+			{
+				"type": "Quick",
+				"value": "séier"
+			},
+			{
+				"type": "Powerful",
+				"value": "duerchsetzungsstaark"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "onberechenbar"
+			},
+			{
+				"type": "Head",
+				"value": "kappballstaark"
+			},
+			{
+				"type": "Resilient",
+				"value": "robust"
+			},
+			{
+				"type": "Support",
+				"value": "Ekippespiller"
+			}
+		],
+		"spirit": [
+			{
+				"text": "wéi am Kale Krich",
+				"value": "0"
+			},
+			{
+				"text": "mäerderesch",
+				"value": "1"
+			},
+			{
+				"text": "rosen",
+				"value": "2"
+			},
+			{
+				"text": "irritéiert",
+				"value": "3"
+			},
+			{
+				"text": "roueg",
+				"value": "4"
+			},
+			{
+				"text": "relax",
+				"value": "5"
+			},
+			{
+				"text": "relativ frou",
+				"value": "6"
+			},
+			{
+				"text": "frou",
+				"value": "7"
+			},
+			{
+				"text": "immens frou",
+				"value": "8"
+			},
+			{
+				"text": "am siwenten Himmel",
+				"value": "9"
+			},
+			{
+				"text": "wéi am Paradis",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "mäerderesch",
+				"value": "0"
+			},
+			{
+				"text": "klorrosen",
+				"value": "1"
+			},
+			{
+				"text": "irritéiert",
+				"value": "2"
+			},
+			{
+				"text": "roueg",
+				"value": "3"
+			},
+			{
+				"text": "zefridden",
+				"value": "4"
+			},
+			{
+				"text": "frou",
+				"value": "5"
+			},
+			{
+				"text": "immens frou",
+				"value": "6"
+			},
+			{
+				"text": "euphoresch",
+				"value": "7"
+			},
+			{
+				"text": "ausgeflippt",
+				"value": "8"
+			},
+			{
+				"text": "këssen der d'Féiss",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Pressen"
+			},
+			{
+				"type": "ca",
+				"value": "Konteren"
+			},
+			{
+				"type": "aim",
+				"value": "Attack iwwer d'Mëtt"
+			},
+			{
+				"type": "aow",
+				"value": "Attack iwwer d'Säiten"
+			},
+			{
+				"type": "",
+				"value": "Onbekannt"
+			},
+			{
+				"type": "",
+				"value": "Onbekannt"
+			},
+			{
+				"type": "creatively",
+				"value": "Kreativ spillen"
+			},
+			{
+				"type": "longshots",
+				"value": "Wäitschëss"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Allgemeng (Form)"
+			},
+			{
+				"type": "Sta",
+				"value": "Konditioun"
+			},
+			{
+				"type": "SP",
+				"value": "Strofstéiss"
+			},
+			{
+				"type": "Def",
+				"value": "Verteidegung"
+			},
+			{
+				"type": "Sco",
+				"value": "Stiermertraining"
+			},
+			{
+				"type": "Cross",
+				"value": "Bandentraining"
+			},
+			{
+				"type": "Shoot",
+				"value": "Schoss a Strofstéiss Training"
+			},
+			{
+				"type": "Pass",
+				"value": "Kuerzpasstraining"
+			},
+			{
+				"type": "PM",
+				"value": "Spillopbau"
+			},
+			{
+				"type": "GK",
+				"value": "Golkipps-Training"
+			},
+			{
+				"type": "ThPass",
+				"value": "Erweiderte Passtraining (Verteideger, Mëttelfeld a Banden)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Verteidegung (GK, Verteideger + Mëttelfeld)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Bande (Bande + Stiermer)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individuell"
+			}
+		]
+	}
+}

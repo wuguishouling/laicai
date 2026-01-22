@@ -1,0 +1,26 @@
+.ft-mark-all-as-read  {
+	background: url("chrome://foxtrick/content/resources/img/tick2.png") no-repeat scroll 50% 50% transparent;
+	cursor: pointer;
+	height: 16px;
+	width: 12px;
+	display: inline;
+	margin-bottom: 4px;
+}
+
+html[data-theme="standard"] .ft-mark-all-as-read {
+	position: relative;
+	top : -2px;
+	right :7px;
+}
+
+/* reset a useless position: relative that makes .ft-mark-all-as-read unclickable */
+html[data-theme="simple"] .subMenuBox .boxBody {
+	position: static;
+}
+
+html[dir="ltr"] .ft-mark-all-as-read  {
+	float: right;
+}
+html[dir="rtl"] .ft-mark-all-as-read  {
+	float: left;
+}

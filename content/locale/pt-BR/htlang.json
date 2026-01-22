@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "tranquila",
+				"value": "0"
+			},
+			{
+				"text": "calma",
+				"value": "1"
+			},
+			{
+				"text": "equilibrada",
+				"value": "2"
+			},
+			{
+				"text": "temperamental",
+				"value": "3"
+			},
+			{
+				"text": "nervosa",
+				"value": "4"
+			},
+			{
+				"text": "instável",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "pessoa antipática",
+				"value": "0"
+			},
+			{
+				"text": "pessoa controversa",
+				"value": "1"
+			},
+			{
+				"text": "pessoa agradável",
+				"value": "2"
+			},
+			{
+				"text": "pessoa simpática",
+				"value": "3"
+			},
+			{
+				"text": "pessoa popular",
+				"value": "4"
+			},
+			{
+				"text": "pessoa adorada por todos",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Jogo tranquilo",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Jogo decisivo",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "inexistente",
+				"value": "0"
+			},
+			{
+				"text": "terrível",
+				"value": "1"
+			},
+			{
+				"text": "péssima",
+				"value": "2"
+			},
+			{
+				"text": "ruim",
+				"value": "3"
+			},
+			{
+				"text": "razoável",
+				"value": "4"
+			},
+			{
+				"text": "boa",
+				"value": "5"
+			},
+			{
+				"text": "fantástica",
+				"value": "6"
+			},
+			{
+				"text": "ligeiramente exagerada",
+				"value": "7"
+			},
+			{
+				"text": "exagerada",
+				"value": "8"
+			},
+			{
+				"text": "totalmente exagerada",
+				"value": "9"
+			}
+		],
+		"desc": "Português, Brasil",
+		"fans": [
+			{
+				"text": "desiludidos",
+				"value": "0"
+			},
+			{
+				"text": "furiosos",
+				"value": "1"
+			},
+			{
+				"text": "bravos",
+				"value": "2"
+			},
+			{
+				"text": "irritados",
+				"value": "3"
+			},
+			{
+				"text": "desapontados",
+				"value": "4"
+			},
+			{
+				"text": "calmos",
+				"value": "5"
+			},
+			{
+				"text": "satisfeitos",
+				"value": "6"
+			},
+			{
+				"text": "contentes",
+				"value": "7"
+			},
+			{
+				"text": "em delírio",
+				"value": "8"
+			},
+			{
+				"text": "eufóricos",
+				"value": "9"
+			},
+			{
+				"text": "nas nuvens",
+				"value": "10"
+			},
+			{
+				"text": "rindo à toa",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Melhor nem aparecer",
+				"value": "0"
+			},
+			{
+				"text": "Somos inferiores",
+				"value": "1"
+			},
+			{
+				"text": "Vamos perder",
+				"value": "2"
+			},
+			{
+				"text": "Eles são os favoritos",
+				"value": "3"
+			},
+			{
+				"text": "Eles têm a vantagem",
+				"value": "4"
+			},
+			{
+				"text": "Será um páreo duro",
+				"value": "5"
+			},
+			{
+				"text": "Temos a vantagem",
+				"value": "6"
+			},
+			{
+				"text": "Somos os favoritos",
+				"value": "7"
+			},
+			{
+				"text": "Vamos ganhar",
+				"value": "8"
+			},
+			{
+				"text": "Vai ser um passeio",
+				"value": "9"
+			},
+			{
+				"text": "Vamos acabar com eles",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Não somos dignos desta divisão",
+				"value": "0"
+			},
+			{
+				"text": "Cada dia nesta divisão é lucro",
+				"value": "1"
+			},
+			{
+				"text": "Lutaremos para ficar",
+				"value": "2"
+			},
+			{
+				"text": "Terminar no meio da tabela seria bom",
+				"value": "3"
+			},
+			{
+				"text": "Somos um dos 4 melhores",
+				"value": "4"
+			},
+			{
+				"text": "Em busca do título!",
+				"value": "5"
+			},
+			{
+				"text": "Temos que vencer esta temporada",
+				"value": "6"
+			},
+			{
+				"text": "Somos muito melhores que esta divisão!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "infame",
+				"value": "0"
+			},
+			{
+				"text": "desonesta",
+				"value": "1"
+			},
+			{
+				"text": "decente",
+				"value": "2"
+			},
+			{
+				"text": "honesta",
+				"value": "3"
+			},
+			{
+				"text": "íntegra",
+				"value": "4"
+			},
+			{
+				"text": "exemplar",
+				"value": "5"
+			}
+		],
+		"id": "50",
+		"leagueNames": {
+			"1": "Suécia",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Campeonato Apache (Edição Limitada)",
+			"1002": "Campeonato de Aniversário do Hattrick",
+			"1003": "Homegrown League",
+			"101": "Malta",
+			"102": "Quirguistão",
+			"103": "Moldávia",
+			"104": "Geórgia",
+			"105": "Andorra",
+			"106": "Jordânia",
+			"107": "Guatemala",
+			"11": "Dinamarca",
+			"110": "Trindade e Tobago",
+			"111": "Nicarágua",
+			"112": "Cazaquistão",
+			"113": "Suriname",
+			"117": "Liechtenstein",
+			"118": "Argélia",
+			"119": "Mongólia",
+			"12": "Finlândia",
+			"120": "Líbano",
+			"121": "Senegal",
+			"122": "Armênia",
+			"123": "Bahrein",
+			"124": "Barbados",
+			"125": "Cabo Verde",
+			"126": "Costa do Marfim",
+			"127": "Kuwait",
+			"128": "Iraque",
+			"129": "Azerbaijão",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Bangladesh",
+			"133": "Iêmen",
+			"134": "Omã",
+			"135": "Moçambique",
+			"136": "Brunei",
+			"137": "Gana",
+			"138": "Camboja",
+			"139": "Benim",
+			"14": "Holanda",
+			"140": "Síria",
+			"141": "Catar",
+			"142": "Tanzânia",
+			"143": "Uganda",
+			"144": "Maldivas",
+			"145": "Uzbequistão",
+			"146": "Camarões",
+			"147": "Cuba",
+			"148": "Palestina",
+			"149": "São Tomé e Príncipe",
+			"15": "Oceania",
+			"151": "Comores",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "República Democrática do Congo",
+			"156": "Etiópia",
+			"157": "São Vicente e Granadinas",
+			"158": "Belize",
+			"159": "Madagascar",
+			"16": "Brasil",
+			"160": "Botsuana",
+			"161": "Myanmar",
+			"162": "Zâmbia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Porto Rico",
+			"166": "Granada",
+			"167": "Burquina Fasso",
+			"168": "Nepal",
+			"169": "Guiana",
+			"17": "Canadá",
+			"170": "Taiti",
+			"171": "Guiné",
+			"172": "Bahamas",
+			"173": "Ruanda",
+			"174": "São Cristóvão e Névis",
+			"175": "Guiné Equatorial",
+			"176": "Gibraltar",
+			"177": "Butão",
+			"18": "Chile",
+			"19": "Colômbia",
+			"2": "Inglaterra",
+			"20": "Índia",
+			"21": "Irlanda",
+			"22": "Japão",
+			"23": "Peru",
+			"24": "Polônia",
+			"25": "Portugal",
+			"26": "Escócia",
+			"27": "África do Sul",
+			"28": "Uruguai",
+			"29": "Venezuela",
+			"3": "Alemanha",
+			"30": "Coreia do Sul",
+			"31": "Tailândia",
+			"32": "Turquia",
+			"33": "Egito",
+			"34": "República Popular da China",
+			"35": "Rússia",
+			"36": "Espanha",
+			"37": "Romênia",
+			"38": "Islândia",
+			"39": "Áustria",
+			"4": "Itália",
+			"44": "Bélgica",
+			"45": "Malásia",
+			"46": "Suíça",
+			"47": "Singapura",
+			"5": "França",
+			"50": "Grécia",
+			"51": "Hungria",
+			"52": "Tchéquia",
+			"53": "Letônia",
+			"54": "Indonésia",
+			"55": "Filipinas",
+			"56": "Estônia",
+			"57": "Sérvia",
+			"58": "Croácia",
+			"59": "Hong Kong, China",
+			"6": "México",
+			"60": "Taipé Chinês",
+			"61": "País de Gales",
+			"62": "Bulgária",
+			"63": "Israel",
+			"64": "Eslovênia",
+			"66": "Lituânia",
+			"67": "Eslováquia",
+			"68": "Ucrânia",
+			"69": "Bósnia e Herzegovina",
+			"7": "Argentina",
+			"70": "Vietnã",
+			"71": "Paquistão",
+			"72": "Paraguai",
+			"73": "Equador",
+			"74": "Bolívia",
+			"75": "Nigéria",
+			"76": "Ilhas Faroé",
+			"77": "Marrocos",
+			"79": "Arábia Saudita",
+			"8": "EUA",
+			"80": "Tunísia",
+			"81": "Costa Rica",
+			"83": "Emirados Árabes Unidos",
+			"84": "Luxemburgo",
+			"85": "Irã",
+			"88": "República Dominicana",
+			"89": "Chipre",
+			"9": "Noruega",
+			"91": "Belarus",
+			"93": "Irlanda do Norte",
+			"94": "Jamaica",
+			"95": "Quênia",
+			"96": "Panamá",
+			"97": "Macedônia do Norte",
+			"98": "Albânia",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "inexistente",
+				"value": "0"
+			},
+			{
+				"text": "terrível",
+				"value": "1"
+			},
+			{
+				"text": "péssima",
+				"value": "2"
+			},
+			{
+				"text": "ruim",
+				"value": "3"
+			},
+			{
+				"text": "fraca",
+				"value": "4"
+			},
+			{
+				"text": "inadequada",
+				"value": "5"
+			},
+			{
+				"text": "razoável",
+				"value": "6"
+			},
+			{
+				"text": "boa",
+				"value": "7"
+			},
+			{
+				"text": "excelente",
+				"value": "8"
+			},
+			{
+				"text": "formidável",
+				"value": "9"
+			},
+			{
+				"text": "fenomenal",
+				"value": "10"
+			},
+			{
+				"text": "brilhante",
+				"value": "11"
+			},
+			{
+				"text": "magnífica",
+				"value": "12"
+			},
+			{
+				"text": "genial",
+				"value": "13"
+			},
+			{
+				"text": "sobrenatural",
+				"value": "14"
+			},
+			{
+				"text": "titânica",
+				"value": "15"
+			},
+			{
+				"text": "colossal",
+				"value": "16"
+			},
+			{
+				"text": "mítica",
+				"value": "17"
+			},
+			{
+				"text": "mágica",
+				"value": "18"
+			},
+			{
+				"text": "utópica",
+				"value": "19"
+			},
+			{
+				"text": "lendária",
+				"value": "20"
+			}
+		],
+		"name": "pt-BR",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Goleiro"
+			},
+			{
+				"type": "WingBack",
+				"value": "Lateral"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Zagueiro"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Meio-campo"
+			},
+			{
+				"type": "Winger",
+				"value": "Ala"
+			},
+			{
+				"type": "Forward",
+				"value": "Atacante"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "mt. baixo",
+				"value": "0"
+			},
+			{
+				"text": "baixo",
+				"value": "0.25"
+			},
+			{
+				"text": "alto",
+				"value": "0.5"
+			},
+			{
+				"text": "mt. alto",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Meio-campo"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Defesa direita"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Defesa central"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Defesa esquerda"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Ataque direito"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Ataque central"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Ataque esquerdo"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Goleiro"
+			},
+			{
+				"type": "Stamina",
+				"value": "Resistência"
+			},
+			{
+				"type": "Defender",
+				"value": "Defesa"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Armação"
+			},
+			{
+				"type": "Winger",
+				"value": "Ala"
+			},
+			{
+				"type": "Scorer",
+				"value": "Finalização"
+			},
+			{
+				"type": "Kicker",
+				"value": "Bola Parada"
+			},
+			{
+				"type": "Passer",
+				"value": "Assistências"
+			},
+			{
+				"type": "Experience",
+				"value": "Experiência"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Liderança"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Nenhuma especialidade"
+			},
+			{
+				"type": "Technical",
+				"value": "Técnica"
+			},
+			{
+				"type": "Quick",
+				"value": "Velocidade"
+			},
+			{
+				"type": "Powerful",
+				"value": "Força"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Imprevisibilidade"
+			},
+			{
+				"type": "Head",
+				"value": "Cabeceio"
+			},
+			{
+				"type": "Resilient",
+				"value": "Resiliência"
+			},
+			{
+				"type": "Support",
+				"value": "Apoio"
+			}
+		],
+		"spirit": [
+			{
+				"text": "nervos à flor da pele",
+				"value": "0"
+			},
+			{
+				"text": "descontrolados",
+				"value": "1"
+			},
+			{
+				"text": "furiosos",
+				"value": "2"
+			},
+			{
+				"text": "irritados",
+				"value": "3"
+			},
+			{
+				"text": "estáveis",
+				"value": "4"
+			},
+			{
+				"text": "calmos",
+				"value": "5"
+			},
+			{
+				"text": "felizes",
+				"value": "6"
+			},
+			{
+				"text": "radiantes",
+				"value": "7"
+			},
+			{
+				"text": "em delírio",
+				"value": "8"
+			},
+			{
+				"text": "nas nuvens",
+				"value": "9"
+			},
+			{
+				"text": "paradisíaco!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "desiludidos",
+				"value": "0"
+			},
+			{
+				"text": "furiosos",
+				"value": "1"
+			},
+			{
+				"text": "irritados",
+				"value": "2"
+			},
+			{
+				"text": "calmos",
+				"value": "3"
+			},
+			{
+				"text": "satisfeitos",
+				"value": "4"
+			},
+			{
+				"text": "contentes",
+				"value": "5"
+			},
+			{
+				"text": "em delírio",
+				"value": "6"
+			},
+			{
+				"text": "eufóricos",
+				"value": "7"
+			},
+			{
+				"text": "nas nuvens",
+				"value": "8"
+			},
+			{
+				"text": "rindo à toa",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Pressão"
+			},
+			{
+				"type": "ca",
+				"value": "Contra-ataque"
+			},
+			{
+				"type": "aim",
+				"value": "Ataque pelo meio"
+			},
+			{
+				"type": "aow",
+				"value": "Ataque pelas laterais"
+			},
+			{
+				"type": "",
+				"value": "Desconhecido"
+			},
+			{
+				"type": "",
+				"value": "Desconhecido"
+			},
+			{
+				"type": "creatively",
+				"value": "Jogar com criatividade"
+			},
+			{
+				"type": "longshots",
+				"value": "Chutes de longa distância"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Geral (Forma)"
+			},
+			{
+				"type": "Sta",
+				"value": "Resistência"
+			},
+			{
+				"type": "SP",
+				"value": "Bola parada"
+			},
+			{
+				"type": "Def",
+				"value": "Defesa"
+			},
+			{
+				"type": "Sco",
+				"value": "Finalização"
+			},
+			{
+				"type": "Cross",
+				"value": "Ala"
+			},
+			{
+				"type": "Shoot",
+				"value": "Finalização e Bola Parada"
+			},
+			{
+				"type": "Pass",
+				"value": "Assistências"
+			},
+			{
+				"type": "PM",
+				"value": "Armação"
+			},
+			{
+				"type": "GK",
+				"value": "Goleiro"
+			},
+			{
+				"type": "ThPass",
+				"value": "Assistências (Defensores + Todos os Meio-campistas)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Defesa (Goleiros, Defensores + Meio-campistas)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Ala (Alas + Atacantes)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individual"
+			}
+		]
+	}
+}

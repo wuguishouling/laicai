@@ -1,0 +1,30 @@
+/* Using display to style events so that users could also style in
+ * non-table way.
+ */
+
+ .liveEvent br {
+	display: none;
+}
+
+.ft-match-report-lineup,
+.ft-match-report-match-report,
+.ft-match-report-kick-off,
+.ft-match-report-half-time,
+.ft-match-report-full-time,
+.ft-match-report-extra-time,
+.ft-match-report-penalty-shoot-out,
+.ft-match-report-result {
+	color: white;
+	background-color: #849D84;
+	padding: 2px 0 2px 5px;
+	border: 1px solid #ccc;
+	margin: 5px 0;
+	font-size: 115%;
+	font-weight: bold;
+}
+
+.ft-matchReport td.date {
+	width: moz-initial !important;
+	width: initial !important;
+}
+

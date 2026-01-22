@@ -1,0 +1,31 @@
+/* hide team name */
+#sectorsField .sectorShirt + div {
+	display: none;
+}
+/* hide useless line breaks */
+#sectorsField .ratingInnerBox br {
+	display: none;
+}
+.ft-mrt-rating-calc {
+	text-align: center;
+	margin-right: 42px;
+}
+.posLabel {
+	text-align: center;
+}
+.ft-mrt-sector-diff {
+	font-weight: normal;
+	font-size: 10px;
+}
+.ft-mrt-teamName {
+	left: 60px;
+	width: 130px;
+	text-align: center;
+}
+#ft-mrt-homeName {
+	top: 225px;
+}
+#ft-mrt-awayName {
+	top: 285px;
+}
+

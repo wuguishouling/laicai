@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "tasane",
+				"value": "0"
+			},
+			{
+				"text": "rahulik",
+				"value": "1"
+			},
+			{
+				"text": "tasakaalukas",
+				"value": "2"
+			},
+			{
+				"text": "temperamentne",
+				"value": "3"
+			},
+			{
+				"text": "äge",
+				"value": "4"
+			},
+			{
+				"text": "ebastabiilne",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "Ebameeldiv tüüp",
+				"value": "0"
+			},
+			{
+				"text": "Vastuoluline isiksus",
+				"value": "1"
+			},
+			{
+				"text": "Meeldiv sell",
+				"value": "2"
+			},
+			{
+				"text": "Sümpaatne kuju",
+				"value": "3"
+			},
+			{
+				"text": "Populaarne sell",
+				"value": "4"
+			},
+			{
+				"text": "Armastatud meeskonnaliige",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Mängi rahulikult",
+				"value": "-1"
+			},
+			{
+				"text": "Tavaline",
+				"value": "0"
+			},
+			{
+				"text": "Aasta mäng",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "puudub",
+				"value": "0"
+			},
+			{
+				"text": "kohutav",
+				"value": "1"
+			},
+			{
+				"text": "armetu",
+				"value": "2"
+			},
+			{
+				"text": "vilets",
+				"value": "3"
+			},
+			{
+				"text": "rahuldav",
+				"value": "4"
+			},
+			{
+				"text": "hea",
+				"value": "5"
+			},
+			{
+				"text": "suurepärane",
+				"value": "6"
+			},
+			{
+				"text": "natuke liialdatud",
+				"value": "7"
+			},
+			{
+				"text": "selgelt liialdatud",
+				"value": "8"
+			},
+			{
+				"text": "äärmiselt liialdatud",
+				"value": "9"
+			}
+		],
+		"desc": "Eesti",
+		"fans": [
+			{
+				"text": "märatsevad tänavatel",
+				"value": "0"
+			},
+			{
+				"text": "raevunud",
+				"value": "1"
+			},
+			{
+				"text": "vihased",
+				"value": "2"
+			},
+			{
+				"text": "pettunud",
+				"value": "3"
+			},
+			{
+				"text": "kahtlevad",
+				"value": "4"
+			},
+			{
+				"text": "rahulikud",
+				"value": "5"
+			},
+			{
+				"text": "meelitatud",
+				"value": "6"
+			},
+			{
+				"text": "rõõmsad",
+				"value": "7"
+			},
+			{
+				"text": "õnnelikud",
+				"value": "8"
+			},
+			{
+				"text": "ekstaasis",
+				"value": "9"
+			},
+			{
+				"text": "tantsivad tänavatel",
+				"value": "10"
+			},
+			{
+				"text": "saadavad armastuskirju",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Põgeneme kabuhirmus",
+				"value": "0"
+			},
+			{
+				"text": "Vastane on selgelt üle",
+				"value": "1"
+			},
+			{
+				"text": "Me kaotame",
+				"value": "2"
+			},
+			{
+				"text": "Raskeks läheb",
+				"value": "3"
+			},
+			{
+				"text": "Neil on kerge eelis",
+				"value": "4"
+			},
+			{
+				"text": "Kohtub võrdne võrdsega",
+				"value": "5"
+			},
+			{
+				"text": "Meil on kerge eelis",
+				"value": "6"
+			},
+			{
+				"text": "Võit on üpriski võimalik",
+				"value": "7"
+			},
+			{
+				"text": "Me võidame",
+				"value": "8"
+			},
+			{
+				"text": "Käkitegu",
+				"value": "9"
+			},
+			{
+				"text": "Põrmustame nad",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Me pole selle liiga väärilised",
+				"value": "0"
+			},
+			{
+				"text": "Iga siin liigas veedetud päev on meie jaoks eneseületamine",
+				"value": "1"
+			},
+			{
+				"text": "Ilma lahinguta me siit liigast ei kao",
+				"value": "2"
+			},
+			{
+				"text": "Koht liigatabeli keskel oleks tore",
+				"value": "3"
+			},
+			{
+				"text": "Me kuulume esinelikusse",
+				"value": "4"
+			},
+			{
+				"text": "Ürita liigavõitu saada",
+				"value": "5"
+			},
+			{
+				"text": "Me peame selle hooaja võitma",
+				"value": "6"
+			},
+			{
+				"text": "See liiga raiskab meie väärtuslikku aega!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "autu",
+				"value": "0"
+			},
+			{
+				"text": "ebaaus",
+				"value": "1"
+			},
+			{
+				"text": "aus",
+				"value": "2"
+			},
+			{
+				"text": "õiglane",
+				"value": "3"
+			},
+			{
+				"text": "äraostmatu",
+				"value": "4"
+			},
+			{
+				"text": "pühaklik",
+				"value": "5"
+			}
+		],
+		"id": "36",
+		"leagueNames": {
+			"1": "Rootsi",
+			"100": "Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apatši Liiga (Piiratud Väljalase)",
+			"1002": "Hattricki Aastapäeva Liiga",
+			"1003": "Koduklubi boonusega liiga",
+			"101": "Malta",
+			"102": "Kirgiisia",
+			"103": "Moldova",
+			"104": "Gruusia",
+			"105": "Andorra",
+			"106": "Jordaania",
+			"107": "Guatemala",
+			"11": "Taani",
+			"110": "Trinidad & Tobago",
+			"111": "Nicaragua",
+			"112": "Kasahstan",
+			"113": "Suriname",
+			"117": "Liechtenstein",
+			"118": "Alžeeria",
+			"119": "Mongoolia",
+			"12": "Soome",
+			"120": "Liibanon",
+			"121": "Senegal",
+			"122": "Armeenia",
+			"123": "Bahrein",
+			"124": "Barbados",
+			"125": "Roheneemesaared",
+			"126": "Elevandiluurannik",
+			"127": "Kuveit",
+			"128": "Iraak",
+			"129": "Aserbaidžaan",
+			"130": "Angoola",
+			"131": "Montenegro",
+			"132": "Bangladesh",
+			"133": "Jeemen",
+			"134": "Omaan",
+			"135": "Mosambiik",
+			"136": "Brunei",
+			"137": "Ghana",
+			"138": "Kambodža",
+			"139": "Benin",
+			"14": "Holland",
+			"140": "Süüria",
+			"141": "Katar",
+			"142": "Tansaania",
+			"143": "Uganda",
+			"144": "Maldiivid",
+			"145": "Usbekistan",
+			"146": "Kamerun",
+			"147": "Kuuba",
+			"148": "Palestiina",
+			"149": "São Tomé ja Príncipe",
+			"15": "Okeaania",
+			"151": "Komoorid",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "Kongo",
+			"156": "Etioopia",
+			"157": "Saint Vincent ja Grenadiinid",
+			"158": "Belize",
+			"159": "Madagaskar",
+			"16": "Brasiilia",
+			"160": "Botswana",
+			"161": "Myanmar",
+			"162": "Sambia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Puerto Rico",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Guyana",
+			"17": "Kanada",
+			"170": "Tahiti",
+			"171": "Guinea",
+			"172": "Bahama",
+			"173": "Rwanda",
+			"174": "Saint Kitts ja Nevis",
+			"175": "Ekvatoriaal-Guinea",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Tšiili",
+			"19": "Kolumbia",
+			"2": "Inglismaa",
+			"20": "India",
+			"21": "Iirimaa",
+			"22": "Jaapan",
+			"23": "Peruu",
+			"24": "Poola",
+			"25": "Portugal",
+			"26": "Šotimaa",
+			"27": "Lõuna-Aafrika",
+			"28": "Uruguai",
+			"29": "Venetsueela",
+			"3": "Saksamaa",
+			"30": "Lõuna-Korea",
+			"31": "Tai",
+			"32": "Türgi",
+			"33": "Egiptus",
+			"34": "Hiina",
+			"35": "Venemaa",
+			"36": "Hispaania",
+			"37": "Rumeenia",
+			"38": "Island",
+			"39": "Austria",
+			"4": "Itaalia",
+			"44": "Belgia",
+			"45": "Malaisia",
+			"46": "Šveits",
+			"47": "Singapur",
+			"5": "Prantsusmaa",
+			"50": "Kreeka",
+			"51": "Ungari",
+			"52": "Tšehhi",
+			"53": "Läti",
+			"54": "Indoneesia",
+			"55": "Filipiinid",
+			"56": "Eesti",
+			"57": "Serbia",
+			"58": "Horvaatia",
+			"59": "Hongkong (Hiina)",
+			"6": "Mehhiko",
+			"60": "Taiwan",
+			"61": "Wales",
+			"62": "Bulgaaria",
+			"63": "Iisrael",
+			"64": "Sloveenia",
+			"66": "Leedu",
+			"67": "Slovakkia",
+			"68": "Ukraina",
+			"69": "Bosnia ja Hertsegoviina",
+			"7": "Argentiina",
+			"70": "Vietnam",
+			"71": "Pakistan",
+			"72": "Paraguai",
+			"73": "Ecuador",
+			"74": "Boliivia",
+			"75": "Nigeeria",
+			"76": "Fääri saared",
+			"77": "Maroko",
+			"79": "Saudi Araabia",
+			"8": "USA",
+			"80": "Tuneesia",
+			"81": "Costa Rica",
+			"83": "Araabia Ühendemiraadid",
+			"84": "Luksemburg",
+			"85": "Iraan",
+			"88": "Dominikaani Vabariik",
+			"89": "Küpros",
+			"9": "Norra",
+			"91": "Valgevene",
+			"93": "Põhja-Iirimaa",
+			"94": "Jamaika",
+			"95": "Keenia",
+			"96": "Panama",
+			"97": "Põhja-Makedoonia",
+			"98": "Albaania",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "olematu",
+				"value": "0"
+			},
+			{
+				"text": "kohutav",
+				"value": "1"
+			},
+			{
+				"text": "armetu",
+				"value": "2"
+			},
+			{
+				"text": "vilets",
+				"value": "3"
+			},
+			{
+				"text": "nõrk",
+				"value": "4"
+			},
+			{
+				"text": "puudulik",
+				"value": "5"
+			},
+			{
+				"text": "rahuldav",
+				"value": "6"
+			},
+			{
+				"text": "hea",
+				"value": "7"
+			},
+			{
+				"text": "eeskujulik",
+				"value": "8"
+			},
+			{
+				"text": "suurepärane",
+				"value": "9"
+			},
+			{
+				"text": "silmapaistev",
+				"value": "10"
+			},
+			{
+				"text": "hiilgav",
+				"value": "11"
+			},
+			{
+				"text": "imepärane",
+				"value": "12"
+			},
+			{
+				"text": "maailmaklass",
+				"value": "13"
+			},
+			{
+				"text": "üleloomulik",
+				"value": "14"
+			},
+			{
+				"text": "titaanlik",
+				"value": "15"
+			},
+			{
+				"text": "ulmeline",
+				"value": "16"
+			},
+			{
+				"text": "müstiline",
+				"value": "17"
+			},
+			{
+				"text": "maagiline",
+				"value": "18"
+			},
+			{
+				"text": "utoopiline",
+				"value": "19"
+			},
+			{
+				"text": "jumalik",
+				"value": "20"
+			}
+		],
+		"name": "et",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Väravavaht"
+			},
+			{
+				"type": "WingBack",
+				"value": "Äärekaitsja"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Keskkaitsja"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Keskpoolkaitsja"
+			},
+			{
+				"type": "Winger",
+				"value": "Äär"
+			},
+			{
+				"type": "Forward",
+				"value": "Ründaja"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "(väga madal)",
+				"value": "0"
+			},
+			{
+				"text": "(madal)",
+				"value": "0.25"
+			},
+			{
+				"text": "(kõrge)",
+				"value": "0.5"
+			},
+			{
+				"text": "(väga kõrge)",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Poolkaitse"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Paremkaitse"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Keskkaitse"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Vasakkaitse"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Paremrünne"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Keskrünne"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Vasakrünne"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Väravavaht"
+			},
+			{
+				"type": "Stamina",
+				"value": "Vastupidavus"
+			},
+			{
+				"type": "Defender",
+				"value": "Kaitsmine"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Mängujuht"
+			},
+			{
+				"type": "Winger",
+				"value": "Äärel"
+			},
+			{
+				"type": "Scorer",
+				"value": "Ründamine"
+			},
+			{
+				"type": "Kicker",
+				"value": "Standardolukorrad"
+			},
+			{
+				"type": "Passer",
+				"value": "Söötmine"
+			},
+			{
+				"type": "Experience",
+				"value": "Kogemus"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Juhioskus"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Erioskuseta"
+			},
+			{
+				"type": "Technical",
+				"value": "Tehniline"
+			},
+			{
+				"type": "Quick",
+				"value": "Kiire"
+			},
+			{
+				"type": "Powerful",
+				"value": "Jõuline"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Ettearvamatu"
+			},
+			{
+				"type": "Head",
+				"value": "Peamäng"
+			},
+			{
+				"type": "Resilient",
+				"value": "Vastupidav"
+			},
+			{
+				"type": "Support",
+				"value": "Meeskonnamängija"
+			}
+		],
+		"spirit": [
+			{
+				"text": "sõjajalal",
+				"value": "0"
+			},
+			{
+				"text": "raevunud",
+				"value": "1"
+			},
+			{
+				"text": "vihane",
+				"value": "2"
+			},
+			{
+				"text": "pettunud",
+				"value": "3"
+			},
+			{
+				"text": "stabiilne",
+				"value": "4"
+			},
+			{
+				"text": "rahulik",
+				"value": "5"
+			},
+			{
+				"text": "meeldiv",
+				"value": "6"
+			},
+			{
+				"text": "rõõmus",
+				"value": "7"
+			},
+			{
+				"text": "õnnelik",
+				"value": "8"
+			},
+			{
+				"text": "kõnnivad pilvedes",
+				"value": "9"
+			},
+			{
+				"text": "maapealses paradiisis",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "märatsevad tänavatel",
+				"value": "0"
+			},
+			{
+				"text": "raevunud",
+				"value": "1"
+			},
+			{
+				"text": "pettunud",
+				"value": "2"
+			},
+			{
+				"text": "rahulikud",
+				"value": "3"
+			},
+			{
+				"text": "meelitatud",
+				"value": "4"
+			},
+			{
+				"text": "rõõmsad",
+				"value": "5"
+			},
+			{
+				"text": "õnnelikud",
+				"value": "6"
+			},
+			{
+				"text": "ekstaasis",
+				"value": "7"
+			},
+			{
+				"text": "tantsivad tänavatel",
+				"value": "8"
+			},
+			{
+				"text": "saadavad armastuskirju",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Tavaline"
+			},
+			{
+				"type": "pressing",
+				"value": "Surumine"
+			},
+			{
+				"type": "ca",
+				"value": "Vasturünnakud"
+			},
+			{
+				"type": "aim",
+				"value": "Ründa keskelt"
+			},
+			{
+				"type": "aow",
+				"value": "Ründa äärtelt"
+			},
+			{
+				"type": "",
+				"value": "Teadmata"
+			},
+			{
+				"type": "",
+				"value": "Teadmata"
+			},
+			{
+				"type": "creatively",
+				"value": "Mängi loovalt"
+			},
+			{
+				"type": "longshots",
+				"value": "Kauglöögid"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Üldvorm"
+			},
+			{
+				"type": "Sta",
+				"value": "Vastupidavus"
+			},
+			{
+				"type": "SP",
+				"value": "Standardolukorrad"
+			},
+			{
+				"type": "Def",
+				"value": "Kaitsmine"
+			},
+			{
+				"type": "Sco",
+				"value": "Ründamine"
+			},
+			{
+				"type": "Cross",
+				"value": "Ääre treening"
+			},
+			{
+				"type": "Shoot",
+				"value": "Ründamine ja Standardolukorrad"
+			},
+			{
+				"type": "Pass",
+				"value": "Söötmine"
+			},
+			{
+				"type": "PM",
+				"value": "Mängujuhtimine"
+			},
+			{
+				"type": "GK",
+				"value": "Väravavahtimine"
+			},
+			{
+				"type": "ThPass",
+				"value": "Söötmine (kaitsjad + kõik poolkaitsjad)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Kaitsmine (väravavahid, kaitsjad + kõik poolkaitsjad)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Ääre treening (äärepoolkaitsjad + ründajad)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individuaalne"
+			}
+		]
+	}
+}

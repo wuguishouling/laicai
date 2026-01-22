@@ -1,0 +1,13 @@
+#ft-cross-table td {
+	text-align: center;
+}
+
+.ft-cross-table-div {
+	position: relative;
+	z-index:99;
+}
+
+.ft-cross-table-div  td{
+	background-color: white;
+	white-space: nowrap;
+}

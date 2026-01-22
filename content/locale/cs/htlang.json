@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "ledově klidný",
+				"value": "0"
+			},
+			{
+				"text": "chladnokrevný",
+				"value": "1"
+			},
+			{
+				"text": "vyrovnaný",
+				"value": "2"
+			},
+			{
+				"text": "temperamentní",
+				"value": "3"
+			},
+			{
+				"text": "prchlivý",
+				"value": "4"
+			},
+			{
+				"text": "labilní",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "Protiva",
+				"value": "0"
+			},
+			{
+				"text": "Hašteřivý člověk",
+				"value": "1"
+			},
+			{
+				"text": "Příjemný kluk",
+				"value": "2"
+			},
+			{
+				"text": "Sympatický chlapík",
+				"value": "3"
+			},
+			{
+				"text": "Oblíbený hráč",
+				"value": "4"
+			},
+			{
+				"text": "Miláček týmu",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "O nic nejde",
+				"value": "-1"
+			},
+			{
+				"text": "Normální",
+				"value": "0"
+			},
+			{
+				"text": "Zápas sezóny",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "neexistující",
+				"value": "0"
+			},
+			{
+				"text": "katastrofální",
+				"value": "1"
+			},
+			{
+				"text": "velmi nízká",
+				"value": "2"
+			},
+			{
+				"text": "nízká",
+				"value": "3"
+			},
+			{
+				"text": "dobrá",
+				"value": "4"
+			},
+			{
+				"text": "silná",
+				"value": "5"
+			},
+			{
+				"text": "výjimečná",
+				"value": "6"
+			},
+			{
+				"text": "lehce přehnaná",
+				"value": "7"
+			},
+			{
+				"text": "dost přehnaná",
+				"value": "8"
+			},
+			{
+				"text": "extrémně přehnaná",
+				"value": "9"
+			}
+		],
+		"desc": "Česky",
+		"fans": [
+			{
+				"text": "vražední",
+				"value": "0"
+			},
+			{
+				"text": "vzteklí",
+				"value": "1"
+			},
+			{
+				"text": "naštvaní",
+				"value": "2"
+			},
+			{
+				"text": "podráždění",
+				"value": "3"
+			},
+			{
+				"text": "zklamaní",
+				"value": "4"
+			},
+			{
+				"text": "chladní",
+				"value": "5"
+			},
+			{
+				"text": "klidní",
+				"value": "6"
+			},
+			{
+				"text": "spokojení",
+				"value": "7"
+			},
+			{
+				"text": "nadšení",
+				"value": "8"
+			},
+			{
+				"text": "unešení",
+				"value": "9"
+			},
+			{
+				"text": "tančí v ulicích",
+				"value": "10"
+			},
+			{
+				"text": "pějí oslavné písně",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "debakl",
+				"value": "0"
+			},
+			{
+				"text": "výrazná porážka",
+				"value": "1"
+			},
+			{
+				"text": "jasná porážka",
+				"value": "2"
+			},
+			{
+				"text": "těsná porážka",
+				"value": "3"
+			},
+			{
+				"text": "velmi těsná porážka",
+				"value": "4"
+			},
+			{
+				"text": "vyrovnané utkání",
+				"value": "5"
+			},
+			{
+				"text": "velmi těsná výhra",
+				"value": "6"
+			},
+			{
+				"text": "těsná výhra",
+				"value": "7"
+			},
+			{
+				"text": "snadná výhra",
+				"value": "8"
+			},
+			{
+				"text": "výrazná výhra",
+				"value": "9"
+			},
+			{
+				"text": "střelnice",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "v této lize se absolutně nechytáme",
+				"value": "0"
+			},
+			{
+				"text": "buďme vděční za každý den v této lize",
+				"value": "1"
+			},
+			{
+				"text": "bude to boj o záchranu",
+				"value": "2"
+			},
+			{
+				"text": "líbil by se nám střed tabulky",
+				"value": "3"
+			},
+			{
+				"text": "patříme do horní poloviny tabulky",
+				"value": "4"
+			},
+			{
+				"text": "jdeme za titulem",
+				"value": "5"
+			},
+			{
+				"text": "tuhle sezónu musíme ligu vyhrát",
+				"value": "6"
+			},
+			{
+				"text": "jsme o třídu lepší než ostatní týmy",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "bezectný",
+				"value": "0"
+			},
+			{
+				"text": "nečestný",
+				"value": "1"
+			},
+			{
+				"text": "čestný",
+				"value": "2"
+			},
+			{
+				"text": "férový",
+				"value": "3"
+			},
+			{
+				"text": "spravedlivý",
+				"value": "4"
+			},
+			{
+				"text": "učiněný andílek",
+				"value": "5"
+			}
+		],
+		"id": "35",
+		"leagueNames": {
+			"1": "Švédsko",
+			"100": "Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apache Liga (Limitovaná Edice)",
+			"1002": "Hattricková výroční liga",
+			"1003": "Homegrown League",
+			"101": "Malta",
+			"102": "Kyrgyzstán",
+			"103": "Moldavsko",
+			"104": "Gruzie",
+			"105": "Andorra",
+			"106": "Jordánsko",
+			"107": "Guatemala",
+			"11": "Dánsko",
+			"110": "Trinidad a Tobago",
+			"111": "Nikaragua",
+			"112": "Kazachstán",
+			"113": "Surinam",
+			"117": "Lichtenštejnsko",
+			"118": "Alžírsko",
+			"119": "Mongolsko",
+			"12": "Finsko",
+			"120": "Libanon",
+			"121": "Senegal",
+			"122": "Arménie",
+			"123": "Bahrajn",
+			"124": "Barbados",
+			"125": "Kapverdy",
+			"126": "Pobřeží slonoviny",
+			"127": "Kuvajt",
+			"128": "Irák",
+			"129": "Ázerbájdžán",
+			"130": "Angola",
+			"131": "Černá Hora",
+			"132": "Bangladéš",
+			"133": "Jemen",
+			"134": "Omán",
+			"135": "Mosambik",
+			"136": "Brunej",
+			"137": "Ghana",
+			"138": "Kambodža",
+			"139": "Benin",
+			"14": "Nizozemsko",
+			"140": "Sýrie",
+			"141": "Katar",
+			"142": "Tanzanie",
+			"143": "Uganda",
+			"144": "Maledivy",
+			"145": "Uzbekistán",
+			"146": "Kamerun",
+			"147": "Kuba",
+			"148": "Palestina",
+			"149": "Svatý Tomáš a Princův ostrov",
+			"15": "Oceánie",
+			"151": "Komory",
+			"152": "Srí Lanka",
+			"153": "Curacao",
+			"154": "Guam",
+			"155": "Kongo",
+			"156": "Etiopie",
+			"157": "Svatý Vincenc a Grenadiny",
+			"158": "Belize",
+			"159": "Madagaskar",
+			"16": "Brazílie",
+			"160": "Botswana",
+			"161": "Myanmar",
+			"162": "Zambie",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Portoriko",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepál",
+			"169": "Guyana",
+			"17": "Kanada",
+			"170": "Tahiti",
+			"171": "Guinea",
+			"172": "Bahamy",
+			"173": "Rwanda",
+			"174": "Svatý Kryštof a Nevis",
+			"175": "Rovníková Guinea",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Chile",
+			"19": "Kolumbie",
+			"2": "Anglie",
+			"20": "Indie",
+			"21": "Irsko",
+			"22": "Japonsko",
+			"23": "Peru",
+			"24": "Polsko",
+			"25": "Portugalsko",
+			"26": "Skotsko",
+			"27": "Jihoafrická republika",
+			"28": "Uruguay",
+			"29": "Venezuela",
+			"3": "Německo",
+			"30": "Jižní Korea",
+			"31": "Thajsko",
+			"32": "Turecko",
+			"33": "Egypt",
+			"34": "Čínská lidová republika",
+			"35": "Rusko",
+			"36": "Španělsko",
+			"37": "Rumunsko",
+			"38": "Island",
+			"39": "Rakousko",
+			"4": "Itálie",
+			"44": "Belgie",
+			"45": "Malajsie",
+			"46": "Švýcarsko",
+			"47": "Singapur",
+			"5": "Francie",
+			"50": "Řecko",
+			"51": "Maďarsko",
+			"52": "Česko",
+			"53": "Lotyšsko",
+			"54": "Indonésie",
+			"55": "Filipíny",
+			"56": "Estonsko",
+			"57": "Srbsko",
+			"58": "Chorvatsko",
+			"59": "Hongkong",
+			"6": "Mexiko",
+			"60": "Taiwan",
+			"61": "Wales",
+			"62": "Bulharsko",
+			"63": "Izrael",
+			"64": "Slovinsko",
+			"66": "Litva",
+			"67": "Slovensko",
+			"68": "Ukrajina",
+			"69": "Bosna a Hercegovina",
+			"7": "Argentina",
+			"70": "Vietnam",
+			"71": "Pákistán",
+			"72": "Paraguay",
+			"73": "Ekvádor",
+			"74": "Bolívie",
+			"75": "Nigérie",
+			"76": "Faerské ostrovy",
+			"77": "Maroko",
+			"79": "Saúdská Arábie",
+			"8": "USA",
+			"80": "Tunisko",
+			"81": "Kostarika",
+			"83": "Spojené arabské emiráty",
+			"84": "Lucembursko",
+			"85": "Írán",
+			"88": "Dominikánská republika",
+			"89": "Kypr",
+			"9": "Norsko",
+			"91": "Bělorusko",
+			"93": "Severní Irsko",
+			"94": "Jamajka",
+			"95": "Keňa",
+			"96": "Panama",
+			"97": "Severní Makedonie",
+			"98": "Albánie",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "neexistující",
+				"value": "0"
+			},
+			{
+				"text": "odstrašující",
+				"value": "1"
+			},
+			{
+				"text": "katastrofální",
+				"value": "2"
+			},
+			{
+				"text": "tristní",
+				"value": "3"
+			},
+			{
+				"text": "nedostačující",
+				"value": "4"
+			},
+			{
+				"text": "neadekvátní",
+				"value": "5"
+			},
+			{
+				"text": "ucházející",
+				"value": "6"
+			},
+			{
+				"text": "solidní",
+				"value": "7"
+			},
+			{
+				"text": "excelentní",
+				"value": "8"
+			},
+			{
+				"text": "nadstandardní",
+				"value": "9"
+			},
+			{
+				"text": "vynikající",
+				"value": "10"
+			},
+			{
+				"text": "brilantní",
+				"value": "11"
+			},
+			{
+				"text": "perfektní",
+				"value": "12"
+			},
+			{
+				"text": "prvotřídní",
+				"value": "13"
+			},
+			{
+				"text": "abnormální",
+				"value": "14"
+			},
+			{
+				"text": "kolosální",
+				"value": "15"
+			},
+			{
+				"text": "impozantní",
+				"value": "16"
+			},
+			{
+				"text": "dechberoucí",
+				"value": "17"
+			},
+			{
+				"text": "okouzlující",
+				"value": "18"
+			},
+			{
+				"text": "legendární",
+				"value": "19"
+			},
+			{
+				"text": "boží",
+				"value": "20"
+			}
+		],
+		"name": "cs",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Brankář"
+			},
+			{
+				"type": "WingBack",
+				"value": "Krajní obránce"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Střední obránce"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Střední záložník"
+			},
+			{
+				"type": "Winger",
+				"value": "Krajní záložník"
+			},
+			{
+				"type": "Forward",
+				"value": "Útočník"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "mnohem horší",
+				"value": "0"
+			},
+			{
+				"text": "horší",
+				"value": "0.25"
+			},
+			{
+				"text": "lepší",
+				"value": "0.5"
+			},
+			{
+				"text": "mnohem lepší",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Záloha"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Pravá strana obrany"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Střed obrany"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Levá strana obrany"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Pravá strana útoku"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Střed útoku"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Levá strana útoku"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Chytání"
+			},
+			{
+				"type": "Stamina",
+				"value": "Kondice"
+			},
+			{
+				"type": "Defender",
+				"value": "Bránění"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Tvorba hry"
+			},
+			{
+				"type": "Winger",
+				"value": "Křídlo"
+			},
+			{
+				"type": "Scorer",
+				"value": "Zakončování"
+			},
+			{
+				"type": "Kicker",
+				"value": "Standardky"
+			},
+			{
+				"type": "Passer",
+				"value": "Přihrávky"
+			},
+			{
+				"type": "Experience",
+				"value": "Zkušenost"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Vůdcovství"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Žádná"
+			},
+			{
+				"type": "Technical",
+				"value": "Technický"
+			},
+			{
+				"type": "Quick",
+				"value": "Rychlý"
+			},
+			{
+				"type": "Powerful",
+				"value": "Silový"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Nepředvídatelný"
+			},
+			{
+				"type": "Head",
+				"value": "Hlavičkář"
+			},
+			{
+				"type": "Resilient",
+				"value": "Houževnatý"
+			},
+			{
+				"type": "Support",
+				"value": "Týmový hráč"
+			}
+		],
+		"spirit": [
+			{
+				"text": "Studená válka",
+				"value": "0"
+			},
+			{
+				"text": "vražedná",
+				"value": "1"
+			},
+			{
+				"text": "vzteklá",
+				"value": "2"
+			},
+			{
+				"text": "podrážděná",
+				"value": "3"
+			},
+			{
+				"text": "chladná",
+				"value": "4"
+			},
+			{
+				"text": "klidná",
+				"value": "5"
+			},
+			{
+				"text": "bez námitek",
+				"value": "6"
+			},
+			{
+				"text": "spokojená",
+				"value": "7"
+			},
+			{
+				"text": "plná nadšení",
+				"value": "8"
+			},
+			{
+				"text": "povznášející",
+				"value": "9"
+			},
+			{
+				"text": "Ráj na Zemi!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "vražední",
+				"value": "0"
+			},
+			{
+				"text": "vzteklí",
+				"value": "1"
+			},
+			{
+				"text": "podráždění",
+				"value": "2"
+			},
+			{
+				"text": "chladní",
+				"value": "3"
+			},
+			{
+				"text": "klidní",
+				"value": "4"
+			},
+			{
+				"text": "spokojení",
+				"value": "5"
+			},
+			{
+				"text": "nadšení",
+				"value": "6"
+			},
+			{
+				"text": "unešení",
+				"value": "7"
+			},
+			{
+				"text": "tančí v ulicích",
+				"value": "8"
+			},
+			{
+				"text": "pějí oslavné písně",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normální"
+			},
+			{
+				"type": "pressing",
+				"value": "Nátlaková hra"
+			},
+			{
+				"type": "ca",
+				"value": "Protiútoky"
+			},
+			{
+				"type": "aim",
+				"value": "Útok středem"
+			},
+			{
+				"type": "aow",
+				"value": "Útok po křídlech"
+			},
+			{
+				"type": "",
+				"value": "Neznámé"
+			},
+			{
+				"type": "",
+				"value": "Neznámé"
+			},
+			{
+				"type": "creatively",
+				"value": "Nápaditá hra"
+			},
+			{
+				"type": "longshots",
+				"value": "Střelba z dálky"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Rámcový (Forma)"
+			},
+			{
+				"type": "Sta",
+				"value": "Kondiční"
+			},
+			{
+				"type": "SP",
+				"value": "Standardní situace"
+			},
+			{
+				"type": "Def",
+				"value": "Bránění"
+			},
+			{
+				"type": "Sco",
+				"value": "Zakončování"
+			},
+			{
+				"type": "Cross",
+				"value": "Křídlo"
+			},
+			{
+				"type": "Shoot",
+				"value": "Zakončování a Standardní situace"
+			},
+			{
+				"type": "Pass",
+				"value": "Přihrávky"
+			},
+			{
+				"type": "PM",
+				"value": "Tvorba hry"
+			},
+			{
+				"type": "GK",
+				"value": "Chytání"
+			},
+			{
+				"type": "ThPass",
+				"value": "Přihrávky (obránci + hráči v záloze)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Bránění (brankáři, obránci + hráči v záloze)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Křídlo (křídla + útočníci)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individuální"
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+#aspnetForm[action*="Read.aspx"] .bookmarkMessage img {
+	background:transparent url('chrome://foxtrick/content/resources/img/bookmark_post.png');
+}
+#aspnetForm[action*="Read.aspx"] .cfWrapper .bookmarkMessage {
+top:0px;
+margin-left:3px;
+float:right;
+}
+#aspnetForm[action*="Read.aspx"] .bookmarkMessage img{
+width:12px;
+height:13px;
+}

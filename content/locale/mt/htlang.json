@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "trankwill",
+				"value": "0"
+			},
+			{
+				"text": "kalm",
+				"value": "1"
+			},
+			{
+				"text": "normali",
+				"value": "2"
+			},
+			{
+				"text": "nervuż",
+				"value": "3"
+			},
+			{
+				"text": "qalil",
+				"value": "4"
+			},
+			{
+				"text": "instabbli",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "kattiv",
+				"value": "0"
+			},
+			{
+				"text": "kontroversjali",
+				"value": "1"
+			},
+			{
+				"text": "pjaċevoli",
+				"value": "2"
+			},
+			{
+				"text": "simpatiku",
+				"value": "3"
+			},
+			{
+				"text": "popolari",
+				"value": "4"
+			},
+			{
+				"text": "maħbub mit-tim kollu",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Ħuduha bil-mod",
+				"value": "-1"
+			},
+			{
+				"text": "Normali",
+				"value": "0"
+			},
+			{
+				"text": "Ilagħbu għal ħajjitkom",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "ineżistenti",
+				"value": "0"
+			},
+			{
+				"text": "diżastruż",
+				"value": "1"
+			},
+			{
+				"text": "miżeru",
+				"value": "2"
+			},
+			{
+				"text": "fqir",
+				"value": "3"
+			},
+			{
+				"text": "diċenti",
+				"value": "4"
+			},
+			{
+				"text": "b'saħħitha",
+				"value": "5"
+			},
+			{
+				"text": "sabiħa ħafna",
+				"value": "6"
+			},
+			{
+				"text": "ftit eżaġerata",
+				"value": "7"
+			},
+			{
+				"text": "eżaġerata",
+				"value": "8"
+			},
+			{
+				"text": "kompletament eżaġerata",
+				"value": "9"
+			}
+		],
+		"desc": "Malti",
+		"fans": [
+			{
+				"text": "vjolenti",
+				"value": "0"
+			},
+			{
+				"text": "infurjati",
+				"value": "1"
+			},
+			{
+				"text": "irrabjati",
+				"value": "2"
+			},
+			{
+				"text": "imdejqin",
+				"value": "3"
+			},
+			{
+				"text": "diżappuntati",
+				"value": "4"
+			},
+			{
+				"text": "kalmi",
+				"value": "5"
+			},
+			{
+				"text": "kuntenti",
+				"value": "6"
+			},
+			{
+				"text": "sodisfatti",
+				"value": "7"
+			},
+			{
+				"text": "eċċitati",
+				"value": "8"
+			},
+			{
+				"text": "se jtiru bil-ferħ",
+				"value": "9"
+			},
+			{
+				"text": "jiżfnu fit-toroq",
+				"value": "10"
+			},
+			{
+				"text": "Qed jibagħtulek poeżiji ta' mħabba",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Aħjar ma ninżlux għal-logħob",
+				"value": "0"
+			},
+			{
+				"text": "Bil-wisq aħjar minna",
+				"value": "1"
+			},
+			{
+				"text": "Ser nitilfu",
+				"value": "2"
+			},
+			{
+				"text": "Huma qegħdin favoriti",
+				"value": "3"
+			},
+			{
+				"text": "Ftit aħjar minna",
+				"value": "4"
+			},
+			{
+				"text": "Se tkun logħba bbilanċjata",
+				"value": "5"
+			},
+			{
+				"text": "Ftit aħjar minnhom",
+				"value": "6"
+			},
+			{
+				"text": "Aħna qegħdin favoriti",
+				"value": "7"
+			},
+			{
+				"text": "Ser nirbħu",
+				"value": "8"
+			},
+			{
+				"text": "Faċli mmens",
+				"value": "9"
+			},
+			{
+				"text": "Ejja numiljawhom",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Ma ħaqqniex li nkunu f'din id-diviżjoni",
+				"value": "0"
+			},
+			{
+				"text": "Kull ġurnata f'din id-diviżjoni hija bonus",
+				"value": "1"
+			},
+			{
+				"text": "Irridu nissieltu biex inżommu postna",
+				"value": "2"
+			},
+			{
+				"text": "Post f'nofs il-klassifika ikun sabiħ",
+				"value": "3"
+			},
+			{
+				"text": "Nagħmlu parti mill-aħjar 4",
+				"value": "4"
+			},
+			{
+				"text": "Immira għar-rebħ tat-titlu!",
+				"value": "5"
+			},
+			{
+				"text": "Irridu nirbħu dan l-istaġun",
+				"value": "6"
+			},
+			{
+				"text": "Aħna ħafna aħjar minn din id-diviżjoni!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "ta' fama ħażina",
+				"value": "0"
+			},
+			{
+				"text": "diżonest",
+				"value": "1"
+			},
+			{
+				"text": "onest",
+				"value": "2"
+			},
+			{
+				"text": "sinċier",
+				"value": "3"
+			},
+			{
+				"text": "ġust",
+				"value": "4"
+			},
+			{
+				"text": "qaddis",
+				"value": "5"
+			}
+		],
+		"id": "87",
+		"leagueNames": {
+			"1": "Iżvezja",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "? {LimitedLeagues}:{14}",
+			"1002": "? {anniversaryLeague}:{5}",
+			"1003": "? {leagueDetails}:{136}",
+			"101": "Malta",
+			"102": "Krigizstan",
+			"103": "Moldova",
+			"104": "Gorgja",
+			"105": "Andorra",
+			"106": "Gordan",
+			"107": "Gwatemala",
+			"11": "Danimarka",
+			"110": "Trinidad u Tobago",
+			"111": "Nikaragwa",
+			"112": "Kazakistan",
+			"113": "Surinam",
+			"117": "Liechtenstein",
+			"118": "Algerija",
+			"119": "Mongolja",
+			"12": "Finlandja",
+			"120": "Lebanon",
+			"121": "Senegal",
+			"122": "Armenja",
+			"123": "Bahrejn",
+			"124": "Barbados",
+			"125": "Cape Verde",
+			"126": "Kosta ta' l-Ivorju",
+			"127": "Kuwajt",
+			"128": "Iraq",
+			"129": "Azerbajgan",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Bangladexx",
+			"133": "Jemen",
+			"134": "Oman",
+			"135": "Mozambikk",
+			"136": "Brunej",
+			"137": "Gana",
+			"138": "Kambodja",
+			"139": "Benin",
+			"14": "Olanda",
+			"140": "Sirja",
+			"141": "Qatar",
+			"142": "Tanzanija",
+			"143": "Uganda",
+			"144": "Maldive",
+			"145": "Uzbekistan",
+			"146": "Kamerun",
+			"147": "Kuba",
+			"148": "Palestina",
+			"149": "São Tomé e Príncipe",
+			"15": "Oceanja",
+			"151": "Comoros",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "DR Congo",
+			"156": "Ethiopia",
+			"157": "? {leagueNames}:{157}",
+			"158": "? {leagueNames}:{158}",
+			"159": "? {leagueNames}:{159}",
+			"16": "Brażil",
+			"160": "? {leagueNames}:{160}",
+			"161": "? {leagueNames}:{161}",
+			"162": "? {leagueNames}:{162}",
+			"163": "? {leagueNames}:{163}",
+			"164": "? {leagueNames}:{164}",
+			"165": "? {leagueNames}:{165}",
+			"166": "? {leagueNames}:{166}",
+			"167": "? {leagueNames}:{167}",
+			"168": "? {leagueNames}:{168}",
+			"169": "? {leagueNames}:{169}",
+			"17": "Kanada",
+			"170": "? {leagueNames}:{170}",
+			"171": "? {leagueNames}:{171}",
+			"172": "? {leagueNames}:{172}",
+			"173": "? {leagueNames}:{173}",
+			"174": "? {leagueNames}:{174}",
+			"175": "? {leagueNames}:{175}",
+			"176": "? {leagueNames}:{176}",
+			"177": "? {leagueNames}:{177}",
+			"18": "Ċili",
+			"19": "Kolombja",
+			"2": "Ingilterra",
+			"20": "Indja",
+			"21": "Irlanda",
+			"22": "Ġappun",
+			"23": "Peru",
+			"24": "Polonja",
+			"25": "Portugall",
+			"26": "Iskozja",
+			"27": "Afrika t'Isfel",
+			"28": "Urugwaj",
+			"29": "Venezwela",
+			"3": "Ġermanja",
+			"30": "Korea t'Isfel",
+			"31": "Taljandja",
+			"32": "Turkija",
+			"33": "Egittu",
+			"34": "Cina",
+			"35": "Russja",
+			"36": "Spanja",
+			"37": "Rumanija",
+			"38": "Islanda",
+			"39": "Awstrija",
+			"4": "Italja",
+			"44": "Belgju",
+			"45": "Malasja",
+			"46": "Svizzera",
+			"47": "Singapor",
+			"5": "Franza",
+			"50": "Grecja",
+			"51": "Ungerija",
+			"52": "Republika Ceka",
+			"53": "Latvja",
+			"54": "Indonesja",
+			"55": "Filippini",
+			"56": "Estonja",
+			"57": "Serbja",
+			"58": "Kroazja",
+			"59": "Hong Kong",
+			"6": "Messiku",
+			"60": "Chinese Taipei",
+			"61": "Wales",
+			"62": "Bulgarija",
+			"63": "Izrael",
+			"64": "Slovenja",
+			"66": "Litwanja",
+			"67": "Slovakja",
+			"68": "Ukrajna",
+			"69": "Bosnja Herzegovina",
+			"7": "Arġentina",
+			"70": "Vjetnam",
+			"71": "Pakistan",
+			"72": "Paragwaj",
+			"73": "Ekwador",
+			"74": "Bolivja",
+			"75": "Nigerja",
+			"76": "Gzejjer Faroe",
+			"77": "Marokk",
+			"79": "Sawdi Arabja",
+			"8": "USA",
+			"80": "Tunisija",
+			"81": "Kosta Rika",
+			"83": "Emirati Gharab Uniti",
+			"84": "Lussemburgu",
+			"85": "Iran",
+			"88": "Repubblika Domenikana",
+			"89": "Cipru",
+			"9": "Norveġja",
+			"91": "Belarussja",
+			"93": "Irlanda ta' Fuq",
+			"94": "Gamajka",
+			"95": "Kenja",
+			"96": "Panama",
+			"97": "Macedonja",
+			"98": "Albanija",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "ineżistenti",
+				"value": "0"
+			},
+			{
+				"text": "diżastruż",
+				"value": "1"
+			},
+			{
+				"text": "miżeru",
+				"value": "2"
+			},
+			{
+				"text": "fqir",
+				"value": "3"
+			},
+			{
+				"text": "debboli",
+				"value": "4"
+			},
+			{
+				"text": "inadekwat",
+				"value": "5"
+			},
+			{
+				"text": "passabbli",
+				"value": "6"
+			},
+			{
+				"text": "sod",
+				"value": "7"
+			},
+			{
+				"text": "eċċellenti",
+				"value": "8"
+			},
+			{
+				"text": "formidabbli",
+				"value": "9"
+			},
+			{
+				"text": "straordinarju",
+				"value": "10"
+			},
+			{
+				"text": "brillanti",
+				"value": "11"
+			},
+			{
+				"text": "manjifiku",
+				"value": "12"
+			},
+			{
+				"text": "splendidu",
+				"value": "13"
+			},
+			{
+				"text": "sopranaturali",
+				"value": "14"
+			},
+			{
+				"text": "titanniku",
+				"value": "15"
+			},
+			{
+				"text": "indimunjat",
+				"value": "16"
+			},
+			{
+				"text": "mitiku",
+				"value": "17"
+			},
+			{
+				"text": "maġiku",
+				"value": "18"
+			},
+			{
+				"text": "utopjan",
+				"value": "19"
+			},
+			{
+				"text": "divin",
+				"value": "20"
+			}
+		],
+		"name": "mt",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Gowler"
+			},
+			{
+				"type": "WingBack",
+				"value": "Difensur Laterali"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Difensur Ċentrali"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Midfielder Ċentrali"
+			},
+			{
+				"type": "Winger",
+				"value": "Plejer tal-Linja"
+			},
+			{
+				"type": "Forward",
+				"value": "Attakkant"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "Baxx ħafna",
+				"value": "0"
+			},
+			{
+				"text": "Baxx",
+				"value": "0.25"
+			},
+			{
+				"text": "Għoli",
+				"value": "0.5"
+			},
+			{
+				"text": "Għoli ħafna",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Nofs"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Difens - Naħa tal-lemin"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Difens Ċentrali"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Difens - Naħa tax-xellug"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Attakk - Naħa tal-lemin"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Attakk Ċentrali"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Attakk - Naħa tax-xellug"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Gowler"
+			},
+			{
+				"type": "Stamina",
+				"value": "Stamina"
+			},
+			{
+				"type": "Defender",
+				"value": "Difens"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Nofs"
+			},
+			{
+				"type": "Winger",
+				"value": "Linja"
+			},
+			{
+				"type": "Scorer",
+				"value": "Attakk"
+			},
+			{
+				"type": "Kicker",
+				"value": "Set Pieces"
+			},
+			{
+				"type": "Passer",
+				"value": "Tqassim"
+			},
+			{
+				"type": "Experience",
+				"value": "Esperjenza"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Mod ta' tmexxija"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Xejn"
+			},
+			{
+				"type": "Technical",
+				"value": "Tekniku"
+			},
+			{
+				"type": "Quick",
+				"value": "Veloċi"
+			},
+			{
+				"type": "Powerful",
+				"value": "B'saħħtu"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Imprevedibbli"
+			},
+			{
+				"type": "Head",
+				"value": "Ras"
+			},
+			{
+				"type": "Resilient",
+				"value": "Akkwistatur"
+			},
+			{
+				"type": "Support",
+				"value": "Support"
+			}
+		],
+		"spirit": [
+			{
+				"text": "gwerra bierda",
+				"value": "0"
+			},
+			{
+				"text": "vjolenti",
+				"value": "1"
+			},
+			{
+				"text": "irrabjati",
+				"value": "2"
+			},
+			{
+				"text": "irritati",
+				"value": "3"
+			},
+			{
+				"text": "komposti",
+				"value": "4"
+			},
+			{
+				"text": "kalmi",
+				"value": "5"
+			},
+			{
+				"text": "kuntenti",
+				"value": "6"
+			},
+			{
+				"text": "sodisfatti",
+				"value": "7"
+			},
+			{
+				"text": "se jtiru bil-ferħ",
+				"value": "8"
+			},
+			{
+				"text": "mexjin fis-sħab",
+				"value": "9"
+			},
+			{
+				"text": "Ġenna fuq l-art!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "vjolenti",
+				"value": "0"
+			},
+			{
+				"text": "infurjati",
+				"value": "1"
+			},
+			{
+				"text": "irritati",
+				"value": "2"
+			},
+			{
+				"text": "kalmi",
+				"value": "3"
+			},
+			{
+				"text": "kuntenti",
+				"value": "4"
+			},
+			{
+				"text": "sodisfatti",
+				"value": "5"
+			},
+			{
+				"text": "eċċitati",
+				"value": "6"
+			},
+			{
+				"text": "se jtiru bil-ferħ",
+				"value": "7"
+			},
+			{
+				"text": "jiżfnu fit-toroq",
+				"value": "8"
+			},
+			{
+				"text": "Qed jibagħtulek poeżiji ta' mħabba",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normali"
+			},
+			{
+				"type": "pressing",
+				"value": "Ippressaw"
+			},
+			{
+				"type": "ca",
+				"value": "Ilagħbu bil-kontrattakk"
+			},
+			{
+				"type": "aim",
+				"value": "Attakkaw minn ġon-nofs"
+			},
+			{
+				"type": "aow",
+				"value": "Attakkaw minn mal-linji"
+			},
+			{
+				"type": "",
+				"value": "Mhux magħrufa"
+			},
+			{
+				"type": "",
+				"value": "Mhux magħrufa"
+			},
+			{
+				"type": "creatively",
+				"value": "Ilagħbu kreattiv"
+			},
+			{
+				"type": "longshots",
+				"value": "Ixxuttjaw mill-bogħod"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Ġenerali (Forma)"
+			},
+			{
+				"type": "Sta",
+				"value": "Stamina"
+			},
+			{
+				"type": "SP",
+				"value": "Set Pieces"
+			},
+			{
+				"type": "Def",
+				"value": "Difens"
+			},
+			{
+				"type": "Sco",
+				"value": "Attakk"
+			},
+			{
+				"type": "Cross",
+				"value": "? {training}:{124}"
+			},
+			{
+				"type": "Shoot",
+				"value": "? {training}:{128}"
+			},
+			{
+				"type": "Pass",
+				"value": "? {training}:{122}"
+			},
+			{
+				"type": "PM",
+				"value": "Nofs"
+			},
+			{
+				"type": "GK",
+				"value": "? {training}:{123}"
+			},
+			{
+				"type": "ThPass",
+				"value": "? {training}:{126}"
+			},
+			{
+				"type": "DefPos",
+				"value": "? {training}:{125}"
+			},
+			{
+				"type": "WingAtt",
+				"value": "? {training}:{127}"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individwali"
+			}
+		]
+	}
+}

@@ -1,0 +1,249 @@
+/* user-content-example.css
+ *
+ * This file is a list of CSS statements for styling Foxtrick that satisfies
+ * user's preferences. There are comments (everything with / * ... * / are comments)
+ * that describes what module each statement belongs to and their meanings.
+ *
+ * For instances given here, you don't need to know CSS in whole. Although a
+ * basic knowledge of CSS will help you a lot. For colors, just replace color
+ * names as preferred. To disable a statement, you could remove it or comment it
+ * out. Sometimes we need to use the "!important" keyword to overwrite the
+ * Hattrick rule.
+ *
+ * After saving it to a file and adjusting the values, you can use
+ * the SkinPlugin module of Foxtrick to load the CSS file in order to have the
+ * user style in effect.
+ *
+ * Example basic color names:
+ * maroon, red, yellow, olive, purple, fuchsia, white, lime, green,
+ * navy, blue, aqua, teal, black, silver, gray, orange
+ *
+ * For a general introduction to CSS:
+ * http://www.w3schools.com/css/css_intro.asp
+ *
+ * For a list of CSS colors:
+ * http://www.w3schools.com/css/css_colornames.asp
+ *
+ */
+
+/* Module HighlightOwnerless */
+
+/* the link to ownerless teams at league page */
+.ft-ownerless {
+	color: white;
+	background-color: gray;
+}
+
+
+/* Module HTMSPrediction */
+
+/* the graph */
+.ft-htms-graph {
+	border: 1px solid black;
+}
+
+/* the bar indicating win probability */
+.htms-stats-win {
+	background-color: green;
+}
+
+/* the bar indicating draw probability */
+.htms-stats-draw {
+	background-color: gray;
+}
+
+/* the bar indicating loss probability */
+.htms-stats-loss {
+	background-color: red;
+}
+
+
+/* Module HTThreadMarker */
+
+/* Link of threads by HT */
+a[data-author^="HT-"] {
+	background: #ff7a7a;
+}
+
+/* Module MatchPlayerColouring */
+
+/* general styles for team names on the sidebar */
+.sidebarBox .ft-match-player-home, .sidebarBox .ft-match-player-away,
+.sidebarBox .ft-match-player-mine {
+	border: 1px solid #ccc;
+}
+
+/* general styles for all players */
+.ft-match-player-home, .ft-match-player-away,
+.ft-match-player-mine {
+	padding: 0 2px;
+}
+
+/* styles for home players */
+.ft-match-player-home {
+	background: #ffcdcd;
+	color: black;
+	border: 1px solid #CF8181;
+}
+
+/* styles for away players */
+.ft-match-player-away {
+	background: #d2cdff;
+	color: black;
+	border: 1px solid #8981CF;
+}
+
+/* styles for my players */
+.ft-match-player-mine {
+	background: white;
+	color: black;
+	border: none;
+}
+
+/* Module StaffMarker */
+/* Order by ascending priority since an element may have more than one class
+   so that the last declared one wins. */
+.ft-staff-icon {
+	width: 18px;
+	height: 16px;
+}
+
+.ft-staff-icon.ft-staff-supported {
+	background-image: url("chrome://foxtrick/content/resources/img/staff/supported.png");
+}
+
+.ft-staff-icon.ft-staff-supporter {
+	background-image: url("chrome://foxtrick/content/resources/img/staff/supporter.png");
+}
+
+.ft-staff-icon.ft-staff-htls {
+	background-image: url("chrome://foxtrick/content/resources/img/staff/htls.png");
+}
+.ft-staff-icon.ft-staff-ho {
+	background-image: url("chrome://foxtrick/content/resources/img/staff/ho.png");
+}
+.ft-staff-icon.ft-staff-hy {
+	background-image: url("chrome://foxtrick/content/resources/img/staff/hyouthclub.png");
+}
+
+.ft-staff-icon.ft-staff-foxtrick{
+	background-image: url("chrome://foxtrick/content/resources/img/staff/foxtrick.png");
+}
+
+.ft-staff-icon.ft-staff-chpp-holder {
+	background-image: url("chrome://foxtrick/content/resources/img/staff/chpp.png");
+	width: 24px;
+}
+
+.ft-staff-icon.ft-staff-editor {
+	background-image: url("chrome://foxtrick/content/resources/img/staff/editor.png");
+}
+
+.ft-staff-chpp {
+	background-color:green;
+	color:white !important;
+	font-weight:700;
+	padding:1px;
+	text-decoration:none;
+}
+
+.ft-staff-la {
+	background-color:white;
+	color:green !important;
+	font-weight:700;
+	padding:1px;
+	text-decoration:none;
+}
+
+.ft-staff-mod {
+	background-color:yellow;
+	color:black !important;
+	font-weight:700;
+	padding:1px;
+	text-decoration:none;
+}
+
+.ft-staff-gm {
+	background-color:orange;
+	color:black !important;
+	font-weight:700;
+	padding:1px;
+	text-decoration:none;
+}
+
+.ft-staff-ht {
+	background-color: red;
+	color:white !important;
+	font-weight:700;
+	padding:1px;
+	text-decoration:none;
+}
+
+
+/* Module TickerColoring */
+/* Module TickerColoring */
+
+/* ticker links */
+#ticker a {
+	color: black;
+}
+/* on mouse hover */
+#ticker a:hover {
+	background-color: transparent;
+}
+
+/* login welcome */
+#ticker a[href^="/MyHattrick/Dashboard.aspx"], #ticker a[href^="/Myhattrick/Dashboard.aspx"] {
+	background-color: #dfefc2;
+}
+/* My Hattrick message. being after login style it should take precedence */
+#ticker a[href^="/MyHattrick/Dashboard.aspx?actionType"], #ticker a[href^="/Myhattrick/Dashboard.aspx?actionType"] {
+	background-color: #dfdfdf;
+}
+/* supporter login */
+#ticker a[href^="/Club/Manager/?teamId="], #ticker a[href^="/Club/Manager/?TeamID="] {
+	background-color: #ffe8cf;
+}
+/* forum reply - full url: /Forum/Read.aspx?t=... */
+#ticker a[href^="/Forum/"] {
+	background-color: #dfeeff;
+}
+/* transfer and training pop */
+#ticker a[href^="/Club/Players/"] {
+	background-color: #fffbcf;
+}
+/* single match challenge for non-supporters */
+#ticker a[href^="/Club/Challenges/"] {
+	background-color: #ffdfe0;
+}
+/* guestbook */
+#ticker a[href^="/Club/Manager/Guestbook.aspx"] {
+	background-color: #dffffd;
+}
+/* mail - full url: /MyHattrick/Inbox/Default.aspx?actionType=readMail&messageID=... */
+#ticker a[href^="/MyHattrick/Inbox/Default.aspx"], #ticker a[href^="/Myhattrick/Inbox/Default.aspx"],
+#ticker a[href^="/MyHattrick/Inbox/?actionType=readMail"], #ticker a[href^="/Myhattrick/Inbox/?actionType=readMail"]{
+	background-color: #eedfff;
+}
+/* match info: single match accepted, match statement */
+#ticker a[href^="/Club/Matches/Match.aspx"] {
+	background-color: #fff799;
+}
+/* team info: single match declined, PA */
+#ticker a[href^="/Club/?"], #ticker a[href^="/Club/Default.aspx"] {
+	background-color: #9999ff;
+}
+/* PA comments */
+#ticker a[href^="/Club/Announcements"] {
+	background-color: #ff99cc;
+}
+/* sys info */
+#ticker a[href^="/Help/SystemStatus"] {
+	background-color: #d1d1ff;
+}
+
+/* friendly pool colors */
+.ft-home {background-color:#FC0;} /* played home */
+.ft-away {background-color:#F74;} /* played away */
+.ft-home.ft-away {background-color:#7F0;} /*played both */
+.ft-own {background-color:#DDD;} /* own country */

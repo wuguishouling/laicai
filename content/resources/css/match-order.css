@@ -1,0 +1,85 @@
+#ft_swap_positions, #ft_fill_penalty_takers, #ft_clear_penalty_takers, #ft_copy_lineup {
+	background-color: #3f7137;
+	cursor: pointer;
+	padding: 6px;
+	color: White;
+	text-decoration: underline;
+}
+#ft_swap_positions{
+	clear: left;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	top: 255px;
+}
+#ft_copy_lineup {
+	clear: right;
+	float: right;
+	margin-right: 20px;
+	position: relative;
+	top: 255px;
+}
+#ft_penalty_controls {
+	clear: both;
+	color: white;
+	font-size: 1.1em;
+}
+#ft_penalty_buttons {
+	text-align: center;
+}
+#ft_fill_penalty_takers, #ft_clear_penalty_takers {
+	margin: 10px;
+	display: inline-block;
+}
+
+/****** changes to ht sytles ****/
+
+/* highlight levels in details */
+#details .experienceAndLeadership span, #details .staminaAndForm span {
+	text-decoration: underline;
+}
+
+/* list size increased */
+#list {
+	margin-right: -10px;
+	width: 150px !important;
+}
+html[dir="rtl"] #list {
+	margin-left: -10px;
+}
+html[dir="rtl"] #order_tabs {
+	margin-right: -10px;
+}
+html[dir="ltr"] #order_tabs {
+	margin-left: -10px;
+}
+
+/* add some space next to youth skill bars */
+html #skills img[class*="youthSkillBar"]{
+	margin-right: 5px;
+}
+html[dir="rtl"] #skills img[class*="youthSkillBar"]{
+	margin-left: 5px;
+}
+
+/* make space for our playedlast highlighting */
+#orders #players .player .cards_health {
+	right: 1px !important;
+}
+
+#orders .position > .player.ft-highlight-onfield, #list .ft-highlight-onfield.ui-draggable-dragging {
+	border: 2px solid #3FD6FC !important;
+}
+
+#list .shirt {
+	display: none;
+}
+#list .ui-draggable-dragging .shirt {
+	display: block;
+}
+
+/* compact saved lineups */
+#editLineups .savedLineup {
+	display: inline-block;
+	margin: 5px;
+}

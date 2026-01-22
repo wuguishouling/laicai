@@ -1,0 +1,29 @@
+#scSettingsLink
+{display:none;}
+
+div#shortcuts,
+div#shortcuts div.scContainer
+{width: 324px;}
+html[data-theme="simple"] div#shortcuts,
+html[data-theme="simple"] div#shortcuts div.scContainer
+{width: 500px;}
+div#shortcutsNoSupporter,
+div#shortcutsNoSupporter div.scContainerNoSupporter
+{width: 200px;}
+html[data-theme="simple"] div#shortcutsNoSupporter,
+html[data-theme="simple"] div#shortcutsNoSupporter div.scContainerNoSupporter
+{width: 370px;}
+#ticker, #ticker div {
+	width: 400px;
+}
+html[data-theme="simple"] #ticker, html[data-theme="simple"] #ticker div {
+	width: 280px;
+}
+html[dir="ltr"][data-theme="standard"] #ticker { left: 235px; }
+html[dir="ltr"][data-theme="simple"] #ticker { left: 165px; }
+html[dir="rtl"][data-theme="standard"] #ticker { left: 360px; }
+html[dir="rtl"][data-theme="simple"] #ticker { left: 540px; }
+
+
+#ticker div { overflow:hidden; white-space:nowrap;}
+#ticker div a { padding:0 2px; }

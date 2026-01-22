@@ -1,0 +1,75 @@
+/*****************************************PLAYERCARD*****************************************/
+
+#orders .faceCard img {
+    height: 0 !important;
+    width: 47px !important;
+}
+
+.faceCard, .faceCardNoBottomInfo
+{
+    padding: 49px 10px 0 0;
+    height: 0;
+    left: 0;
+    background-image: url("chrome://foxtrick/content/resources/img/old-style-face/silhouette.png") !important;
+    width: 47px;
+    margin: 10px 0 0 28px;
+}
+
+#sidebar .faceCard, #sidebar .faceCardNoBottomInfo
+{
+    margin-left:64px;
+}
+
+.faceCard img, .faceCardNoBottomInfo img
+{
+    top: 0 !important;
+    left: 0 !important;
+    width: 47px;
+    height: 0;
+    padding-top: 49px;
+}
+
+.sectorShirt.ft-smallFaceCard img, .faceShirt.smallFaceCard img {
+    height: 0;
+    padding-top: 49px;
+    position: absolute;
+}
+.sectorShirt.ft-smallFaceCard img {
+    top: -4px;
+    left: -4px;
+}
+.faceShirt.smallFaceCard img {
+    top: -2px;
+    left: 4px;
+}
+div#teamPhoto {
+	height: 400px;
+}
+div#teamPhoto > div {
+	padding: 0 70px 0 80px;
+}
+div#teamPhoto div.faceCard {
+	position: relative;
+	margin-left: 0;
+	top: 90px;
+}
+
+/******************************************BACKGROUND**************************************/
+img[src$="/Img/Avatar/backgrounds/bg_blue_int.png"],
+img[src$="/Img/Avatar/backgrounds/bg_blue.png"]
+{
+display: inline;
+background-image: url("chrome://foxtrick/content/resources/img/old-style-face/backgrounds/bg.png");
+}
+
+img[src$="/Img/Avatar/backgrounds/y_bg_blue.png"]
+{
+display: inline;
+background-image: url("chrome://foxtrick/content/resources/img/old-style-face/backgrounds/y_bg.png");
+}
+
+img[src$="/Img/Avatar/backgrounds/bg_hof.png"]
+{
+display: inline;
+background-image: url("chrome://foxtrick/content/resources/img/old-style-face/backgrounds/hof_bg.png");
+}

@@ -1,0 +1,35 @@
+.ft-ratings-box {
+	position: absolute;
+	padding: 3px;
+	border: solid 2px #79A777;
+	border-radius: 7px;
+	color: white;
+	background: #3F7137;
+	font-size: 12px;
+	font-weight: bold;
+}
+#ft-probabilityDesc {
+	width: 600px;
+	margin-top: -10px;
+	color: red;
+	font-size: 1em;
+}
+#ft-matchRatingsOptions {
+	right: 12px;
+	top: 250px;
+	width: 175px;
+}
+#ft-matchRatingsTable td {
+	padding: 2px;
+	vertical-align: middle;
+}
+
+#ft-mrt-homeName {
+	background: #24471f;
+}
+.loosingSector, .winningSector {
+	background-color: #33652c !important;
+}
+.loosingSector:not(.awayTeamBox), .winningSector:not(.awayTeamBox) {
+	background-color: #24471f !important;
+}

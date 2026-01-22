@@ -1,0 +1,4 @@
+#aspnetForm[action*="Read.aspx"] div.mainConf div.cfInnerWrapper,
+#aspnetForm[action*="Read.aspx"] div.mainConf div.cfInnerWrapperGreen,
+#aspnetForm[action*="Read.aspx"] div.mainConf div.cfInnerWrapperRed
+ {margin-top:0;}

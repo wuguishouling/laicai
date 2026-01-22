@@ -1,0 +1,16 @@
+.playerDiv .sectorShirt {
+	margin-right: -12px;
+}
+.playerRating {
+	right: 0 !important;
+	float: left !important;
+	width: 60px;
+	top: 8px !important;
+}
+.playerRating > * {
+	float: left;
+	width: 20px;
+}
+.ft-4starDiv:first-child {
+	margin-left: 10px;
+}

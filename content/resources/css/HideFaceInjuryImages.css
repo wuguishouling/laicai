@@ -1,0 +1,4 @@
+.faceCardNoBottomInfo img[src*="/Img/Avatar/misc/f"],
+.faceCard img[src*="/Img/Avatar/misc/f"] {display:none;}
+.faceCardNoBottomInfo img[src*="/Img/Avatar/misc/injured"],
+.faceCard img[src*="/Img/Avatar/misc/injured"] {display:none;}

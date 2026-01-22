@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "tranquilo",
+				"value": "0"
+			},
+			{
+				"text": "calmo",
+				"value": "1"
+			},
+			{
+				"text": "equilibrado",
+				"value": "2"
+			},
+			{
+				"text": "temperamental",
+				"value": "3"
+			},
+			{
+				"text": "rabudo",
+				"value": "4"
+			},
+			{
+				"text": "inestable",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "porcallán",
+				"value": "0"
+			},
+			{
+				"text": "polémico",
+				"value": "1"
+			},
+			{
+				"text": "agradable",
+				"value": "2"
+			},
+			{
+				"text": "simpático",
+				"value": "3"
+			},
+			{
+				"text": "popular",
+				"value": "4"
+			},
+			{
+				"text": "querido compañeiro de equipo",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Xogar Relaxados",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Encontro da Tempada",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "Nula",
+				"value": "0"
+			},
+			{
+				"text": "Arrepiante",
+				"value": "1"
+			},
+			{
+				"text": "Nefasta",
+				"value": "2"
+			},
+			{
+				"text": "Pobre",
+				"value": "3"
+			},
+			{
+				"text": "Decente",
+				"value": "4"
+			},
+			{
+				"text": "Forte",
+				"value": "5"
+			},
+			{
+				"text": "Fantástica",
+				"value": "6"
+			},
+			{
+				"text": "Moi alta",
+				"value": "7"
+			},
+			{
+				"text": "Esaxerada",
+				"value": "8"
+			},
+			{
+				"text": "Desmedida",
+				"value": "9"
+			}
+		],
+		"desc": "Galego",
+		"fans": [
+			{
+				"text": "montando disturbios",
+				"value": "0"
+			},
+			{
+				"text": "furiosos",
+				"value": "1"
+			},
+			{
+				"text": "anoxados",
+				"value": "2"
+			},
+			{
+				"text": "irritados",
+				"value": "3"
+			},
+			{
+				"text": "desenganados",
+				"value": "4"
+			},
+			{
+				"text": "calmos",
+				"value": "5"
+			},
+			{
+				"text": "satisfeitos",
+				"value": "6"
+			},
+			{
+				"text": "ledos",
+				"value": "7"
+			},
+			{
+				"text": "eufóricos",
+				"value": "8"
+			},
+			{
+				"text": "cantando a rianxeira",
+				"value": "9"
+			},
+			{
+				"text": "bailando a muiñeira",
+				"value": "10"
+			},
+			{
+				"text": "Adicándoche cantigas de amor",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Mellor quedar na casa!",
+				"value": "0"
+			},
+			{
+				"text": "Hai que roelo!",
+				"value": "1"
+			},
+			{
+				"text": "Abofé que perdemos",
+				"value": "2"
+			},
+			{
+				"text": "Eles son favoritos",
+				"value": "3"
+			},
+			{
+				"text": "Talvez perdamos",
+				"value": "4"
+			},
+			{
+				"text": "Cheira a empate",
+				"value": "5"
+			},
+			{
+				"text": "Talvez gañemos",
+				"value": "6"
+			},
+			{
+				"text": "Somos favoritos",
+				"value": "7"
+			},
+			{
+				"text": "Abofé que gañamos",
+				"value": "8"
+			},
+			{
+				"text": "Arrasamos!!",
+				"value": "9"
+			},
+			{
+				"text": "A mallar neles!!!",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Somos malos de máis para esta categoría!",
+				"value": "0"
+			},
+			{
+				"text": "Cada día que pasamos nesta división é un milagre",
+				"value": "1"
+			},
+			{
+				"text": "Loitaremos pola salvación!",
+				"value": "2"
+			},
+			{
+				"text": "Estaría ben rematar na zona media",
+				"value": "3"
+			},
+			{
+				"text": "Estaremos entre os catro mellores",
+				"value": "4"
+			},
+			{
+				"text": "Loitaremos polo título!",
+				"value": "5"
+			},
+			{
+				"text": "Temos un equipazo, a Liga é nosa!",
+				"value": "6"
+			},
+			{
+				"text": "Somos bos de máis para esta categoría!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "infame",
+				"value": "0"
+			},
+			{
+				"text": "deshonesto",
+				"value": "1"
+			},
+			{
+				"text": "honesto",
+				"value": "2"
+			},
+			{
+				"text": "xusto",
+				"value": "3"
+			},
+			{
+				"text": "honorable",
+				"value": "4"
+			},
+			{
+				"text": "santo",
+				"value": "5"
+			}
+		],
+		"id": "74",
+		"leagueNames": {
+			"1": "Suecia",
+			"100": "O Salvador",
+			"1000": "Hattrick International",
+			"1001": "Liga Apache (Edición Limitada)",
+			"1002": "Liga Aniversario de Hattrick",
+			"1003": "Liga de Xogadores da Casa",
+			"101": "Malta",
+			"102": "Kirguizistán",
+			"103": "Moldavia",
+			"104": "Xeorxia",
+			"105": "Andorra",
+			"106": "Xordania",
+			"107": "Guatemala",
+			"11": "Dinamarca",
+			"110": "Trinidad e Tobago",
+			"111": "Nicaragua",
+			"112": "Casaquistán",
+			"113": "Suriname",
+			"117": "Liechtenstein",
+			"118": "Alxeria",
+			"119": "Mongolia",
+			"12": "Finlandia",
+			"120": "Líbano",
+			"121": "Senegal",
+			"122": "Armenia",
+			"123": "Bahrein",
+			"124": "Barbados",
+			"125": "Cabo Verde",
+			"126": "Costa do Marfil",
+			"127": "Kuwait",
+			"128": "Iraq",
+			"129": "Acerbaixán",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Bangladesh",
+			"133": "Iemen",
+			"134": "Omán",
+			"135": "Mozambique",
+			"136": "Brunei",
+			"137": "Ghana",
+			"138": "Camboxa",
+			"139": "Benin",
+			"14": "Países Baixos",
+			"140": "Siria",
+			"141": "Qatar",
+			"142": "Tanzania",
+			"143": "Uganda",
+			"144": "Maldivas",
+			"145": "Uzbequistán",
+			"146": "Camerún",
+			"147": "Cuba",
+			"148": "Palestina",
+			"149": "Santo Tomé e Príncipe",
+			"15": "Oceanía",
+			"151": "Comores",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "RD Congo",
+			"156": "Etiopía",
+			"157": "San Vicente e as Granadinas",
+			"158": "Belize",
+			"159": "Madagascar",
+			"16": "Brasil",
+			"160": "Botswana",
+			"161": "Birmania",
+			"162": "Zambia",
+			"163": "San Marino",
+			"164": "Haití",
+			"165": "Porto Rico",
+			"166": "Granada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Güiana",
+			"17": "Canadá",
+			"170": "Tahití",
+			"171": "Guinea",
+			"172": "Bahamas",
+			"173": "Ruanda",
+			"174": "San Cristovo e Neves",
+			"175": "Guinea Ecuatorial",
+			"176": "Xibraltar",
+			"177": "Bután",
+			"18": "Chile",
+			"19": "Colombia",
+			"2": "Inglaterra",
+			"20": "India",
+			"21": "Irlanda",
+			"22": "Xapón",
+			"23": "Perú",
+			"24": "Polonia",
+			"25": "Portugal",
+			"26": "Escocia",
+			"27": "Suráfrica",
+			"28": "Uruguai",
+			"29": "Venezuela",
+			"3": "Alemaña",
+			"30": "Corea do Sur",
+			"31": "Tailandia",
+			"32": "Turquía",
+			"33": "Exipto",
+			"34": "China",
+			"35": "Rusia",
+			"36": "España",
+			"37": "Romanía",
+			"38": "Islandia",
+			"39": "Austria",
+			"4": "Italia",
+			"44": "Bélxica",
+			"45": "Malaisia",
+			"46": "Suíza",
+			"47": "Singapur",
+			"5": "Francia",
+			"50": "Grecia",
+			"51": "Hungría",
+			"52": "Chequia",
+			"53": "Letonia",
+			"54": "Indonesia",
+			"55": "Filipinas",
+			"56": "Estonia",
+			"57": "Serbia",
+			"58": "Croacia",
+			"59": "Hong Kong, China",
+			"6": "México",
+			"60": "China Taipei",
+			"61": "Gales",
+			"62": "Bulgaria",
+			"63": "Israel",
+			"64": "Eslovenia",
+			"66": "Lituania",
+			"67": "Eslovaquia",
+			"68": "Ucraína",
+			"69": "Bosnia e Hercegovina",
+			"7": "Arxentina",
+			"70": "Vietnam",
+			"71": "Paquistán",
+			"72": "Paraguai",
+			"73": "Ecuador",
+			"74": "Bolivia",
+			"75": "Nixeria",
+			"76": "Illas Feroe",
+			"77": "Marrocos",
+			"79": "Arabia Saudí",
+			"8": "Estados Unidos",
+			"80": "Tunisia",
+			"81": "Costa Rica",
+			"83": "Emiratos Árabes Unidos",
+			"84": "Luxemburgo",
+			"85": "Irán",
+			"88": "República Dominicana",
+			"89": "Chipre",
+			"9": "Noruega",
+			"91": "Bielorrusia",
+			"93": "Irlanda do Norte",
+			"94": "Xamaica",
+			"95": "Kenya",
+			"96": "Panamá",
+			"97": "Macedonia (sen frutas)",
+			"98": "Albania",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "nulo",
+				"value": "0"
+			},
+			{
+				"text": "arrepiante",
+				"value": "1"
+			},
+			{
+				"text": "nefasto",
+				"value": "2"
+			},
+			{
+				"text": "pobre",
+				"value": "3"
+			},
+			{
+				"text": "feble",
+				"value": "4"
+			},
+			{
+				"text": "insuficiente",
+				"value": "5"
+			},
+			{
+				"text": "pasable",
+				"value": "6"
+			},
+			{
+				"text": "bo",
+				"value": "7"
+			},
+			{
+				"text": "excelente",
+				"value": "8"
+			},
+			{
+				"text": "formidable",
+				"value": "9"
+			},
+			{
+				"text": "sobresaínte",
+				"value": "10"
+			},
+			{
+				"text": "abraiante",
+				"value": "11"
+			},
+			{
+				"text": "magnífico",
+				"value": "12"
+			},
+			{
+				"text": "clase mundial",
+				"value": "13"
+			},
+			{
+				"text": "prodixioso",
+				"value": "14"
+			},
+			{
+				"text": "titánico",
+				"value": "15"
+			},
+			{
+				"text": "extraterrestre",
+				"value": "16"
+			},
+			{
+				"text": "lendario",
+				"value": "17"
+			},
+			{
+				"text": "máxico",
+				"value": "18"
+			},
+			{
+				"text": "utópico",
+				"value": "19"
+			},
+			{
+				"text": "caralludo",
+				"value": "20"
+			}
+		],
+		"name": "gl",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Porteiro"
+			},
+			{
+				"type": "WingBack",
+				"value": "Defensa Lateral"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Defensa Central"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Mediocentro"
+			},
+			{
+				"type": "Winger",
+				"value": "Extremo"
+			},
+			{
+				"type": "Forward",
+				"value": "Dianteiro"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "Moi baixo",
+				"value": "0"
+			},
+			{
+				"text": "Baixo",
+				"value": "0.25"
+			},
+			{
+				"text": "Alto",
+				"value": "0.5"
+			},
+			{
+				"text": "Moi alto",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Mediocampo"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Defensa Dereita"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Defensa Central"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Defensa Esquerda"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Ataque Dereito"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Ataque Central"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Ataque Esquerdo"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Portería"
+			},
+			{
+				"type": "Stamina",
+				"value": "Resistencia"
+			},
+			{
+				"type": "Defender",
+				"value": "Defensa"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Xogadas"
+			},
+			{
+				"type": "Winger",
+				"value": "Extremo"
+			},
+			{
+				"type": "Scorer",
+				"value": "Anotación"
+			},
+			{
+				"type": "Kicker",
+				"value": "Balón Parado"
+			},
+			{
+				"type": "Passer",
+				"value": "Pases"
+			},
+			{
+				"type": "Experience",
+				"value": "Experiencia"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Liderado"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Sen especialidade"
+			},
+			{
+				"type": "Technical",
+				"value": "Técnico"
+			},
+			{
+				"type": "Quick",
+				"value": "Rápido"
+			},
+			{
+				"type": "Powerful",
+				"value": "Potente"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Imprevisible"
+			},
+			{
+				"type": "Head",
+				"value": "Xogo aéreo"
+			},
+			{
+				"type": "Resilient",
+				"value": "Rochoso"
+			},
+			{
+				"type": "Support",
+				"value": "Patrón"
+			}
+		],
+		"spirit": [
+			{
+				"text": "Mal de Carallo",
+				"value": "0"
+			},
+			{
+				"text": "Sanguinarios",
+				"value": "1"
+			},
+			{
+				"text": "Cabreados",
+				"value": "2"
+			},
+			{
+				"text": "Molestos",
+				"value": "3"
+			},
+			{
+				"text": "Indiferentes",
+				"value": "4"
+			},
+			{
+				"text": "Calmos",
+				"value": "5"
+			},
+			{
+				"text": "Satisfeitos",
+				"value": "6"
+			},
+			{
+				"text": "Ledos",
+				"value": "7"
+			},
+			{
+				"text": "Delirando",
+				"value": "8"
+			},
+			{
+				"text": "Polas nubes",
+				"value": "9"
+			},
+			{
+				"text": "Paraíso na Terra!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "montando disturbios",
+				"value": "0"
+			},
+			{
+				"text": "furiosos",
+				"value": "1"
+			},
+			{
+				"text": "irritados",
+				"value": "2"
+			},
+			{
+				"text": "calmos",
+				"value": "3"
+			},
+			{
+				"text": "satisfeitos",
+				"value": "4"
+			},
+			{
+				"text": "ledos",
+				"value": "5"
+			},
+			{
+				"text": "eufóricos",
+				"value": "6"
+			},
+			{
+				"text": "cantando a rianxeira",
+				"value": "7"
+			},
+			{
+				"text": "bailando a muiñeira",
+				"value": "8"
+			},
+			{
+				"text": "Adicándoche cantigas de amor",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Presión"
+			},
+			{
+				"type": "ca",
+				"value": "Contraataques"
+			},
+			{
+				"type": "aim",
+				"value": "Atacar polo centro"
+			},
+			{
+				"type": "aow",
+				"value": "Atacar polas bandas"
+			},
+			{
+				"type": "",
+				"value": "Descoñecido"
+			},
+			{
+				"type": "",
+				"value": "Descoñecido"
+			},
+			{
+				"type": "creatively",
+				"value": "Xogar creativamente"
+			},
+			{
+				"type": "longshots",
+				"value": "Tiros de lonxe"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Xeral (Forma)"
+			},
+			{
+				"type": "Sta",
+				"value": "Resistencia"
+			},
+			{
+				"type": "SP",
+				"value": "Balón Parado"
+			},
+			{
+				"type": "Def",
+				"value": "Defensa"
+			},
+			{
+				"type": "Sco",
+				"value": "Anotación"
+			},
+			{
+				"type": "Cross",
+				"value": "Extremo"
+			},
+			{
+				"type": "Shoot",
+				"value": "Furóns (Anotación e Balón Parado)"
+			},
+			{
+				"type": "Pass",
+				"value": "Pases"
+			},
+			{
+				"type": "PM",
+				"value": "Xogadas"
+			},
+			{
+				"type": "GK",
+				"value": "Portería"
+			},
+			{
+				"type": "ThPass",
+				"value": "Pases (defensas e todos os centrocampistas)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Defensa (porteiros, defensas e todos os centrocampistas)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Extremo (extremos e dianteiros)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individual"
+			}
+		]
+	}
+}

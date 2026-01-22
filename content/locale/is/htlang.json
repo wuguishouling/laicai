@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "kyrrlátur",
+				"value": "0"
+			},
+			{
+				"text": "rólegur",
+				"value": "1"
+			},
+			{
+				"text": "yfirvegaður",
+				"value": "2"
+			},
+			{
+				"text": "mislyndur",
+				"value": "3"
+			},
+			{
+				"text": "skapstór",
+				"value": "4"
+			},
+			{
+				"text": "óstöðugur",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "illgjarn náungi",
+				"value": "0"
+			},
+			{
+				"text": "umdeild manneskja",
+				"value": "1"
+			},
+			{
+				"text": "geðþekkur náungi",
+				"value": "2"
+			},
+			{
+				"text": "viðkunnanlegur náungi",
+				"value": "3"
+			},
+			{
+				"text": "vinsæll náungi",
+				"value": "4"
+			},
+			{
+				"text": "ástsæll liðsfélagi",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Spila rólega",
+				"value": "-1"
+			},
+			{
+				"text": "Venjuleg",
+				"value": "0"
+			},
+			{
+				"text": "Leikur tímabilsins",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "ekki til staðar",
+				"value": "0"
+			},
+			{
+				"text": "skelfilegt",
+				"value": "1"
+			},
+			{
+				"text": "hörmulegt",
+				"value": "2"
+			},
+			{
+				"text": "lélegt",
+				"value": "3"
+			},
+			{
+				"text": "gott",
+				"value": "4"
+			},
+			{
+				"text": "sterkt",
+				"value": "5"
+			},
+			{
+				"text": "dásamlegt",
+				"value": "6"
+			},
+			{
+				"text": "örlítið yfirdrifið",
+				"value": "7"
+			},
+			{
+				"text": "yfirdrifið",
+				"value": "8"
+			},
+			{
+				"text": "gjörsamlega yfirdrifið",
+				"value": "9"
+			}
+		],
+		"desc": "Íslenska",
+		"fans": [
+			{
+				"text": "Morðóðir",
+				"value": "0"
+			},
+			{
+				"text": "Brjálaðir",
+				"value": "1"
+			},
+			{
+				"text": "Reiðir",
+				"value": "2"
+			},
+			{
+				"text": "Pirraðir",
+				"value": "3"
+			},
+			{
+				"text": "Vonsviknir",
+				"value": "4"
+			},
+			{
+				"text": "Rólegir",
+				"value": "5"
+			},
+			{
+				"text": "Í góðu skapi",
+				"value": "6"
+			},
+			{
+				"text": "Sáttir",
+				"value": "7"
+			},
+			{
+				"text": "Ánægðir",
+				"value": "8"
+			},
+			{
+				"text": "Í sjöunda himni",
+				"value": "9"
+			},
+			{
+				"text": "Dansandi á götunum",
+				"value": "10"
+			},
+			{
+				"text": "Senda ástarljóð til þín",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Okkur verður rústað",
+				"value": "0"
+			},
+			{
+				"text": "Við höndlum ekki leikinn",
+				"value": "1"
+			},
+			{
+				"text": "Við munum tapa",
+				"value": "2"
+			},
+			{
+				"text": "Þeir eru líklegri",
+				"value": "3"
+			},
+			{
+				"text": "Þeir hafa yfirhöndina",
+				"value": "4"
+			},
+			{
+				"text": "Þetta verður jafnt",
+				"value": "5"
+			},
+			{
+				"text": "Við höfum yfirhöndina",
+				"value": "6"
+			},
+			{
+				"text": "Við erum líklegri",
+				"value": "7"
+			},
+			{
+				"text": "Við vinnum leikinn",
+				"value": "8"
+			},
+			{
+				"text": "Ekkert mál",
+				"value": "9"
+			},
+			{
+				"text": "Við munum rústa þeim",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Við eigum ekki heima í þessari deild",
+				"value": "0"
+			},
+			{
+				"text": "Við erum þakklát fyrir að fá að vera í deildinni",
+				"value": "1"
+			},
+			{
+				"text": "Við verðum að berjast til að halda okkur uppi",
+				"value": "2"
+			},
+			{
+				"text": "Það er ásættanlegt að enda í miðri deild",
+				"value": "3"
+			},
+			{
+				"text": "Við eigum að vera meðal fjögurra efstu",
+				"value": "4"
+			},
+			{
+				"text": "Við reynum við titilinn!",
+				"value": "5"
+			},
+			{
+				"text": "Við eigum að vinna þetta tímabil",
+				"value": "6"
+			},
+			{
+				"text": "Við erum svo miklu betri en aðrir!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "illræmdur",
+				"value": "0"
+			},
+			{
+				"text": "óheiðarlegur",
+				"value": "1"
+			},
+			{
+				"text": "heiðarlegur",
+				"value": "2"
+			},
+			{
+				"text": "hreinskilinn",
+				"value": "3"
+			},
+			{
+				"text": "réttsýnn",
+				"value": "4"
+			},
+			{
+				"text": "dýrlingur",
+				"value": "5"
+			}
+		],
+		"id": "25",
+		"leagueNames": {
+			"1": "Svíþjóð",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apasa deildin - Takmörkuð Deildarútgáfa",
+			"1002": "Hattrick Afmælisdeildin",
+			"1003": "Deild Heimamanna",
+			"101": "Malta",
+			"102": "Kirgistan",
+			"103": "Moldóva",
+			"104": "Georgía",
+			"105": "Andorra",
+			"106": "Jórdan",
+			"107": "Gvatemala",
+			"11": "Danmörk",
+			"110": "Trínidad & Tóbago",
+			"111": "Níkaragva",
+			"112": "Kasakstan",
+			"113": "Súrínam",
+			"117": "Furstadæmið Liechtenstein",
+			"118": "Alsír",
+			"119": "Mongólía",
+			"12": "Finnland",
+			"120": "Líbanon",
+			"121": "Senegal",
+			"122": "Armenía",
+			"123": "Barein",
+			"124": "Barbados",
+			"125": "Grænhöfðaeyjar",
+			"126": "Fílabeinsströndin",
+			"127": "Kúveit",
+			"128": "Írak",
+			"129": "Aserbaídsjan",
+			"130": "Angóla",
+			"131": "Svartfjallaland",
+			"132": "Bangladess",
+			"133": "Jemen",
+			"134": "Óman",
+			"135": "Mósambík",
+			"136": "Brúnei",
+			"137": "Gana",
+			"138": "Kambódía",
+			"139": "Benín",
+			"14": "Holland",
+			"140": "Sýrland",
+			"141": "Katar",
+			"142": "Tanzanía",
+			"143": "Úganda",
+			"144": "Maldíveyjar",
+			"145": "Úsbekistan",
+			"146": "Kamerún",
+			"147": "Kúba",
+			"148": "Palestína",
+			"149": "São Tomé e Príncipe",
+			"15": "Ástralía",
+			"151": "Comoros",
+			"152": "Srí Lanka",
+			"153": "Kúrakaá",
+			"154": "Gúam",
+			"155": "Lýðveldið Kongó",
+			"156": "Eþíópía",
+			"157": "Saint Vincent og Granada",
+			"158": "Belís",
+			"159": "Madagaskar",
+			"16": "Brasilía",
+			"160": "Botsvana",
+			"161": "Mýanmar",
+			"162": "Zamibía",
+			"163": "San Marínó",
+			"164": "Haití",
+			"165": "Púertó Ríkó",
+			"166": "Grenada",
+			"167": "Búrkína Fasó",
+			"168": "Nepal",
+			"169": "Gvæjana",
+			"17": "Kanada",
+			"170": "Tahítí",
+			"171": "Gínea",
+			"172": "Bahamas",
+			"173": "Rúanda",
+			"174": "Sankti Kitts og Nevis",
+			"175": "Miðbaugs-Gínea",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Síle",
+			"19": "Kólombía",
+			"2": "England",
+			"20": "Indland",
+			"21": "Írland",
+			"22": "Japan",
+			"23": "Perú",
+			"24": "Pólland",
+			"25": "Portúgal",
+			"26": "Skotland",
+			"27": "Suður Afríka",
+			"28": "Úrúgvæ",
+			"29": "Venesúela",
+			"3": "Þýskaland",
+			"30": "Suður Kórea",
+			"31": "Tæland",
+			"32": "Tyrkland",
+			"33": "Egyptaland",
+			"34": "Kína",
+			"35": "Rússland",
+			"36": "Spánn",
+			"37": "Rúmenía",
+			"38": "Ísland",
+			"39": "Austurríki",
+			"4": "Ítalía",
+			"44": "Belgía",
+			"45": "Malasía",
+			"46": "Sviss",
+			"47": "Singapúr",
+			"5": "Frakkland",
+			"50": "Grikkland",
+			"51": "Ungverjaland",
+			"52": "Tékkland",
+			"53": "Lettland",
+			"54": "Indónesía",
+			"55": "Filippseyjar",
+			"56": "Eistland",
+			"57": "Serbía",
+			"58": "Króatía",
+			"59": "Hong Kong, Kína",
+			"6": "Mexíkó",
+			"60": "Taívan",
+			"61": "Wales",
+			"62": "Búlgaría",
+			"63": "Ísrael",
+			"64": "Slóvenía",
+			"66": "Litháen",
+			"67": "Slóvakía",
+			"68": "Úkranía",
+			"69": "Bosnía og Hersegóvína",
+			"7": "Argentína",
+			"70": "Víetnam",
+			"71": "Pakistan",
+			"72": "Paragvæ",
+			"73": "Ekvador",
+			"74": "Bólivía",
+			"75": "Nígería",
+			"76": "Færeyjar",
+			"77": "Marokkó",
+			"79": "Sádi-Arabía",
+			"8": "Bandaríkin",
+			"80": "Túnis",
+			"81": "Kostaríka",
+			"83": "Sameinuðu Arabísku Furstadæmin",
+			"84": "Lúxemborg",
+			"85": "Íran",
+			"88": "Dóminíska lýðveldið",
+			"89": "Kýpur",
+			"9": "Noregur",
+			"91": "Hvíta Rússland",
+			"93": "Norður Írland",
+			"94": "Jamaíka",
+			"95": "Kenía",
+			"96": "Panama",
+			"97": "Norður Makedónía",
+			"98": "Albanía",
+			"99": "Hondúras"
+		},
+		"levels": [
+			{
+				"text": "Ófær",
+				"value": "0"
+			},
+			{
+				"text": "skelfilegur",
+				"value": "1"
+			},
+			{
+				"text": "hörmulegur",
+				"value": "2"
+			},
+			{
+				"text": "lélegur",
+				"value": "3"
+			},
+			{
+				"text": "slakur",
+				"value": "4"
+			},
+			{
+				"text": "ófullnægjandi",
+				"value": "5"
+			},
+			{
+				"text": "sæmilegur",
+				"value": "6"
+			},
+			{
+				"text": "sterkur",
+				"value": "7"
+			},
+			{
+				"text": "frábær",
+				"value": "8"
+			},
+			{
+				"text": "æðislegur",
+				"value": "9"
+			},
+			{
+				"text": "framúrskarandi",
+				"value": "10"
+			},
+			{
+				"text": "afburðasnjall",
+				"value": "11"
+			},
+			{
+				"text": "stórkostlegur",
+				"value": "12"
+			},
+			{
+				"text": "heimsklassi",
+				"value": "13"
+			},
+			{
+				"text": "yfirnáttúrulegur",
+				"value": "14"
+			},
+			{
+				"text": "ótrúlegur",
+				"value": "15"
+			},
+			{
+				"text": "ójarðneskur",
+				"value": "16"
+			},
+			{
+				"text": "goðsagnakenndur",
+				"value": "17"
+			},
+			{
+				"text": "töfrum líkastur",
+				"value": "18"
+			},
+			{
+				"text": "ofurmannlegur",
+				"value": "19"
+			},
+			{
+				"text": "guðdómlegur",
+				"value": "20"
+			}
+		],
+		"name": "is",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Markmaður"
+			},
+			{
+				"type": "WingBack",
+				"value": "Bakvörður"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Varnarmaður"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Miðjumaður"
+			},
+			{
+				"type": "Winger",
+				"value": "Kantur"
+			},
+			{
+				"type": "Forward",
+				"value": "Framherji"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "Mjög lágt",
+				"value": "0"
+			},
+			{
+				"text": "Lágt",
+				"value": "0.25"
+			},
+			{
+				"text": "Hátt",
+				"value": "0.5"
+			},
+			{
+				"text": "Mjög hátt",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Miðja"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Hægri vörn"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Miðju vörn"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Vinstri vörn"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Hægri sókn"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Miðju sókn"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Vinstri sókn"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Markvarsla"
+			},
+			{
+				"type": "Stamina",
+				"value": "Úthald"
+			},
+			{
+				"type": "Defender",
+				"value": "Vörn"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Leiktækni"
+			},
+			{
+				"type": "Winger",
+				"value": "Kantur"
+			},
+			{
+				"type": "Scorer",
+				"value": "Sóknargeta"
+			},
+			{
+				"type": "Kicker",
+				"value": "Föst Leikatriði"
+			},
+			{
+				"type": "Passer",
+				"value": "Sendingar"
+			},
+			{
+				"type": "Experience",
+				"value": "Reynsla"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Leiðtogahæfileikar"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Ekkert sérsvið"
+			},
+			{
+				"type": "Technical",
+				"value": "Tæknilegur"
+			},
+			{
+				"type": "Quick",
+				"value": "Snöggur"
+			},
+			{
+				"type": "Powerful",
+				"value": "Kraftmikill"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Óútreiknanlegur"
+			},
+			{
+				"type": "Head",
+				"value": "Skallamaður"
+			},
+			{
+				"type": "Resilient",
+				"value": "Hraustmenni"
+			},
+			{
+				"type": "Support",
+				"value": "Traustur"
+			}
+		],
+		"spirit": [
+			{
+				"text": "mínus hundrað gráður",
+				"value": "0"
+			},
+			{
+				"text": "morðóður",
+				"value": "1"
+			},
+			{
+				"text": "trylltur",
+				"value": "2"
+			},
+			{
+				"text": "pirraður",
+				"value": "3"
+			},
+			{
+				"text": "yfirvegaður",
+				"value": "4"
+			},
+			{
+				"text": "rólegur",
+				"value": "5"
+			},
+			{
+				"text": "þokkalegur",
+				"value": "6"
+			},
+			{
+				"text": "ánægjulegur",
+				"value": "7"
+			},
+			{
+				"text": "æðislegur",
+				"value": "8"
+			},
+			{
+				"text": "í sjöunda himni",
+				"value": "9"
+			},
+			{
+				"text": "Paradís á jörðu!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "Morðóðir",
+				"value": "0"
+			},
+			{
+				"text": "Brjálaðir",
+				"value": "1"
+			},
+			{
+				"text": "Pirraðir",
+				"value": "2"
+			},
+			{
+				"text": "Rólegir",
+				"value": "3"
+			},
+			{
+				"text": "Í góðu skapi",
+				"value": "4"
+			},
+			{
+				"text": "Sáttir",
+				"value": "5"
+			},
+			{
+				"text": "Ánægðir",
+				"value": "6"
+			},
+			{
+				"text": "Í sjöunda himni",
+				"value": "7"
+			},
+			{
+				"text": "Dansandi á götunum",
+				"value": "8"
+			},
+			{
+				"text": "Senda ástarljóð til þín",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Venjuleg"
+			},
+			{
+				"type": "pressing",
+				"value": "Pressa"
+			},
+			{
+				"type": "ca",
+				"value": "Skyndisóknir"
+			},
+			{
+				"type": "aim",
+				"value": "Sókn á miðju"
+			},
+			{
+				"type": "aow",
+				"value": "Sókn á köntum"
+			},
+			{
+				"type": "",
+				"value": "Óvitað"
+			},
+			{
+				"type": "",
+				"value": "Óvitað"
+			},
+			{
+				"type": "creatively",
+				"value": "Spila skapandi"
+			},
+			{
+				"type": "longshots",
+				"value": "Langskot"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Almenn (Form)"
+			},
+			{
+				"type": "Sta",
+				"value": "Úthald"
+			},
+			{
+				"type": "SP",
+				"value": "Föst leikatriði"
+			},
+			{
+				"type": "Def",
+				"value": "Vörn"
+			},
+			{
+				"type": "Sco",
+				"value": "Sóknargeta"
+			},
+			{
+				"type": "Cross",
+				"value": "Kantur"
+			},
+			{
+				"type": "Shoot",
+				"value": "Markskot og Föst Leikatriði"
+			},
+			{
+				"type": "Pass",
+				"value": "Sendingar"
+			},
+			{
+				"type": "PM",
+				"value": "Leiktækni"
+			},
+			{
+				"type": "GK",
+				"value": "Markmaður"
+			},
+			{
+				"type": "ThPass",
+				"value": "Sendingar (Varnar- & Miðjumenn)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Vörn (Mark-, Varnar- & Miðjumenn)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Kantur (Kant- & Sóknarmenn)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Einstaklingsbundin"
+			}
+		]
+	}
+}

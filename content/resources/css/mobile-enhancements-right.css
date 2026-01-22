@@ -1,0 +1,11 @@
+html[data-theme='simple'] .main, html[data-theme='simple'] .subMenu, html[data-theme='simple'] #header, html[data-theme='simple'] #bottom
+{
+	display:none !important
+}
+
+html[data-theme='simple'] .hattrick,
+html[data-theme='simple'] .hattrickNoSupporter,
+html[data-theme='simple'] #page
+{
+	width:190px!important;
+}

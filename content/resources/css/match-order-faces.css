@@ -1,0 +1,14 @@
+#field .shirt .nr {
+  z-index: 9 !important;
+  top: 31px !important;
+  left: 0px !important;
+}
+
+/* replace HT faces */
+#orders .faceCard {
+	display: none;
+}
+#face .faceCard {
+    display: block;
+}
+

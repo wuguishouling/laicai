@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "roleg",
+				"value": "0"
+			},
+			{
+				"text": "sindig",
+				"value": "1"
+			},
+			{
+				"text": "balansert",
+				"value": "2"
+			},
+			{
+				"text": "hissig",
+				"value": "3"
+			},
+			{
+				"text": "varmblodig",
+				"value": "4"
+			},
+			{
+				"text": "ustabil",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "ufin type",
+				"value": "0"
+			},
+			{
+				"text": "kontroversiell person",
+				"value": "1"
+			},
+			{
+				"text": "hyggjeleg kar",
+				"value": "2"
+			},
+			{
+				"text": "sympatisk type",
+				"value": "3"
+			},
+			{
+				"text": "populær kar",
+				"value": "4"
+			},
+			{
+				"text": "kjær lagkamerat",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Ta det roleg",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Den viktigaste kampen i sesongen",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "fråverande",
+				"value": "0"
+			},
+			{
+				"text": "katastrofal",
+				"value": "1"
+			},
+			{
+				"text": "elendig",
+				"value": "2"
+			},
+			{
+				"text": "dårleg",
+				"value": "3"
+			},
+			{
+				"text": "brukande",
+				"value": "4"
+			},
+			{
+				"text": "solid",
+				"value": "5"
+			},
+			{
+				"text": "glimrande",
+				"value": "6"
+			},
+			{
+				"text": "lett overdriven",
+				"value": "7"
+			},
+			{
+				"text": "overdriven",
+				"value": "8"
+			},
+			{
+				"text": "heilt overdriven",
+				"value": "9"
+			}
+		],
+		"desc": "Norsk, nynorsk",
+		"fans": [
+			{
+				"text": "mordariske",
+				"value": "0"
+			},
+			{
+				"text": "rasande",
+				"value": "1"
+			},
+			{
+				"text": "sinte",
+				"value": "2"
+			},
+			{
+				"text": "irriterte",
+				"value": "3"
+			},
+			{
+				"text": "skuffa",
+				"value": "4"
+			},
+			{
+				"text": "rolege",
+				"value": "5"
+			},
+			{
+				"text": "tilfredse",
+				"value": "6"
+			},
+			{
+				"text": "godt nøgde",
+				"value": "7"
+			},
+			{
+				"text": "opprømde",
+				"value": "8"
+			},
+			{
+				"text": "euforiske",
+				"value": "9"
+			},
+			{
+				"text": "i den sjuande himmelen",
+				"value": "10"
+			},
+			{
+				"text": "Sender deg kjærleiksbrev",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Best å ikkje møta fram",
+				"value": "0"
+			},
+			{
+				"text": "Dei kjem til å rundspela oss",
+				"value": "1"
+			},
+			{
+				"text": "Me kjem til å tapa",
+				"value": "2"
+			},
+			{
+				"text": "Dei er favorittar",
+				"value": "3"
+			},
+			{
+				"text": "Dei har overtaket",
+				"value": "4"
+			},
+			{
+				"text": "Det vert ein jamn kamp",
+				"value": "5"
+			},
+			{
+				"text": "Me har overtaket",
+				"value": "6"
+			},
+			{
+				"text": "Me er favorittar",
+				"value": "7"
+			},
+			{
+				"text": "Me kjem til å vinna",
+				"value": "8"
+			},
+			{
+				"text": "Som å stela sukkerty frå småungar",
+				"value": "9"
+			},
+			{
+				"text": "Lat oss audmjuka dei",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Me er ikkje gode nok til å spela i denne divisjonen",
+				"value": "0"
+			},
+			{
+				"text": "Kvar dag i denne divisjonen er ein bonus",
+				"value": "1"
+			},
+			{
+				"text": "Me må stå på for å berga plassen",
+				"value": "2"
+			},
+			{
+				"text": "Ei plassering midt på tabellen er fint",
+				"value": "3"
+			},
+			{
+				"text": "Me høyrer heime mellom dei 4 beste",
+				"value": "4"
+			},
+			{
+				"text": "Me går for fyrsteplassen!",
+				"value": "5"
+			},
+			{
+				"text": "Me må vinna denne sesongen",
+				"value": "6"
+			},
+			{
+				"text": "Me er altfor gode for denne divisjonen!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "lystløgnar",
+				"value": "0"
+			},
+			{
+				"text": "uærleg",
+				"value": "1"
+			},
+			{
+				"text": "ærleg",
+				"value": "2"
+			},
+			{
+				"text": "reieleg",
+				"value": "3"
+			},
+			{
+				"text": "rettvis",
+				"value": "4"
+			},
+			{
+				"text": "helgenaktig",
+				"value": "5"
+			}
+		],
+		"id": "136",
+		"leagueNames": {
+			"1": "Sverige",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apache Liga (Tidsavgrensa versjon)",
+			"1002": "Hattrick jubileumsliga",
+			"1003": "Homegrown-ligaen",
+			"101": "Malta",
+			"102": "Kirgisistan",
+			"103": "Moldova",
+			"104": "Georgia",
+			"105": "Andorra",
+			"106": "Jordan",
+			"107": "Guatemala",
+			"11": "Danmark",
+			"110": "Trinidad og Tobago",
+			"111": "Nicaragua",
+			"112": "Kasakhstan",
+			"113": "Surinam",
+			"117": "Liechtenstein",
+			"118": "Algerie",
+			"119": "Mongolia",
+			"12": "Finland",
+			"120": "Libanon",
+			"121": "Senegal",
+			"122": "Armenia",
+			"123": "Bahrain",
+			"124": "Barbados",
+			"125": "Kapp Verde",
+			"126": "Elfenbeinskysten",
+			"127": "Kuwait",
+			"128": "Irak",
+			"129": "Aserbajdsjan",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Bangladesh",
+			"133": "Jemen",
+			"134": "Oman",
+			"135": "Mosambik",
+			"136": "Brunei",
+			"137": "Ghana",
+			"138": "Kambodsja",
+			"139": "Benin",
+			"14": "Nederland",
+			"140": "Syria",
+			"141": "Qatar",
+			"142": "Tanzania",
+			"143": "Uganda",
+			"144": "Maldivane",
+			"145": "Usbekistan",
+			"146": "Kamerun",
+			"147": "Cuba",
+			"148": "Palestina",
+			"149": "São Tomé og Príncipe",
+			"15": "Oseania",
+			"151": "Komorane",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "Kongo",
+			"156": "Etiopia",
+			"157": "Saint Vincent og Grenadinane",
+			"158": "Belize",
+			"159": "Madagaskar",
+			"16": "Brasil",
+			"160": "Botswana",
+			"161": "Myanmar",
+			"162": "Zambia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Puerto Rico",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Guyana",
+			"17": "Canada",
+			"170": "Tahiti",
+			"171": "Guinea",
+			"172": "Bahamas",
+			"173": "Rwanda",
+			"174": "Saint Kitts and Nevis",
+			"175": "Equatorial Guinea",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Chile",
+			"19": "Colombia",
+			"2": "England",
+			"20": "India",
+			"21": "Irland",
+			"22": "Japan",
+			"23": "Peru",
+			"24": "Polen",
+			"25": "Portugal",
+			"26": "Skottland",
+			"27": "Sør-Afrika",
+			"28": "Uruguay",
+			"29": "Venezuela",
+			"3": "Tyskland",
+			"30": "Sør-Korea",
+			"31": "Thailand",
+			"32": "Tyrkia",
+			"33": "Egypt",
+			"34": "Folkerepublikken Kina",
+			"35": "Russland",
+			"36": "Spania",
+			"37": "Romania",
+			"38": "Island",
+			"39": "Austerrike",
+			"4": "Italia",
+			"44": "Belgia",
+			"45": "Malaysia",
+			"46": "Sveits",
+			"47": "Singapore",
+			"5": "Frankrike",
+			"50": "Hellas",
+			"51": "Ungarn",
+			"52": "Tsjekkia",
+			"53": "Latvia",
+			"54": "Indonesia",
+			"55": "Filippinane",
+			"56": "Estland",
+			"57": "Serbia",
+			"58": "Kroatia",
+			"59": "Hong Kong, Kina",
+			"6": "Mexico",
+			"60": "Taiwan",
+			"61": "Wales",
+			"62": "Bulgaria",
+			"63": "Israel",
+			"64": "Slovenia",
+			"66": "Litauen",
+			"67": "Slovakia",
+			"68": "Ukraina",
+			"69": "Bosnia-Hercegovina",
+			"7": "Argentina",
+			"70": "Vietnam",
+			"71": "Pakistan",
+			"72": "Paraguay",
+			"73": "Ecuador",
+			"74": "Bolivia",
+			"75": "Nigeria",
+			"76": "Færøyane",
+			"77": "Marokko",
+			"79": "Saudi-Arabia",
+			"8": "Sambandsstatane (USA)",
+			"80": "Tunisia",
+			"81": "Costa Rica",
+			"83": "Dei sameinte arabiske emirata",
+			"84": "Luxembourg",
+			"85": "Iran",
+			"88": "Den dominikanske republikken",
+			"89": "Kypros",
+			"9": "Noreg",
+			"91": "Belarus",
+			"93": "Nord-Irland",
+			"94": "Jamaica",
+			"95": "Kenya",
+			"96": "Panama",
+			"97": "Nord-Makedonia",
+			"98": "Albania",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "fråverande",
+				"value": "0"
+			},
+			{
+				"text": "katastrofal",
+				"value": "1"
+			},
+			{
+				"text": "elendig",
+				"value": "2"
+			},
+			{
+				"text": "dårleg",
+				"value": "3"
+			},
+			{
+				"text": "veik",
+				"value": "4"
+			},
+			{
+				"text": "måteleg",
+				"value": "5"
+			},
+			{
+				"text": "brukbar",
+				"value": "6"
+			},
+			{
+				"text": "solid",
+				"value": "7"
+			},
+			{
+				"text": "utmerkt",
+				"value": "8"
+			},
+			{
+				"text": "eineståande",
+				"value": "9"
+			},
+			{
+				"text": "framifrå",
+				"value": "10"
+			},
+			{
+				"text": "glitrande",
+				"value": "11"
+			},
+			{
+				"text": "storveges",
+				"value": "12"
+			},
+			{
+				"text": "fantastisk",
+				"value": "13"
+			},
+			{
+				"text": "eventyrleg",
+				"value": "14"
+			},
+			{
+				"text": "titanisk",
+				"value": "15"
+			},
+			{
+				"text": "utanomjordisk",
+				"value": "16"
+			},
+			{
+				"text": "mytisk",
+				"value": "17"
+			},
+			{
+				"text": "magisk",
+				"value": "18"
+			},
+			{
+				"text": "utopisk",
+				"value": "19"
+			},
+			{
+				"text": "guddomleg",
+				"value": "20"
+			}
+		],
+		"name": "nn-NO",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Målvakt"
+			},
+			{
+				"type": "WingBack",
+				"value": "Sideforsvarar"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Midtstoppar"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Sentral midtbane"
+			},
+			{
+				"type": "Winger",
+				"value": "Kantspelar"
+			},
+			{
+				"type": "Forward",
+				"value": "Angripar"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "svært låg",
+				"value": "0"
+			},
+			{
+				"text": "låg",
+				"value": "0.25"
+			},
+			{
+				"text": "høg",
+				"value": "0.5"
+			},
+			{
+				"text": "svært høg",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Midtbane"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Høgre side forsvar"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Midtforsvar"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Venstre side forsvar"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Høgre side angrep"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Sentralangrep"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Venstre side angrep"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Målvakt"
+			},
+			{
+				"type": "Stamina",
+				"value": "Kondisjon"
+			},
+			{
+				"type": "Defender",
+				"value": "Forsvar"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Ballfordeling"
+			},
+			{
+				"type": "Winger",
+				"value": "Kantspel"
+			},
+			{
+				"type": "Scorer",
+				"value": "Målskåring"
+			},
+			{
+				"type": "Kicker",
+				"value": "Daudball"
+			},
+			{
+				"type": "Passer",
+				"value": "Pasningar"
+			},
+			{
+				"type": "Experience",
+				"value": "Røynsle"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Leiarevne"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Ingen spesialitet"
+			},
+			{
+				"type": "Technical",
+				"value": "Teknisk"
+			},
+			{
+				"type": "Quick",
+				"value": "Snøgg"
+			},
+			{
+				"type": "Powerful",
+				"value": "Sterk"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Omskifteleg"
+			},
+			{
+				"type": "Head",
+				"value": "Hovud"
+			},
+			{
+				"type": "Resilient",
+				"value": "Seiging"
+			},
+			{
+				"type": "Support",
+				"value": "Lagspelar"
+			}
+		],
+		"spirit": [
+			{
+				"text": "som den kalde krigen",
+				"value": "0"
+			},
+			{
+				"text": "mordariske",
+				"value": "1"
+			},
+			{
+				"text": "rasande",
+				"value": "2"
+			},
+			{
+				"text": "irriterte",
+				"value": "3"
+			},
+			{
+				"text": "fatta",
+				"value": "4"
+			},
+			{
+				"text": "rolege",
+				"value": "5"
+			},
+			{
+				"text": "tilfredse",
+				"value": "6"
+			},
+			{
+				"text": "godt nøgde",
+				"value": "7"
+			},
+			{
+				"text": "opprømde",
+				"value": "8"
+			},
+			{
+				"text": "går på skyer",
+				"value": "9"
+			},
+			{
+				"text": "Paradis på jord!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "mordariske",
+				"value": "0"
+			},
+			{
+				"text": "rasande",
+				"value": "1"
+			},
+			{
+				"text": "irriterte",
+				"value": "2"
+			},
+			{
+				"text": "rolege",
+				"value": "3"
+			},
+			{
+				"text": "tilfredse",
+				"value": "4"
+			},
+			{
+				"text": "nøgde",
+				"value": "5"
+			},
+			{
+				"text": "opprømde",
+				"value": "6"
+			},
+			{
+				"text": "euforiske",
+				"value": "7"
+			},
+			{
+				"text": "i den sjuande himmelen",
+				"value": "8"
+			},
+			{
+				"text": "Sender deg kjærleiksbrev",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Press"
+			},
+			{
+				"type": "ca",
+				"value": "Kontringsspel"
+			},
+			{
+				"type": "aim",
+				"value": "Angrip i midten"
+			},
+			{
+				"type": "aow",
+				"value": "Angrip på kantane"
+			},
+			{
+				"type": "",
+				"value": "Ukjend"
+			},
+			{
+				"type": "",
+				"value": "Ukjend"
+			},
+			{
+				"type": "creatively",
+				"value": "Spel kreativt"
+			},
+			{
+				"type": "longshots",
+				"value": "Skot frå distanse"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Generelt (Form)"
+			},
+			{
+				"type": "Sta",
+				"value": "Kondisjon"
+			},
+			{
+				"type": "SP",
+				"value": "Daudballar"
+			},
+			{
+				"type": "Def",
+				"value": "Forsvar"
+			},
+			{
+				"type": "Sco",
+				"value": "Målskåring"
+			},
+			{
+				"type": "Cross",
+				"value": "Kantspel"
+			},
+			{
+				"type": "Shoot",
+				"value": "Målskåring og daudball"
+			},
+			{
+				"type": "Pass",
+				"value": "Pasning"
+			},
+			{
+				"type": "PM",
+				"value": "Ballfordeling"
+			},
+			{
+				"type": "GK",
+				"value": "Målvakt"
+			},
+			{
+				"type": "ThPass",
+				"value": "Pasning (forsvarsspelarar + alle midtbanespelarar)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Forsvar (målvaktar, forsvarsspelarar + alle midtbanespelarar)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Kantspel (kantspelarar + angrepsspelarar)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individuell"
+			}
+		]
+	}
+}

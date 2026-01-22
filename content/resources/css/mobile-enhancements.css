@@ -1,0 +1,218 @@
+div[class^="ad_"] {display: none !important;}
+.ft-mobile #ctl00_ctl00_pnlMobileLink {display:none !important;}
+
+/* width, float */
+.hattrick.ft-mobile , .hattrickNoSupporter.ft-mobile  {position:relative;}
+.ft-mobile .mainWrapperWide, .ft-mobile .mainWrapperRegular, .ft-mobile .mainWrapperConf, .ft-mobile .mainWrapperFull {float:none !important; background-color:white}
+.ft-mobile .mainRegular, .ft-mobile .mainWide, .ft-mobile .mainFull, .ft-mobile .mainConf, .ft-mobile .mainText2ColumnWrapper {width:auto !important;}
+.ft-mobile #top, .ft-mobile #footer {width: auto !important;}
+.hattrick.ft-mobile , .hattrickNoSupporter.ft-mobile , .ft-mobile #page,
+.ft-mobile .mainWrapperRegular, .ft-mobile .mainWrapperConf, .ft-mobile .main
+{width:auto !important; float: none !important;}
+
+/* some random width i found */
+.ft-mobile .quickFacts, .ft-mobile .insertBody,
+.ft-mobile .notebook, .ft-mobile textarea.large,
+.ft-mobile a.featuredShopItem, .ft-mobile div.featuredShopItemText,
+.ft-mobile #fbErrorBox, .ft-mobile .fbSendBox , .ft-mobile .sendBoxHeader
+ {width:auto !important;}
+
+/*textarea.medium{width:400px;height:100px;}
+.forumScrollContent {position:relative;width:501px;}
+div.scEditSC .txtb{width:300px;}
+.main .liveMatchContainer{float:left; width:490px;
+.notebook,textarea.large{width:400px;
+.treeNavUp, .treeNavDown */
+
+
+ /* limit images */
+ .ft-mobile #content img { max-width: 250px;}
+
+ /* kicking */
+.ft-mobile #ctl00_ctl00_CPContent_CPMain_radWeeklyActivityChart {display:none;}
+
+/* header */
+.ft-mobile #ticker {position: relative !important; top: 0px !important; left: auto !important; width: auto !important; float: left;}
+.ft-mobile #shortcutsNoSupporter ~ a[target="_blank"][href^="http"] {display:none}
+.ft-mobile #shortcuts, .ft-mobile #shortcutsNoSupporter, .ft-mobile #shortcutsNoSupporter .scContainerNoSupporter, .ft-mobile #shortcuts .scContainer  {width: auto !important;}
+.ft-mobile #shortcuts, .ft-mobile #shortcutsNoSupporter {position: relative !important; float: right; margin-top: 10px; top: auto !important; right: auto !important}
+.ft-mobile #logo, .ft-mobile #stageLogo {position: relative; float: left; top: auto !important; left: auto !important;}
+.ft-mobile #teamLinks, .ft-mobile #time, .ft-mobile #online, .ft-mobile #ft-local-time, .ft-mobile #ft_rapidid { margin-top: 8px !important;}
+.ft-mobile #ft_rapidid_form  {bottom : 0px !important;}
+/*.ft-mobile  #ctl00_ctl00_ucOngoingEvents_pnlOngoingEvents {display:none}*/
+
+/* menu setup */
+.ft-mobile #menu {
+	right: -10px !important;
+	left: -10px !important;
+	height: auto !important;
+	width: 130px !important;
+	font-size: 1.1em !important;
+	bottom: 24px !important;
+	overflow: hidden;
+	white-space:nowrap;
+}
+.ft-mobile #menu a {
+	border-bottom: 1px solid #176F21;
+	border-top: 1px solid #479F51;
+	margin: 0px !important;
+	padding: 5px !important;
+	float: none !important;
+	height: auto !important;
+	line-height: inherit !important;
+}
+/* kick stage link to have same menu size */
+.ft-mobile #menu a[href^="/Forum/Overview.aspx"] { display:none !important;}
+
+/* menu drop down */
+#mobile_header_center {
+	background-color: #277F31;
+	position: relative;
+	width: 110px;
+	z-index: 10030;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0 0 6px 6px;
+	box-shadow: 0 -3px rgba(0, 0, 0, .2) inset;
+}
+#mobile_header_center_tab{
+	width: 70px !important;
+	margin: auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#mobile_header_center  a {
+	padding: 5px !important;
+	display: block !important;
+	color: white !important;
+	font-weight: 700;
+	text-decoration: none;
+	text-align: center;
+}
+#mobile_header_center.out    {
+	top: 207px;
+	transition: .5s top ease;
+}
+#mobile_header_center  {
+	top: -1px;
+	transition: .5s top ease;
+}
+#mobile_header {height: 30px; position:fixed; width:100%}
+.ft-mobile #header {margin-top:30px;}
+
+
+.ft-mobile #page, .ft-mobile #footer {
+	padding: 0px !important;
+	position:relative;
+	top:0px;
+}
+
+/* transitions left, right, top */
+.ft-mobile #header {
+	z-index: 10020;
+	background-color:white;
+	border-bottom: 2px solid #849D84;
+	padding-bottom: 5px;
+	transition: .5s top ease;
+	top: -1px;
+	height: auto !important;
+	display: inline-block;
+}
+.ft-mobile #header.out {top: -300px; height: 0px !important; padding-bottom: 0px !important; margin-bottom: -2px;}
+
+.ft-mobile #sidebar, .ft-mobile .subMenu, .ft-mobile .subMenuConf
+{
+	z-index: 10010;
+	position:absolute;
+	background-color:white;
+	border: 2px solid #849D84;
+	padding: 2px;
+
+ 	-webkit-perspective: 300;
+ 	perspective: 300;
+
+	transition: 1s transform ease 0s, 1s opacity ease 0s;
+
+	-webkit-transform: rotateX(0deg);
+	transform: rotateX(0deg);
+
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.ft-mobile #sidebar  {
+	right: 0px;
+	top: 0px;
+}
+.ft-mobile .subMenu, .ft-mobile .subMenuConf  {
+	left: 0px;
+	top: 0px;
+}
+.ft-mobile .subMenu.out {
+	opacity: 0;
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.ft-mobile .subMenuConf.out {
+ 	opacity: 0;
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.ft-mobile #sidebar.out {
+	opacity: 0;
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+
+.ft-mobile #content, .ft-mobile #bottom {
+	position: relative;
+	background-color:white;
+}
+.ft-mobile #content {
+	margin-bottom:0px !important;
+	padding-top:0px !important;
+	border-right: solid 1px #DDD;
+	border-left: solid 1px #DDD;
+}
+.ft-mobile #bottom {
+	border-right: solid 1px #DDD;
+	border-left: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+}
+
+/* font */
+.ft-mobile a {font-size: 1.2em; padding: 3px;}
+
+/* general */
+.ft-mobile .nowrap {white-space:normal !important; word-wrap:break-word;}
+/* tables */
+.ft-mobile table, .ft-mobile table td, .ft-mobile table td div {white-space:normal !important; word-wrap:break-word;}
+
+/* forum read */
+.ft-mobile .cfHeader, .ft-mobile .cfHeader.doubleLine, .ft-mobile .cfHeader.singleLine {height: auto !important;}
+.ft-mobile .cfHeader .float_right {height: auto !important; float: none !important;}
+.ft-mobile .threadPaging {height: auto !important;}
+
+/* forum overview */
+.ft-mobile .frontPageList {width: 95% !important}
+.ft-mobile .frontPageList td {padding: 2px !important}
+.ft-mobile .fplLongThreadName, .ft-mobile .fplThreadInfo,
+.ft-mobile .fplLongFolderName, .ft-mobile.fplFolderName,
+.ft-mobile .fplMessageAuthor, .ft-mobile .fplThreadName {width: auto !important;}
+.ft-mobile .fplPreview, .ft-mobile .fplRead {display:none;}
+
+/* lineup */
+.ft-mobile #list  {margin: 0px !important;}
+.ft-mobile #order_tabs {margin-left: -5px !important;}
+
+/* league */
+html .ft-mobile  table.ft_league_matches {margin-right: 0px !important;}
+#ctl00_ctl00_CPContent_CPMain_repLeagueTable td {padding: 1px !important;}
+
+/* office */
+.ft-mobile .eventItem > .eventItemText, .ft-mobile .pmSpeechOuterContainer
+.ft-mobile .pmNewSpeechOuterContainer
+ {width: auto !important;}

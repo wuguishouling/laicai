@@ -1,0 +1,9 @@
+worlddetails.xml:
+https://www.hattrick.org/goto.ashx?path=/Community/CHPP/NewDocs/Example.aspx?file=worlddetails%26version=1.5
+country/league names:
+native=Country.CountryName
+native, short=ShortName
+English=EnglishName
+dev's locale=LeagueName
+user's locale: get from htlang.json
+use Foxtrick.L10n.getCountryName*

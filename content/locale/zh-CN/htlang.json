@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "安静",
+				"value": "0"
+			},
+			{
+				"text": "平静",
+				"value": "1"
+			},
+			{
+				"text": "和谐",
+				"value": "2"
+			},
+			{
+				"text": "喜怒无常",
+				"value": "3"
+			},
+			{
+				"text": "暴躁",
+				"value": "4"
+			},
+			{
+				"text": "不稳定",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "令人讨厌的球员",
+				"value": "0"
+			},
+			{
+				"text": "有争议的球员",
+				"value": "1"
+			},
+			{
+				"text": "容易相处的球员",
+				"value": "2"
+			},
+			{
+				"text": "富有同情心的球员",
+				"value": "3"
+			},
+			{
+				"text": "受欢迎的球员",
+				"value": "4"
+			},
+			{
+				"text": "受爱戴的球队成员",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "轻松随意",
+				"value": "-1"
+			},
+			{
+				"text": "普通比赛",
+				"value": "0"
+			},
+			{
+				"text": "生死之战",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "无",
+				"value": "0"
+			},
+			{
+				"text": "极其糟糕",
+				"value": "1"
+			},
+			{
+				"text": "糟糕",
+				"value": "2"
+			},
+			{
+				"text": "差",
+				"value": "3"
+			},
+			{
+				"text": "良好",
+				"value": "4"
+			},
+			{
+				"text": "强",
+				"value": "5"
+			},
+			{
+				"text": "极好",
+				"value": "6"
+			},
+			{
+				"text": "有些过头",
+				"value": "7"
+			},
+			{
+				"text": "过头",
+				"value": "8"
+			},
+			{
+				"text": "完全过头",
+				"value": "9"
+			}
+		],
+		"desc": "中文 (Chinese)",
+		"fans": [
+			{
+				"text": "极度危险",
+				"value": "0"
+			},
+			{
+				"text": "暴躁",
+				"value": "1"
+			},
+			{
+				"text": "愤怒",
+				"value": "2"
+			},
+			{
+				"text": "恼怒",
+				"value": "3"
+			},
+			{
+				"text": "失望",
+				"value": "4"
+			},
+			{
+				"text": "平静",
+				"value": "5"
+			},
+			{
+				"text": "满足",
+				"value": "6"
+			},
+			{
+				"text": "满意",
+				"value": "7"
+			},
+			{
+				"text": "极度兴奋",
+				"value": "8"
+			},
+			{
+				"text": "生活愉快",
+				"value": "9"
+			},
+			{
+				"text": "乐不可支",
+				"value": "10"
+			},
+			{
+				"text": "吟首情诗给您听",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "还是别去丢人现眼",
+				"value": "0"
+			},
+			{
+				"text": "我们比不上人家",
+				"value": "1"
+			},
+			{
+				"text": "我们会输",
+				"value": "2"
+			},
+			{
+				"text": "他们是热门",
+				"value": "3"
+			},
+			{
+				"text": "他们占优势",
+				"value": "4"
+			},
+			{
+				"text": "应该会是势均力敌的局面",
+				"value": "5"
+			},
+			{
+				"text": "我们占优势",
+				"value": "6"
+			},
+			{
+				"text": "我们是热门",
+				"value": "7"
+			},
+			{
+				"text": "我们会胜",
+				"value": "8"
+			},
+			{
+				"text": "小菜一碟",
+				"value": "9"
+			},
+			{
+				"text": "让我们好好修理他们",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "我们不配留在本级别",
+				"value": "0"
+			},
+			{
+				"text": "留在本级别的每一天都是赚到的",
+				"value": "1"
+			},
+			{
+				"text": "我们得坚持奋斗保级",
+				"value": "2"
+			},
+			{
+				"text": "能占据积分榜中游就可以了",
+				"value": "3"
+			},
+			{
+				"text": "我们是前四名之一",
+				"value": "4"
+			},
+			{
+				"text": "向冠军冲刺!",
+				"value": "5"
+			},
+			{
+				"text": "我们本赛季一定要赢",
+				"value": "6"
+			},
+			{
+				"text": "我们在本级别里可说是鹤立鸡群!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "声名狼藉",
+				"value": "0"
+			},
+			{
+				"text": "不诚实",
+				"value": "1"
+			},
+			{
+				"text": "诚实",
+				"value": "2"
+			},
+			{
+				"text": "正直",
+				"value": "3"
+			},
+			{
+				"text": "公正",
+				"value": "4"
+			},
+			{
+				"text": "崇高",
+				"value": "5"
+			}
+		],
+		"id": "15",
+		"leagueNames": {
+			"1": "Sweden",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "阿帕奇联赛（限时联赛）",
+			"1002": "Hattrick 周年庆联赛",
+			"1003": "土生土长联赛",
+			"101": "Malta",
+			"102": "Kyrgyzstan",
+			"103": "Moldova",
+			"104": "Georgia",
+			"105": "Andorra",
+			"106": "Jordan",
+			"107": "Guatemala",
+			"11": "Denmark",
+			"110": "Trinidad & Tobago",
+			"111": "Nicaragua",
+			"112": "Kazakhstan",
+			"113": "Suriname",
+			"117": "Liechtenstein",
+			"118": "Algeria",
+			"119": "Mongolia",
+			"12": "Finland",
+			"120": "Lebanon",
+			"121": "Senegal",
+			"122": "Armenia",
+			"123": "Bahrain",
+			"124": "Barbados",
+			"125": "Cape Verde",
+			"126": "Côte d’Ivoire",
+			"127": "Kuwait",
+			"128": "Iraq",
+			"129": "Azerbaijan",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Bangladesh",
+			"133": "Yemen",
+			"134": "Oman",
+			"135": "Mozambique",
+			"136": "Brunei",
+			"137": "Ghana",
+			"138": "Cambodia",
+			"139": "Benin",
+			"14": "Netherlands",
+			"140": "Syria",
+			"141": "Qatar",
+			"142": "Tanzania",
+			"143": "Uganda",
+			"144": "Maldives",
+			"145": "Uzbekistan",
+			"146": "Cameroon",
+			"147": "Cuba",
+			"148": "Palestine",
+			"149": "São Tomé e Príncipe",
+			"15": "Oceania",
+			"151": "Comoros",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "DR Congo",
+			"156": "Ethiopia",
+			"157": "Saint Vincent and the Grenadines",
+			"158": "Belize",
+			"159": "Madagascar",
+			"16": "Brazil",
+			"160": "Botswana",
+			"161": "Myanmar",
+			"162": "Zambia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Puerto Rico",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Guyana",
+			"17": "Canada",
+			"170": "Tahiti",
+			"171": "Guinea",
+			"172": "Bahamas",
+			"173": "Rwanda",
+			"174": "Saint Kitts and Nevis",
+			"175": "Equatorial Guinea",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Chile",
+			"19": "Colombia",
+			"2": "England",
+			"20": "India",
+			"21": "Ireland",
+			"22": "Japan",
+			"23": "Peru",
+			"24": "Poland",
+			"25": "Portugal",
+			"26": "Scotland",
+			"27": "South Africa",
+			"28": "Uruguay",
+			"29": "Venezuela",
+			"3": "Germany",
+			"30": "South Korea",
+			"31": "Thailand",
+			"32": "Turkey",
+			"33": "Egypt",
+			"34": "People's Republic of China",
+			"35": "Russia",
+			"36": "Spain",
+			"37": "Romania",
+			"38": "Iceland",
+			"39": "Austria",
+			"4": "Italy",
+			"44": "Belgium",
+			"45": "Malaysia",
+			"46": "Switzerland",
+			"47": "Singapore",
+			"5": "France",
+			"50": "Greece",
+			"51": "Hungary",
+			"52": "Czechia",
+			"53": "Latvia",
+			"54": "Indonesia",
+			"55": "Philippines",
+			"56": "Estonia",
+			"57": "Serbia",
+			"58": "Croatia",
+			"59": "Hong Kong, China",
+			"6": "Mexico",
+			"60": "Chinese Taipei",
+			"61": "Wales",
+			"62": "Bulgaria",
+			"63": "Israel",
+			"64": "Slovenia",
+			"66": "Lithuania",
+			"67": "Slovakia",
+			"68": "Ukraine",
+			"69": "Bosnia and Herzegovina",
+			"7": "Argentina",
+			"70": "Vietnam",
+			"71": "Pakistan",
+			"72": "Paraguay",
+			"73": "Ecuador",
+			"74": "Bolivia",
+			"75": "Nigeria",
+			"76": "Faroe Islands",
+			"77": "Morocco",
+			"79": "Saudi Arabia",
+			"8": "USA",
+			"80": "Tunisia",
+			"81": "Costa Rica",
+			"83": "United Arab Emirates",
+			"84": "Luxembourg",
+			"85": "Iran",
+			"88": "Dominican Republic",
+			"89": "Cyprus",
+			"9": "Norway",
+			"91": "Belarus",
+			"93": "Northern Ireland",
+			"94": "Jamaica",
+			"95": "Kenya",
+			"96": "Panama",
+			"97": "North Macedonia",
+			"98": "Albania",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "无",
+				"value": "0"
+			},
+			{
+				"text": "极其糟糕",
+				"value": "1"
+			},
+			{
+				"text": "糟糕",
+				"value": "2"
+			},
+			{
+				"text": "差",
+				"value": "3"
+			},
+			{
+				"text": "弱",
+				"value": "4"
+			},
+			{
+				"text": "中下",
+				"value": "5"
+			},
+			{
+				"text": "及格",
+				"value": "6"
+			},
+			{
+				"text": "稳定",
+				"value": "7"
+			},
+			{
+				"text": "优秀",
+				"value": "8"
+			},
+			{
+				"text": "强大",
+				"value": "9"
+			},
+			{
+				"text": "杰出",
+				"value": "10"
+			},
+			{
+				"text": "辉煌",
+				"value": "11"
+			},
+			{
+				"text": "神妙",
+				"value": "12"
+			},
+			{
+				"text": "独步天下",
+				"value": "13"
+			},
+			{
+				"text": "神秘莫测",
+				"value": "14"
+			},
+			{
+				"text": "威力无边",
+				"value": "15"
+			},
+			{
+				"text": "超凡脱俗",
+				"value": "16"
+			},
+			{
+				"text": "神出鬼没",
+				"value": "17"
+			},
+			{
+				"text": "出神入化",
+				"value": "18"
+			},
+			{
+				"text": "至高无上",
+				"value": "19"
+			},
+			{
+				"text": "超凡入圣",
+				"value": "20"
+			}
+		],
+		"name": "zh-CN",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "守门员"
+			},
+			{
+				"type": "WingBack",
+				"value": "边后卫"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "中后卫"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "中前卫"
+			},
+			{
+				"type": "Winger",
+				"value": "边锋"
+			},
+			{
+				"type": "Forward",
+				"value": "前锋"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "非常低",
+				"value": "0"
+			},
+			{
+				"text": "低",
+				"value": "0.25"
+			},
+			{
+				"text": "高",
+				"value": "0.5"
+			},
+			{
+				"text": "非常高",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "中场"
+			},
+			{
+				"type": "RightDefense",
+				"value": "右路防守"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "中路防守"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "左路防守"
+			},
+			{
+				"type": "RightAttack",
+				"value": "右路进攻"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "中路进攻"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "左路进攻"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "守门技能"
+			},
+			{
+				"type": "Stamina",
+				"value": "体能"
+			},
+			{
+				"type": "Defender",
+				"value": "防守技能"
+			},
+			{
+				"type": "Playmaker",
+				"value": "组织进攻技能"
+			},
+			{
+				"type": "Winger",
+				"value": "边锋技能"
+			},
+			{
+				"type": "Scorer",
+				"value": "进球技能"
+			},
+			{
+				"type": "Kicker",
+				"value": "定位球技术"
+			},
+			{
+				"type": "Passer",
+				"value": "传球技能"
+			},
+			{
+				"type": "Experience",
+				"value": "经验"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "领导能力"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "无特长"
+			},
+			{
+				"type": "Technical",
+				"value": "技术"
+			},
+			{
+				"type": "Quick",
+				"value": "速度"
+			},
+			{
+				"type": "Powerful",
+				"value": "力量"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "不可预测"
+			},
+			{
+				"type": "Head",
+				"value": "头球专家"
+			},
+			{
+				"type": "Resilient",
+				"value": "坚忍不拔"
+			},
+			{
+				"type": "Support",
+				"value": "支援型"
+			}
+		],
+		"spirit": [
+			{
+				"text": "有如冷战",
+				"value": "0"
+			},
+			{
+				"text": "极度危险",
+				"value": "1"
+			},
+			{
+				"text": "暴躁",
+				"value": "2"
+			},
+			{
+				"text": "恼怒",
+				"value": "3"
+			},
+			{
+				"text": "沉着",
+				"value": "4"
+			},
+			{
+				"text": "平静",
+				"value": "5"
+			},
+			{
+				"text": "满足",
+				"value": "6"
+			},
+			{
+				"text": "满意",
+				"value": "7"
+			},
+			{
+				"text": "极度兴奋",
+				"value": "8"
+			},
+			{
+				"text": "云端漫步",
+				"value": "9"
+			},
+			{
+				"text": "人间天堂!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "极度危险",
+				"value": "0"
+			},
+			{
+				"text": "暴躁",
+				"value": "1"
+			},
+			{
+				"text": "恼怒",
+				"value": "2"
+			},
+			{
+				"text": "平静",
+				"value": "3"
+			},
+			{
+				"text": "满足",
+				"value": "4"
+			},
+			{
+				"text": "满意",
+				"value": "5"
+			},
+			{
+				"text": "极度兴奋",
+				"value": "6"
+			},
+			{
+				"text": "生活愉快",
+				"value": "7"
+			},
+			{
+				"text": "乐不可支",
+				"value": "8"
+			},
+			{
+				"text": "吟首情诗给您听",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "常规"
+			},
+			{
+				"type": "pressing",
+				"value": "全场压迫"
+			},
+			{
+				"type": "ca",
+				"value": "防守反击"
+			},
+			{
+				"type": "aim",
+				"value": "中路进攻"
+			},
+			{
+				"type": "aow",
+				"value": "边路进攻"
+			},
+			{
+				"type": "",
+				"value": "不详"
+			},
+			{
+				"type": "",
+				"value": "不详"
+			},
+			{
+				"type": "creatively",
+				"value": "无限创意"
+			},
+			{
+				"type": "longshots",
+				"value": "远射"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "综合(状态)"
+			},
+			{
+				"type": "Sta",
+				"value": "体能"
+			},
+			{
+				"type": "SP",
+				"value": "定位球技术"
+			},
+			{
+				"type": "Def",
+				"value": "防守"
+			},
+			{
+				"type": "Sco",
+				"value": "进球技能"
+			},
+			{
+				"type": "Cross",
+				"value": "边锋"
+			},
+			{
+				"type": "Shoot",
+				"value": "进球和定位球技术"
+			},
+			{
+				"type": "Pass",
+				"value": "传球"
+			},
+			{
+				"type": "PM",
+				"value": "组织进攻技能"
+			},
+			{
+				"type": "GK",
+				"value": "门将"
+			},
+			{
+				"type": "ThPass",
+				"value": "传球（后卫和中场球员）"
+			},
+			{
+				"type": "DefPos",
+				"value": "防守（门将、后卫和所有中场球员）"
+			},
+			{
+				"type": "WingAtt",
+				"value": "边锋（边锋和前锋）"
+			},
+			{
+				"type": "Indiv",
+				"value": "个人位置"
+			}
+		]
+	}
+}

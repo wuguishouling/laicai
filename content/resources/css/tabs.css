@@ -1,0 +1,100 @@
+#tab
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 1em 0 !important;
+    list-style: none;
+    line-height: 1.2em;
+    background: #fff;
+    border-bottom: 1px solid #aaa;
+}
+
+#tab li
+{
+    float: left;
+    margin: 0;
+    margin-bottom: -1px;
+    padding: 0px !important;
+}
+
+#tab img {
+    float: left;
+    margin-right: 4px;
+    padding-top: 1px;
+}
+
+#tab a
+{
+    display: block;
+    color: #444;
+    text-decoration: none;
+    background: #edf1ed;
+    margin: 0;
+    padding: 0.25em 1em;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #aaa;
+}
+
+#tab a:hover
+{
+    background: #dce2dc;
+    color: #333;
+}
+
+#tab a.active
+{
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #bbb;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #fff;
+}
+
+a.tab-hattrick {
+    background-image: url("http://www.hattrick.org/favicon.ico") !important;
+    background-repeat: no-repeat !important;
+    background-position: 3px 2px !important;
+    padding-left: 24px !important;
+}
+
+a.ft-tab-hattrick.active {
+    background-image: url("chrome://foxtrick/content/resources/img/staff/foxtrick.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 3px 1px !important;
+    padding-left: 24px !important;
+}
+
+a.ft-tab-foxtrick {
+    background-image: url("chrome://foxtrick/content/resources/img/staff/foxtrick.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 3px 1px !important;
+    padding-left: 24px !important;
+}
+
+a.ft-tab-foxtrick, #tab a.ft-tab-hattrick.active {
+    background-image: url("chrome://foxtrick/content/resources/img/staff/foxtrick.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 3px 1px !important;
+    padding-left: 24px !important;
+}
+
+table.naked {
+    margin: 0 -8px -8px !important;
+}
+
+#tab ~ .NTLogo{
+    margin: 0px 0 20px !important;
+}
+
+p.tab-content {
+    display:inline;
+}
+p.tab-content.hidden {
+    display:none;
+}

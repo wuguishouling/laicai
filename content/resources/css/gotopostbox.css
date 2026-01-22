@@ -1,0 +1,18 @@
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerTop_txtMessageNumber,
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerTop_btnGo,
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerTop_ddlAction,
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerBottom_txtMessageNumber,
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerBottom_btnGo,
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerBottom_ddlAction,
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerTop_btnViewMessage,
+#ctl00_ctl00_CPContent_CPMain_ucThread_ucPagerBottom_btnViewMessage {
+	display:none;
+}
+
+.quickViewBox {
+     width: 100px;
+}
+.ft_gotobox_btn {
+	margin-right : 5px;
+	margin-left : 5px;
+}

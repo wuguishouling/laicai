@@ -1,0 +1,82 @@
+#ft-monitor-div {
+	margin-bottom: 20px ;
+	margin-top: 20px ;
+}
+
+#ft-monitor-container {
+	clear: both;
+}
+
+#ft-monitor-live-links {
+	background-color: #EDF1ED;
+	border-bottom: solid 2px #DCE0DC;
+}
+#ft-monitor-live-links td {
+	vertical-align: middle;
+}
+#ft-monitor-live-info {
+	color: red;
+	width: 100%;
+}
+
+.ft-monitor-frame {
+	width: 48%;
+	margin: 0 1%;
+	float: left;
+}
+
+.ft-monitor-frame:nth-child(odd) {
+	clear: left; /* two in a row */
+}
+
+.ft-monitor-frame > h3 {
+	color: #222;
+	background-color: #EDF1ED;
+	border-bottom: solid 2px #DCE0DC;
+}
+
+.ft-monitor-team-name {
+	width: 85%;
+	display: inline-block;
+}
+.teamIconSpan + .ft-monitor-team-name  {
+	width: 70%;
+}
+.flag + .ft-monitor-team-name {
+	width: 75%;
+}
+
+.ft-monitor-remove {
+	background-image: url("chrome://foxtrick/content/resources/img/cross_small.png");
+	width: 12px;
+	height: 12px;
+	float: right;
+	display: block;
+	cursor: pointer;
+}
+
+.ft-monitor-remove:hover {
+	background-image: url("chrome://foxtrick/content/resources/img/crossRed_small.png");
+}
+
+#ft-monitor-sidebar-box .hidden {
+	display: none;
+}
+
+.teamIcon {
+	padding: 0 5px 0 0;
+	margin: 0 0 -2px;
+	max-height: 24px;
+	max-width: 36px;
+}
+html[dir="rtl"] .teamIcon {
+	padding: 0 0 0 5px;
+}
+
+.ft-monitor-frame > h3 > a.flag + img {
+	margin-top:-2px;
+}
+
+div.calendarWrapperOuter {
+	min-height: 0px;
+}

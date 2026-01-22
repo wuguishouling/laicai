@@ -1,0 +1,13 @@
+html[data-theme='simple'] .main, html[data-theme='simple'] #sidebar, html[data-theme='simple'] #header, html[data-theme='simple'] #bottom
+	{display:none !important}
+
+html[data-fennec-theme='forum'][data-theme='simple'] .hattrick,
+html[data-fennec-theme='forum'][data-theme='simple'] .hattrickNoSupporter,
+html[data-fennec-theme='forum'][data-theme='simple'] #page
+	{width:225px!important}
+
+html[data-fennec-theme='default'][data-theme='simple'] .hattrick,
+html[data-fennec-theme='default'][data-theme='simple'] .hattrickNoSupporter,
+html[data-fennec-theme='default'][data-theme='simple'] #page
+	{width:125px!important}
+

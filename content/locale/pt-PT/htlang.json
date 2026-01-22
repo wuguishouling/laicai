@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "tranquila",
+				"value": "0"
+			},
+			{
+				"text": "calma",
+				"value": "1"
+			},
+			{
+				"text": "equilibrada",
+				"value": "2"
+			},
+			{
+				"text": "temperamental",
+				"value": "3"
+			},
+			{
+				"text": "nervosa",
+				"value": "4"
+			},
+			{
+				"text": "instável",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "pessoa antipática",
+				"value": "0"
+			},
+			{
+				"text": "pessoa controversa",
+				"value": "1"
+			},
+			{
+				"text": "pessoa agradável",
+				"value": "2"
+			},
+			{
+				"text": "pessoa simpática",
+				"value": "3"
+			},
+			{
+				"text": "pessoa popular",
+				"value": "4"
+			},
+			{
+				"text": "pessoa adorável",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Jogar com calma",
+				"value": "-1"
+			},
+			{
+				"text": "Normal",
+				"value": "0"
+			},
+			{
+				"text": "Jogo da época",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "Inexistente",
+				"value": "0"
+			},
+			{
+				"text": "Desastrosa",
+				"value": "1"
+			},
+			{
+				"text": "Terrível",
+				"value": "2"
+			},
+			{
+				"text": "Má",
+				"value": "3"
+			},
+			{
+				"text": "Decente",
+				"value": "4"
+			},
+			{
+				"text": "Boa",
+				"value": "5"
+			},
+			{
+				"text": "Fantástica",
+				"value": "6"
+			},
+			{
+				"text": "Exagerada (mt baixa)",
+				"value": "7"
+			},
+			{
+				"text": "Exagerada",
+				"value": "8"
+			},
+			{
+				"text": "Exagerada (mt alta)",
+				"value": "9"
+			}
+		],
+		"desc": "Português",
+		"fans": [
+			{
+				"text": "Desesperados",
+				"value": "0"
+			},
+			{
+				"text": "Furiosos",
+				"value": "1"
+			},
+			{
+				"text": "Coléricos",
+				"value": "2"
+			},
+			{
+				"text": "Irritados",
+				"value": "3"
+			},
+			{
+				"text": "Desiludidos",
+				"value": "4"
+			},
+			{
+				"text": "Calmos",
+				"value": "5"
+			},
+			{
+				"text": "Satisfeitos",
+				"value": "6"
+			},
+			{
+				"text": "Contentes",
+				"value": "7"
+			},
+			{
+				"text": "Em delírio",
+				"value": "8"
+			},
+			{
+				"text": "Eufóricos",
+				"value": "9"
+			},
+			{
+				"text": "Nas nuvens",
+				"value": "10"
+			},
+			{
+				"text": "A enviarem-lhe cartas de amor",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Vamos ser massacrados",
+				"value": "0"
+			},
+			{
+				"text": "Não temos hipóteses",
+				"value": "1"
+			},
+			{
+				"text": "Vamos perder",
+				"value": "2"
+			},
+			{
+				"text": "Eles são favoritos",
+				"value": "3"
+			},
+			{
+				"text": "Eles têm vantagem",
+				"value": "4"
+			},
+			{
+				"text": "Vai ser equilibrado",
+				"value": "5"
+			},
+			{
+				"text": "Temos vantagem",
+				"value": "6"
+			},
+			{
+				"text": "Somos favoritos",
+				"value": "7"
+			},
+			{
+				"text": "Vamos ganhar",
+				"value": "8"
+			},
+			{
+				"text": "Vai ser um passeio",
+				"value": "9"
+			},
+			{
+				"text": "Vamos humilhá-los",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Somos maus demais para estar nesta divisão",
+				"value": "0"
+			},
+			{
+				"text": "Todos os dias nesta divisão são um bónus",
+				"value": "1"
+			},
+			{
+				"text": "Iremos lutar para não descer",
+				"value": "2"
+			},
+			{
+				"text": "Ficaremos a meio da tabela",
+				"value": "3"
+			},
+			{
+				"text": "Devemos ficar nos primeiros 4",
+				"value": "4"
+			},
+			{
+				"text": "Vamos tentar disputar o título!",
+				"value": "5"
+			},
+			{
+				"text": "Temos de vencer esta época",
+				"value": "6"
+			},
+			{
+				"text": "Somos bons demais para estar nesta divisão!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "infame",
+				"value": "0"
+			},
+			{
+				"text": "desonesta",
+				"value": "1"
+			},
+			{
+				"text": "decente",
+				"value": "2"
+			},
+			{
+				"text": "honesta",
+				"value": "3"
+			},
+			{
+				"text": "íntegra",
+				"value": "4"
+			},
+			{
+				"text": "exemplar",
+				"value": "5"
+			}
+		],
+		"id": "11",
+		"leagueNames": {
+			"1": "Suécia",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Liga Apache (Edição Limitada)",
+			"1002": "Liga de Aniversário Hattrick",
+			"1003": "Liga Homegrown",
+			"101": "Malta",
+			"102": "Quirguistão",
+			"103": "Moldávia",
+			"104": "Geórgia",
+			"105": "Andorra",
+			"106": "Jordânia",
+			"107": "Guatemala",
+			"11": "Dinamarca",
+			"110": "Trinidade e Tobago",
+			"111": "Nicarágua",
+			"112": "Cazaquistão",
+			"113": "Suriname",
+			"117": "Liechtenstein",
+			"118": "Argélia",
+			"119": "Mongólia",
+			"12": "Finlândia",
+			"120": "Líbano",
+			"121": "Senegal",
+			"122": "Arménia",
+			"123": "Bahrain",
+			"124": "Barbados",
+			"125": "Cabo Verde",
+			"126": "Costa do Marfim",
+			"127": "Koweit",
+			"128": "Iraque",
+			"129": "Azerbaijão",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Bangladesh",
+			"133": "Iemen",
+			"134": "Oman",
+			"135": "Moçambique",
+			"136": "Brunei",
+			"137": "Gana",
+			"138": "Cambodja",
+			"139": "Benim",
+			"14": "Holanda",
+			"140": "Síria",
+			"141": "Qatar",
+			"142": "Tanzânia",
+			"143": "Uganda",
+			"144": "Maldivas",
+			"145": "Uzbequistão",
+			"146": "Camarões",
+			"147": "Cuba",
+			"148": "Palestina",
+			"149": "São Tomé e Príncipe",
+			"15": "Oceania",
+			"151": "Comores",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "República Democrática do Congo",
+			"156": "Etiópia",
+			"157": "São Vicente e Granadinas",
+			"158": "Belize",
+			"159": "Madagáscar",
+			"16": "Brasil",
+			"160": "Botsuana",
+			"161": "Myanmar",
+			"162": "Zâmbia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Porto Rico",
+			"166": "Granada",
+			"167": "Burquina Faso",
+			"168": "Nepal",
+			"169": "Guiana",
+			"17": "Canadá",
+			"170": "Taiti",
+			"171": "Guiné",
+			"172": "Bahamas",
+			"173": "Ruanda",
+			"174": "Saint Kitts e Nevis",
+			"175": "Guiné Equatorial",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Chile",
+			"19": "Colômbia",
+			"2": "Inglaterra",
+			"20": "Índia",
+			"21": "Irlanda",
+			"22": "Japão",
+			"23": "Peru",
+			"24": "Polónia",
+			"25": "Portugal",
+			"26": "Escócia",
+			"27": "África do Sul",
+			"28": "Uruguai",
+			"29": "Venezuela",
+			"3": "Alemanha",
+			"30": "Coreia do Sul",
+			"31": "Tailândia",
+			"32": "Turquia",
+			"33": "Egipto",
+			"34": "República Popular da China",
+			"35": "Rússia",
+			"36": "Espanha",
+			"37": "Roménia",
+			"38": "Islândia",
+			"39": "Áustria",
+			"4": "Itália",
+			"44": "Bélgica",
+			"45": "Malásia",
+			"46": "Suiça",
+			"47": "Singapura",
+			"5": "França",
+			"50": "Grécia",
+			"51": "Hungria",
+			"52": "Chéquia",
+			"53": "Letónia",
+			"54": "Indonésia",
+			"55": "Filipinas",
+			"56": "Estónia",
+			"57": "Sérvia",
+			"58": "Croácia",
+			"59": "Hong Kong, China",
+			"6": "México",
+			"60": "República da China",
+			"61": "País de Gales",
+			"62": "Bulgária",
+			"63": "Israel",
+			"64": "Eslovénia",
+			"66": "Lituânia",
+			"67": "Eslováquia",
+			"68": "Ucrânia",
+			"69": "Bósnia e Herzegovina",
+			"7": "Argentina",
+			"70": "Vietname",
+			"71": "Paquistão",
+			"72": "Paraguai",
+			"73": "Equador",
+			"74": "Bolívia",
+			"75": "Nigéria",
+			"76": "Ilhas Faroé",
+			"77": "Marrocos",
+			"79": "Arábia Saudita",
+			"8": "EUA",
+			"80": "Tunísia",
+			"81": "Costa Rica",
+			"83": "Emirados Árabes Unidos",
+			"84": "Luxemburgo",
+			"85": "Irão",
+			"88": "República Dominicana",
+			"89": "Chipre",
+			"9": "Noruega",
+			"91": "Bielorrússia",
+			"93": "Irlanda do Norte",
+			"94": "Jamaica",
+			"95": "Quénia",
+			"96": "Panamá",
+			"97": "Macedónia do Norte",
+			"98": "Albânia",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "inexistente",
+				"value": "0"
+			},
+			{
+				"text": "desastroso",
+				"value": "1"
+			},
+			{
+				"text": "terrível",
+				"value": "2"
+			},
+			{
+				"text": "mau",
+				"value": "3"
+			},
+			{
+				"text": "fraco",
+				"value": "4"
+			},
+			{
+				"text": "inadequado",
+				"value": "5"
+			},
+			{
+				"text": "razoável",
+				"value": "6"
+			},
+			{
+				"text": "bom",
+				"value": "7"
+			},
+			{
+				"text": "excelente",
+				"value": "8"
+			},
+			{
+				"text": "formidável",
+				"value": "9"
+			},
+			{
+				"text": "fenomenal",
+				"value": "10"
+			},
+			{
+				"text": "brilhante",
+				"value": "11"
+			},
+			{
+				"text": "magnífico",
+				"value": "12"
+			},
+			{
+				"text": "genial",
+				"value": "13"
+			},
+			{
+				"text": "soberbo",
+				"value": "14"
+			},
+			{
+				"text": "titânico",
+				"value": "15"
+			},
+			{
+				"text": "colossal",
+				"value": "16"
+			},
+			{
+				"text": "mítico",
+				"value": "17"
+			},
+			{
+				"text": "mágico",
+				"value": "18"
+			},
+			{
+				"text": "utópico",
+				"value": "19"
+			},
+			{
+				"text": "lendário",
+				"value": "20"
+			}
+		],
+		"name": "pt-PT",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Guarda-Redes"
+			},
+			{
+				"type": "WingBack",
+				"value": "Defesa Lateral"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Defesa Central"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Médio Centro"
+			},
+			{
+				"type": "Winger",
+				"value": "Ala"
+			},
+			{
+				"type": "Forward",
+				"value": "Avançado"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "mt baixo",
+				"value": "0"
+			},
+			{
+				"text": "baixo",
+				"value": "0.25"
+			},
+			{
+				"text": "alto",
+				"value": "0.5"
+			},
+			{
+				"text": "mt alto",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Meio Campo"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Defesa (dir.)"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Defesa (cen.)"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Defesa (esq.)"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Ataque (dir.)"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Ataque (cen.)"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Ataque (esq.)"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Guarda-Redes"
+			},
+			{
+				"type": "Stamina",
+				"value": "Resistência"
+			},
+			{
+				"type": "Defender",
+				"value": "Defesa"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Criatividade"
+			},
+			{
+				"type": "Winger",
+				"value": "Ala"
+			},
+			{
+				"type": "Scorer",
+				"value": "Finalização"
+			},
+			{
+				"type": "Kicker",
+				"value": "Bolas Paradas"
+			},
+			{
+				"type": "Passer",
+				"value": "Passe"
+			},
+			{
+				"type": "Experience",
+				"value": "Experiência"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Liderança"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Sem especialidade"
+			},
+			{
+				"type": "Technical",
+				"value": "Técnica"
+			},
+			{
+				"type": "Quick",
+				"value": "Velocidade"
+			},
+			{
+				"type": "Powerful",
+				"value": "Força"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Imprevisível"
+			},
+			{
+				"type": "Head",
+				"value": "Jogo aéreo"
+			},
+			{
+				"type": "Resilient",
+				"value": "Resiliente"
+			},
+			{
+				"type": "Support",
+				"value": "Jogador de apoio"
+			}
+		],
+		"spirit": [
+			{
+				"text": "De cortar à faca",
+				"value": "0"
+			},
+			{
+				"text": "Descontrolados",
+				"value": "1"
+			},
+			{
+				"text": "Furiosos",
+				"value": "2"
+			},
+			{
+				"text": "Irritados",
+				"value": "3"
+			},
+			{
+				"text": "Conformados",
+				"value": "4"
+			},
+			{
+				"text": "Calmos",
+				"value": "5"
+			},
+			{
+				"text": "Contentes",
+				"value": "6"
+			},
+			{
+				"text": "Bom",
+				"value": "7"
+			},
+			{
+				"text": "Em delírio",
+				"value": "8"
+			},
+			{
+				"text": "Nas nuvens",
+				"value": "9"
+			},
+			{
+				"text": "Paradisíaco",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "Desesperados",
+				"value": "0"
+			},
+			{
+				"text": "Furiosos",
+				"value": "1"
+			},
+			{
+				"text": "Irritados",
+				"value": "2"
+			},
+			{
+				"text": "Calmos",
+				"value": "3"
+			},
+			{
+				"text": "Satisfeitos",
+				"value": "4"
+			},
+			{
+				"text": "Contentes",
+				"value": "5"
+			},
+			{
+				"text": "Em delírio",
+				"value": "6"
+			},
+			{
+				"text": "Eufóricos",
+				"value": "7"
+			},
+			{
+				"text": "Nas nuvens",
+				"value": "8"
+			},
+			{
+				"text": "A enviarem-te cartas de amor",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Normal"
+			},
+			{
+				"type": "pressing",
+				"value": "Pressing"
+			},
+			{
+				"type": "ca",
+				"value": "Contra-ataque"
+			},
+			{
+				"type": "aim",
+				"value": "Ataque pelo meio"
+			},
+			{
+				"type": "aow",
+				"value": "Ataque pelas alas"
+			},
+			{
+				"type": "",
+				"value": "Desconhecido"
+			},
+			{
+				"type": "",
+				"value": "Desconhecido"
+			},
+			{
+				"type": "creatively",
+				"value": "Espontaneidade"
+			},
+			{
+				"type": "longshots",
+				"value": "Remates de longe"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Geral (Forma)"
+			},
+			{
+				"type": "Sta",
+				"value": "Resistência"
+			},
+			{
+				"type": "SP",
+				"value": "Bolas Paradas"
+			},
+			{
+				"type": "Def",
+				"value": "Defesa"
+			},
+			{
+				"type": "Sco",
+				"value": "Finalização"
+			},
+			{
+				"type": "Cross",
+				"value": "Ala"
+			},
+			{
+				"type": "Shoot",
+				"value": "Finalização e Bolas Paradas"
+			},
+			{
+				"type": "Pass",
+				"value": "Passe"
+			},
+			{
+				"type": "PM",
+				"value": "Criatividade"
+			},
+			{
+				"type": "GK",
+				"value": "Guarda-redes"
+			},
+			{
+				"type": "ThPass",
+				"value": "Passe (Defesas + todos os Médios)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Defesa (GR, Defesas + todos os Médios)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Ala (Alas + Avançados)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Individual"
+			}
+		]
+	}
+}

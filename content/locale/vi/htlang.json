@@ -1,0 +1,853 @@
+{
+	"language": {
+		"aggressiveness": [
+			{
+				"text": "hiền lành",
+				"value": "0"
+			},
+			{
+				"text": "điềm tĩnh",
+				"value": "1"
+			},
+			{
+				"text": "ôn hòa",
+				"value": "2"
+			},
+			{
+				"text": "thất thường",
+				"value": "3"
+			},
+			{
+				"text": "dễ nổi giận",
+				"value": "4"
+			},
+			{
+				"text": "thiếu tự chủ",
+				"value": "5"
+			}
+		],
+		"agreeability": [
+			{
+				"text": "kẻ cáu bẳn",
+				"value": "0"
+			},
+			{
+				"text": "người thích tranh cãi",
+				"value": "1"
+			},
+			{
+				"text": "người dễ chịu",
+				"value": "2"
+			},
+			{
+				"text": "người đáng mến",
+				"value": "3"
+			},
+			{
+				"text": "người được ngưỡng mộ",
+				"value": "4"
+			},
+			{
+				"text": "thành viên được yêu mến",
+				"value": "5"
+			}
+		],
+		"attitude": [
+			{
+				"text": "Tâm lý thoải mái",
+				"value": "-1"
+			},
+			{
+				"text": "Bình thường",
+				"value": "0"
+			},
+			{
+				"text": "Trận đấu sinh tử",
+				"value": "1"
+			}
+		],
+		"confidence": [
+			{
+				"text": "không có",
+				"value": "0"
+			},
+			{
+				"text": "thảm hại",
+				"value": "1"
+			},
+			{
+				"text": "tồi tệ",
+				"value": "2"
+			},
+			{
+				"text": "kém",
+				"value": "3"
+			},
+			{
+				"text": "tốt",
+				"value": "4"
+			},
+			{
+				"text": "mạnh mẽ",
+				"value": "5"
+			},
+			{
+				"text": "tuyệt vời",
+				"value": "6"
+			},
+			{
+				"text": "hơi thái quá",
+				"value": "7"
+			},
+			{
+				"text": "thái quá",
+				"value": "8"
+			},
+			{
+				"text": "thái quá cực độ",
+				"value": "9"
+			}
+		],
+		"desc": "Tiếng Việt",
+		"fans": [
+			{
+				"text": "đằng đằng sát khí",
+				"value": "0"
+			},
+			{
+				"text": "giận dữ",
+				"value": "1"
+			},
+			{
+				"text": "tức giận",
+				"value": "2"
+			},
+			{
+				"text": "bực dọc",
+				"value": "3"
+			},
+			{
+				"text": "thất vọng",
+				"value": "4"
+			},
+			{
+				"text": "bình tĩnh",
+				"value": "5"
+			},
+			{
+				"text": "hài lòng",
+				"value": "6"
+			},
+			{
+				"text": "thỏa mãn",
+				"value": "7"
+			},
+			{
+				"text": "cuồng nhiệt",
+				"value": "8"
+			},
+			{
+				"text": "lâng lâng",
+				"value": "9"
+			},
+			{
+				"text": "nhảy múa trên đường",
+				"value": "10"
+			},
+			{
+				"text": "Gửi bạn thư hâm mộ",
+				"value": "11"
+			}
+		],
+		"fans_match": [
+			{
+				"text": "Tốt nhất là đừng tới!",
+				"value": "0"
+			},
+			{
+				"text": "Họ vượt trội so với chúng ta",
+				"value": "1"
+			},
+			{
+				"text": "Mình thua là cái chắc",
+				"value": "2"
+			},
+			{
+				"text": "Họ được đánh giá cao hơn",
+				"value": "3"
+			},
+			{
+				"text": "Họ có chút lợi thế",
+				"value": "4"
+			},
+			{
+				"text": "Có lẽ là hòa",
+				"value": "5"
+			},
+			{
+				"text": "Ta có chút lợi thế",
+				"value": "6"
+			},
+			{
+				"text": "Ta được đánh giá cao hơn",
+				"value": "7"
+			},
+			{
+				"text": "Ta sẽ thắng",
+				"value": "8"
+			},
+			{
+				"text": "Chuyện nhỏ!",
+				"value": "9"
+			},
+			{
+				"text": "Làm thịt bọn nó thôi",
+				"value": "10"
+			}
+		],
+		"fans_season": [
+			{
+				"text": "Chúng ta không xứng đáng có mặt ở đây",
+				"value": "0"
+			},
+			{
+				"text": "Mỗi ngày được ở lại hạng đấu này là một niềm vui",
+				"value": "1"
+			},
+			{
+				"text": "Phải chiến đấu để trụ hạng",
+				"value": "2"
+			},
+			{
+				"text": "Khoảng giữa bảng xếp hạng là ổn",
+				"value": "3"
+			},
+			{
+				"text": "Phải nằm trong 4 đội dẫn đầu",
+				"value": "4"
+			},
+			{
+				"text": "Nhắm đến mục tiêu vô địch!",
+				"value": "5"
+			},
+			{
+				"text": "Phải vô địch mùa này",
+				"value": "6"
+			},
+			{
+				"text": "Hạng đấu này là muỗi với chúng ta!",
+				"value": "7"
+			}
+		],
+		"honesty": [
+			{
+				"text": "gian lận",
+				"value": "0"
+			},
+			{
+				"text": "thiếu trung thực",
+				"value": "1"
+			},
+			{
+				"text": "trung thực",
+				"value": "2"
+			},
+			{
+				"text": "chính trực",
+				"value": "3"
+			},
+			{
+				"text": "cao thượng",
+				"value": "4"
+			},
+			{
+				"text": "thánh thiện",
+				"value": "5"
+			}
+		],
+		"id": "55",
+		"leagueNames": {
+			"1": "Thụy Điển",
+			"100": "El Salvador",
+			"1000": "Hattrick International",
+			"1001": "Apache League (Phiên bản Giới hạn)",
+			"1002": "Giải đấu Hattrick Anniversary",
+			"1003": "Giải đấu Homegrown",
+			"101": "Malta",
+			"102": "Kyrgyzstan",
+			"103": "Moldova",
+			"104": "Georgia",
+			"105": "Andorra",
+			"106": "Jordan",
+			"107": "Guatemala",
+			"11": "Đan Mạch",
+			"110": "Trinidad & Tobago",
+			"111": "Nicaragua",
+			"112": "Kazakhstan",
+			"113": "Suriname",
+			"117": "Liechtenstein",
+			"118": "An Giê Ry",
+			"119": "Mông Cổ",
+			"12": "Phần Lan",
+			"120": "Li Băng",
+			"121": "Sê Nê Gan",
+			"122": "Armenia",
+			"123": "Bahrain",
+			"124": "Barbados",
+			"125": "Cape Verde",
+			"126": "Bờ Biển Ngà",
+			"127": "Ku Oét",
+			"128": "I Rắc",
+			"129": "Azerbaijan",
+			"130": "Angola",
+			"131": "Montenegro",
+			"132": "Băng la desh",
+			"133": "Yemen",
+			"134": "Ôman",
+			"135": "Mô Dăm Bích",
+			"136": "Brunei",
+			"137": "Ghana",
+			"138": "Căm Pu Chia",
+			"139": "Benin",
+			"14": "Hà Lan",
+			"140": "Syria",
+			"141": "Qatar",
+			"142": "Tanzania",
+			"143": "Uganda",
+			"144": "Maldives",
+			"145": "Uzbekistan",
+			"146": "Cameroon",
+			"147": "Cuba",
+			"148": "Palestine",
+			"149": "São Tomé e Príncipe",
+			"15": "Úc",
+			"151": "Comoros",
+			"152": "Sri Lanka",
+			"153": "Curaçao",
+			"154": "Guam",
+			"155": "DR Congo",
+			"156": "Ethiopia",
+			"157": "Saint Vincent & Grenadines",
+			"158": "Belize",
+			"159": "Madagascar",
+			"16": "Braxin",
+			"160": "Botswana",
+			"161": "Myanmar",
+			"162": "Zambia",
+			"163": "San Marino",
+			"164": "Haiti",
+			"165": "Puerto Rico",
+			"166": "Grenada",
+			"167": "Burkina Faso",
+			"168": "Nepal",
+			"169": "Guyana",
+			"17": "Canada",
+			"170": "Tahiti",
+			"171": "Guinea",
+			"172": "Bahamas",
+			"173": "Ruwanda",
+			"174": "Saint Kitts and Nevis",
+			"175": "Guinea Xích Đạo",
+			"176": "Gibraltar",
+			"177": "Bhutan",
+			"18": "Chilê",
+			"19": "Colombia",
+			"2": "Anh",
+			"20": "Ấn Độ",
+			"21": "Ai Len",
+			"22": "Nhật Bản",
+			"23": "Peru",
+			"24": "Ba Lan",
+			"25": "Bồ Đào Nha",
+			"26": "Sờ Cốt Len",
+			"27": "Nam Phi",
+			"28": "Uruguay",
+			"29": "Venezuela",
+			"3": "Đức",
+			"30": "Hàn Quốc",
+			"31": "Thái Lan",
+			"32": "Thổ Nhĩ Kỳ",
+			"33": "Ai Cập",
+			"34": "Trung Quốc",
+			"35": "Nga",
+			"36": "Tây Ban Nha",
+			"37": "Ru ma ni",
+			"38": "Ai xơ len",
+			"39": "Áo",
+			"4": "Ý",
+			"44": "Bỉ",
+			"45": "Malaysia",
+			"46": "Thụy Sỹ",
+			"47": "Singapore",
+			"5": "Pháp",
+			"50": "Hy Lạp",
+			"51": "Hungary",
+			"52": "Séc",
+			"53": "Latvia",
+			"54": "Indonesia",
+			"55": "Philippines",
+			"56": "Estonia",
+			"57": "Séc bi a",
+			"58": "Croatia",
+			"59": "Hồng Công, Trung Quốc",
+			"6": "Mê hi cô",
+			"60": "Đài Loan",
+			"61": "Sứ Wales",
+			"62": "Bulgaria",
+			"63": "Israel",
+			"64": "Slovenia",
+			"66": "Lithuania",
+			"67": "Slovakia",
+			"68": "Ukraine",
+			"69": "Bosnia and Herzegovina",
+			"7": "Ác Hen Ti Na",
+			"70": "Việt Nam",
+			"71": "Pakistan",
+			"72": "Paraguay",
+			"73": "Ecuador",
+			"74": "Bolivia",
+			"75": "Nigeria",
+			"76": "Đảo Faroe",
+			"77": "Ma Rốc",
+			"79": "Ả Rập Xê Út",
+			"8": "Mỹ",
+			"80": "Tunisia",
+			"81": "Costa Rica",
+			"83": "United Arab Emirates",
+			"84": "Lúc Xem Bua",
+			"85": "Iran",
+			"88": "Cộng Hòa Dominican",
+			"89": "Síp",
+			"9": "Na Uy",
+			"91": "Belarus",
+			"93": "Bắc Ai Len",
+			"94": "Jamaica",
+			"95": "Kenya",
+			"96": "Panama",
+			"97": "Bắc Macedonia",
+			"98": "Albania",
+			"99": "Honduras"
+		},
+		"levels": [
+			{
+				"text": "bất tài",
+				"value": "0"
+			},
+			{
+				"text": "thảm hại",
+				"value": "1"
+			},
+			{
+				"text": "tồi tệ",
+				"value": "2"
+			},
+			{
+				"text": "kém",
+				"value": "3"
+			},
+			{
+				"text": "yếu",
+				"value": "4"
+			},
+			{
+				"text": "trung bình",
+				"value": "5"
+			},
+			{
+				"text": "khá",
+				"value": "6"
+			},
+			{
+				"text": "giỏi",
+				"value": "7"
+			},
+			{
+				"text": "xuất sắc",
+				"value": "8"
+			},
+			{
+				"text": "vượt trội",
+				"value": "9"
+			},
+			{
+				"text": "kỳ diệu",
+				"value": "10"
+			},
+			{
+				"text": "phi thường",
+				"value": "11"
+			},
+			{
+				"text": "tuyệt vời",
+				"value": "12"
+			},
+			{
+				"text": "đẳng cấp quốc tế",
+				"value": "13"
+			},
+			{
+				"text": "siêu phàm",
+				"value": "14"
+			},
+			{
+				"text": "mê hoặc",
+				"value": "15"
+			},
+			{
+				"text": "ngoài hành tinh",
+				"value": "16"
+			},
+			{
+				"text": "huyền thoại",
+				"value": "17"
+			},
+			{
+				"text": "ma thuật",
+				"value": "18"
+			},
+			{
+				"text": "không tưởng",
+				"value": "19"
+			},
+			{
+				"text": "thần thánh",
+				"value": "20"
+			}
+		],
+		"name": "vi",
+		"positions": [
+			{
+				"type": "Keeper",
+				"value": "Thủ môn"
+			},
+			{
+				"type": "WingBack",
+				"value": "Hậu vệ cánh"
+			},
+			{
+				"type": "CentralDefender",
+				"value": "Trung vệ"
+			},
+			{
+				"type": "InnerMidfield",
+				"value": "Tiền vệ trung tâm"
+			},
+			{
+				"type": "Winger",
+				"value": "Tiền vệ cánh"
+			},
+			{
+				"type": "Forward",
+				"value": "Tiền đạo"
+			}
+		],
+		"ratingSubLevels": [
+			{
+				"text": "Rất thấp",
+				"value": "0"
+			},
+			{
+				"text": "Thấp",
+				"value": "0.25"
+			},
+			{
+				"text": "Cao",
+				"value": "0.5"
+			},
+			{
+				"text": "Rất cao",
+				"value": "0.75"
+			}
+		],
+		"sectors": [
+			{
+				"type": "Midfield",
+				"value": "Trung tuyến"
+			},
+			{
+				"type": "RightDefense",
+				"value": "Phòng ngự cánh phải"
+			},
+			{
+				"type": "CentralDefense",
+				"value": "Phòng ngự trung lộ"
+			},
+			{
+				"type": "LeftDefense",
+				"value": "Phòng ngự cánh trái"
+			},
+			{
+				"type": "RightAttack",
+				"value": "Tấn công cánh phải"
+			},
+			{
+				"type": "CentralAttack",
+				"value": "Tấn công trung lộ"
+			},
+			{
+				"type": "LeftAttack",
+				"value": "Tấn công cánh trái"
+			}
+		],
+		"skills": [
+			{
+				"type": "Keeper",
+				"value": "Chụp bóng"
+			},
+			{
+				"type": "Stamina",
+				"value": "Thể lực"
+			},
+			{
+				"type": "Defender",
+				"value": "Phòng thủ"
+			},
+			{
+				"type": "Playmaker",
+				"value": "Kiến thiết"
+			},
+			{
+				"type": "Winger",
+				"value": "Chạy cánh"
+			},
+			{
+				"type": "Scorer",
+				"value": "Ghi bàn"
+			},
+			{
+				"type": "Kicker",
+				"value": "Đá phạt"
+			},
+			{
+				"type": "Passer",
+				"value": "Chuyền bóng"
+			},
+			{
+				"type": "Experience",
+				"value": "Kinh nghiệm"
+			},
+			{
+				"type": "LeaderShip",
+				"value": "Khả năng lãnh đạo"
+			}
+		],
+		"specialties": [
+			{
+				"type": "None",
+				"value": "Không có"
+			},
+			{
+				"type": "Technical",
+				"value": "Kỹ thuật"
+			},
+			{
+				"type": "Quick",
+				"value": "Nhanh nhẹn"
+			},
+			{
+				"type": "Powerful",
+				"value": "Sức mạnh"
+			},
+			{
+				"type": "Unpredictable",
+				"value": "Ngẫu hứng"
+			},
+			{
+				"type": "Head",
+				"value": "Đánh đầu"
+			},
+			{
+				"type": "Resilient",
+				"value": "Hồi phục nhanh"
+			},
+			{
+				"type": "Support",
+				"value": "Hỗ trợ"
+			}
+		],
+		"spirit": [
+			{
+				"text": "như chiến tranh lạnh",
+				"value": "0"
+			},
+			{
+				"text": "đằng đằng sát khí",
+				"value": "1"
+			},
+			{
+				"text": "giận dữ",
+				"value": "2"
+			},
+			{
+				"text": "bực dọc",
+				"value": "3"
+			},
+			{
+				"text": "điềm tĩnh",
+				"value": "4"
+			},
+			{
+				"text": "bình thường",
+				"value": "5"
+			},
+			{
+				"text": "hài lòng",
+				"value": "6"
+			},
+			{
+				"text": "thỏa mãn",
+				"value": "7"
+			},
+			{
+				"text": "cuồng nhiệt",
+				"value": "8"
+			},
+			{
+				"text": "lâng lâng",
+				"value": "9"
+			},
+			{
+				"text": "Thiên đường trần gian!",
+				"value": "10"
+			}
+		],
+		"sponsors": [
+			{
+				"text": "đằng đằng sát khí",
+				"value": "0"
+			},
+			{
+				"text": "giận dữ",
+				"value": "1"
+			},
+			{
+				"text": "bực dọc",
+				"value": "2"
+			},
+			{
+				"text": "bình tĩnh",
+				"value": "3"
+			},
+			{
+				"text": "hài lòng",
+				"value": "4"
+			},
+			{
+				"text": "thỏa mãn",
+				"value": "5"
+			},
+			{
+				"text": "cuồng nhiệt",
+				"value": "6"
+			},
+			{
+				"text": "lâng lâng",
+				"value": "7"
+			},
+			{
+				"text": "nhảy múa trên đường",
+				"value": "8"
+			},
+			{
+				"text": "Gởi bạn thư hâm mộ",
+				"value": "9"
+			}
+		],
+		"tactics": [
+			{
+				"type": "normal",
+				"value": "Bình thường"
+			},
+			{
+				"type": "pressing",
+				"value": "Kèm chặt"
+			},
+			{
+				"type": "ca",
+				"value": "Phòng thủ phản công"
+			},
+			{
+				"type": "aim",
+				"value": "Tấn công trung lộ"
+			},
+			{
+				"type": "aow",
+				"value": "Tấn công cánh"
+			},
+			{
+				"type": "",
+				"value": "Không biết"
+			},
+			{
+				"type": "",
+				"value": "Không biết"
+			},
+			{
+				"type": "creatively",
+				"value": "Chơi sáng tạo"
+			},
+			{
+				"type": "longshots",
+				"value": "Sút xa"
+			}
+		],
+		"training": [
+			{
+				"type": "Gen",
+				"value": "Tổng quát (Phong độ)"
+			},
+			{
+				"type": "Sta",
+				"value": "Thể lực"
+			},
+			{
+				"type": "SP",
+				"value": "Đá phạt"
+			},
+			{
+				"type": "Def",
+				"value": "Phòng thủ"
+			},
+			{
+				"type": "Sco",
+				"value": "Ghi bàn"
+			},
+			{
+				"type": "Cross",
+				"value": "Chạy cánh"
+			},
+			{
+				"type": "Shoot",
+				"value": "Ghi bàn và đá phạt"
+			},
+			{
+				"type": "Pass",
+				"value": "Chuyền bóng"
+			},
+			{
+				"type": "PM",
+				"value": "Kiến thiết"
+			},
+			{
+				"type": "GK",
+				"value": "Thủ môn"
+			},
+			{
+				"type": "ThPass",
+				"value": "Chuyền bóng (Hậu vệ + Tiền vệ)"
+			},
+			{
+				"type": "DefPos",
+				"value": "Phòng ngự (Thủ môn, Hậu vệ + Tiền vệ)"
+			},
+			{
+				"type": "WingAtt",
+				"value": "Chạy cánh (TV Cánh + Tấn công)"
+			},
+			{
+				"type": "Indiv",
+				"value": "Cá nhân"
+			}
+		]
+	}
+}
