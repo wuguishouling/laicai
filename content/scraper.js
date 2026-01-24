@@ -313,8 +313,20 @@
         elements.previewSection.classList.add('hidden');
         elements.previewTbody.innerHTML = '';
 
+        // Also hide export container
+        const exportContainer = document.getElementById('export-data-container');
+        if (exportContainer) {
+            exportContainer.style.display = 'none';
+        }
+        const exportTextarea = document.getElementById('export-data-textarea');
+        if (exportTextarea) {
+            exportTextarea.value = '';
+        }
+
         setButtonStates(false, false);
         setStatus('准备就绪');
+
+        alert('数据已清除！');
     }
 
     // ==================== Scraping Logic ====================
@@ -635,6 +647,54 @@
         const btnCopyData = document.getElementById('btn-copy-data');
         const exportContainer = document.getElementById('export-data-container');
         const exportTextarea = document.getElementById('export-data-textarea');
+
+        // Save file directly using File System Access API
+        const btnSaveFile = document.getElementById('btn-save-file');
+        if (btnSaveFile) {
+            btnSaveFile.addEventListener('click', async () => {
+                if (state.collectedData.length === 0) {
+                    alert('没有数据可保存');
+                    return;
+                }
+
+                try {
+                    const jsonStr = JSON.stringify(state.collectedData, null, 2);
+                    const now = new Date();
+                    const dateStr = now.toISOString().slice(0, 10).replace(/-/g, '');
+
+                    // Check if File System Access API is available
+                    if (typeof window.showSaveFilePicker === 'function') {
+                        const handle = await window.showSaveFilePicker({
+                            suggestedName: `hattrick_matches_${dateStr}.json`,
+                            types: [{
+                                description: 'JSON Files',
+                                accept: { 'application/json': ['.json'] }
+                            }]
+                        });
+                        const writable = await handle.createWritable();
+                        await writable.write(jsonStr);
+                        await writable.close();
+                        alert('文件保存成功！');
+                    } else {
+                        // Fallback: create download link
+                        const blob = new Blob([jsonStr], { type: 'application/json' });
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `hattrick_matches_${dateStr}.json`;
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        setTimeout(() => URL.revokeObjectURL(url), 1000);
+                    }
+                } catch (e) {
+                    if (e.name !== 'AbortError') {
+                        console.error('Save error:', e);
+                        alert('保存失败: ' + e.message);
+                    }
+                }
+            });
+        }
 
         if (btnShowJson) {
             btnShowJson.addEventListener('click', () => {

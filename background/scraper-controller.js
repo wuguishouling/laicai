@@ -60,8 +60,8 @@ async function handleScrapeMatch(matchId, url, options) {
 
                 chrome.tabs.onUpdated.removeListener(onUpdated);
 
-                // Give page a moment to fully render
-                await new Promise(r => setTimeout(r, 2000));
+                // Give page a moment to fully render (reduced for speed)
+                await new Promise(r => setTimeout(r, 500));
 
                 try {
                     // Execute extraction script
