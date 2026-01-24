@@ -14,7 +14,66 @@
  * @param {Object} options 
  * @returns {Promise<Object>}
  */
+// Global scraper window ID to allow reuse
+let scraperWindowId = null;
+
 async function handleScrapeMatch(matchId, url, options) {
+    const startTime = performance.now();
+    console.log(`[TIMING] Match ${matchId}: Starting scraper request...`);
+
+    return new Promise(async (resolve, reject) => {
+        try {
+            // Check if scraper window already exists and is valid
+            if (scraperWindowId !== null) {
+                try {
+                    const window = await chrome.windows.get(scraperWindowId, { populate: true });
+                    if (window) {
+                        console.log(`[TIMING] Match ${matchId}: Reusing existing window ${scraperWindowId}`);
+                        // Reuse existing window
+                        return navigateAndScrape(window.id, window.tabs[0].id, matchId, url, options, resolve, reject, startTime);
+                    }
+                } catch (e) {
+                    // Window might have been closed by user
+                    scraperWindowId = null;
+                }
+            }
+
+            console.log(`[TIMING] Match ${matchId}: Creating new scraper window...`);
+
+            // Create new window if needed
+            // Create a visible but unfocused window (normal size) to avoid API errors
+            chrome.windows.create({
+                url: 'about:blank', // Start blank, then navigate
+                incognito: false,   // Use normal profile to share cookies
+                focused: false,     // Don't steal focus
+                width: 1024,
+                height: 768
+            }, (window) => {
+                if (chrome.runtime.lastError) {
+                    reject(new Error(chrome.runtime.lastError.message));
+                    return;
+                }
+
+                if (!window || !window.tabs || window.tabs.length === 0) {
+                    reject(new Error('无法创建窗口'));
+                    return;
+                }
+
+                scraperWindowId = window.id;
+                console.log(`[TIMING] Match ${matchId}: New window created ${window.id}`);
+                navigateAndScrape(window.id, window.tabs[0].id, matchId, url, options, resolve, reject, startTime);
+            });
+
+        } catch (error) {
+            reject(error);
+        }
+    });
+}
+
+async function handleScrapeMatch_OLD(matchId, url, options) {
+    const startTime = performance.now();
+    console.log(`[TIMING] Match ${matchId}: Starting window scrape...`);
+
     return new Promise((resolve, reject) => {
         // Create an incognito window
         chrome.windows.create({
@@ -23,6 +82,9 @@ async function handleScrapeMatch(matchId, url, options) {
             focused: false,  // Don't steal focus
             state: 'minimized'  // Minimize to be less intrusive
         }, (window) => {
+            const createTime = performance.now();
+            console.log(`[TIMING] Match ${matchId}: Window created in ${(createTime - startTime).toFixed(0)}ms`);
+
             if (chrome.runtime.lastError) {
                 // Check if incognito is not allowed
                 const errorMsg = chrome.runtime.lastError.message;
@@ -60,8 +122,14 @@ async function handleScrapeMatch(matchId, url, options) {
 
                 chrome.tabs.onUpdated.removeListener(onUpdated);
 
+                const loadTime = performance.now();
+                console.log(`[TIMING] Match ${matchId}: Tab loaded in ${(loadTime - createTime).toFixed(0)}ms`);
+
                 // Give page a moment to fully render (reduced for speed)
                 await new Promise(r => setTimeout(r, 500));
+
+                const waitTime = performance.now();
+                console.log(`[TIMING] Match ${matchId}: Render wait finished in ${(waitTime - loadTime).toFixed(0)}ms`);
 
                 try {
                     // Execute extraction script
@@ -71,11 +139,17 @@ async function handleScrapeMatch(matchId, url, options) {
                         args: [matchId, options]
                     });
 
+                    const extractTime = performance.now();
+                    console.log(`[TIMING] Match ${matchId}: Script execution in ${(extractTime - waitTime).toFixed(0)}ms`);
+
                     clearTimeout(timeout);
                     resolved = true;
 
                     // Close the incognito window
                     await chrome.windows.remove(windowId);
+
+                    const closeTime = performance.now();
+                    console.log(`[TIMING] Match ${matchId}: Window closed. TOTAL = ${(closeTime - startTime).toFixed(0)}ms`);
 
                     if (results && results[0] && results[0].result) {
                         resolve(results[0].result);
@@ -398,7 +472,106 @@ function extractMatchData(matchId, options) {
     return data;
 }
 
+/**
+ * Helper to navigate existing tab and scrape
+ */
+function navigateAndScrape(windowId, tabId, matchId, url, options, resolve, reject, startTime) {
+    let resolved = false;
+
+    // Set timeout for the operation
+    const timeout = setTimeout(() => {
+        if (!resolved) {
+            resolved = true;
+            reject(new Error('抓取超时'));
+            // Don't close window on timeout -> keep for next attempt
+        }
+    }, 30000);
+
+    const onUpdated = async (updatedTabId, changeInfo) => {
+        if (updatedTabId !== tabId || changeInfo.status !== 'complete') {
+            return;
+        }
+
+        chrome.tabs.onUpdated.removeListener(onUpdated);
+
+        const loadTime = performance.now();
+        console.log(`[TIMING] Match ${matchId}: Tab loaded in ${(loadTime - startTime).toFixed(0)}ms`);
+
+        // Give page a moment to fully render
+        await new Promise(r => setTimeout(r, 500));
+
+        const waitTime = performance.now();
+
+        try {
+            if (resolved) return;
+
+            // Execute extraction script
+            let results = await chrome.scripting.executeScript({
+                target: { tabId },
+                func: extractMatchData,
+                args: [matchId, options]
+            });
+
+            // RETRY LOGIC: If data is missing (e.g. homeTeamName is null), wait and retry once
+            // This handles cases where page says 'complete' but DOM is still hydrating
+            let data = results && results[0] ? results[0].result : null;
+
+            if (!data || !data.homeTeamName) {
+                console.log(`[TIMING] Match ${matchId}: Data incomplete, retrying in 1500ms...`);
+                await new Promise(r => setTimeout(r, 1500));
+
+                results = await chrome.scripting.executeScript({
+                    target: { tabId },
+                    func: extractMatchData,
+                    args: [matchId, options]
+                });
+                data = results && results[0] ? results[0].result : null;
+            }
+
+            const extractTime = performance.now();
+            console.log(`[TIMING] Match ${matchId}: Script execution in ${(extractTime - waitTime).toFixed(0)}ms`);
+            console.log(`[TIMING] Match ${matchId}: TOTAL = ${(extractTime - startTime).toFixed(0)}ms`);
+
+            clearTimeout(timeout);
+            resolved = true;
+
+            // DO NOT close window here - let it be reused!
+
+            if (data) {
+                resolve(data);
+            } else {
+                reject(new Error('无法提取数据'));
+            }
+        } catch (error) {
+            if (!resolved) {
+                clearTimeout(timeout);
+                resolved = true;
+                reject(error);
+            }
+        }
+    };
+
+    chrome.tabs.onUpdated.addListener(onUpdated);
+    console.log(`[TIMING] Match ${matchId}: Navigating tab to ${url}`);
+    chrome.tabs.update(tabId, { url: url });
+}
+
+/**
+ * Close the scraper window if it exists
+ */
+async function closeScraperWindow() {
+    if (scraperWindowId !== null) {
+        try {
+            await chrome.windows.remove(scraperWindowId);
+        } catch (e) {
+            // Ignore error if window already closed
+        }
+        scraperWindowId = null;
+    }
+}
+
 // Export for use as ES module
 export const ScraperController = {
-    handleScrapeMatch
+    handleScrapeMatch,
+    closeScraperWindow
 };

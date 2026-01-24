@@ -1,0 +1,1135 @@
+[
+  {
+    "awayGoals": 4,
+    "awayLeftAttack": null,
+    "awayLeftDefense": null,
+    "awayMiddleAttack": null,
+    "awayMiddleDefense": null,
+    "awayMidfield": null,
+    "awayRightAttack": null,
+    "awayRightDefense": null,
+    "awayTactics": null,
+    "awayTacticsLevel": null,
+    "awayTeamId": null,
+    "awayTeamName": "Fc Beitem",
+    "events": [
+      {
+        "eventType": "31_2",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "阴霾的天气无阻 60486 名观众前往 La Cuvette 观赛。 Alexandros Goumenos 是比赛裁判，助理裁判则是 苏 (Su) 飞 (Fei) 和 Henrique Baião。"
+      },
+      {
+        "eventType": "21_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "阵容是 Grosfils - Tallieu, Fripont, Paravizzini - Dominiak, Dusart, Burms, Forton, Van Slycke - Bauche, Cuyvers。"
+      },
+      {
+        "eventType": "21_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "下列球员被选: Riznyk - Hillaert, Erosa, Trindade - Bačo, Mustonen, Burms, Cops, Proot - Roudenko, Kissel。"
+      },
+      {
+        "eventType": "23_4",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "3-5-2 阵型是双方教练的选择。"
+      },
+      {
+        "eventType": "334_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "Liégeois 的攻势来自边路进攻，利用其超凡入圣 (+2) (22)级别的战术能力。"
+      },
+      {
+        "eventType": "408_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "3",
+        "text": "第 3 分钟时 Fons Paravizzini 扭伤右脚踝，不过他还是咬牙强忍继续比赛。"
+      },
+      {
+        "eventType": "173_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "10",
+        "text": "第 10 分钟时 Beitem 队自右边发动攻势，Thierry Roudenko 的进球帮助客队领先 0-1，主场球迷顿时鸦雀无声。"
+      },
+      {
+        "eventType": "213_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "14",
+        "text": "第 14 分钟时 Lieven Dusart 队在右路连串的巧妙突破后起脚，但球滑门而出，主队无功而返。"
+      },
+      {
+        "eventType": "510_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "23",
+        "text": "第 23 分钟时 Beitem 队的 Roelant Burms 从背后绊倒对手但仅仅得到黄牌警告，众人都觉得裁判的判罚尺度太宽松了。"
+      },
+      {
+        "eventType": "407_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "23",
+        "text": "第 23 分钟时 Falco Tallieu 扭伤左脚踝，无奈离场。"
+      },
+      {
+        "eventType": "424_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "23",
+        "text": "这倒是给了 Riccardo Verboomen 一个机会上场。"
+      },
+      {
+        "eventType": "181_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "29",
+        "text": "第 29 分钟时 Beitem 队的 Pieter Proot 突破中路防线后长驱直入，小禁区前劲射入网，0-2。"
+      },
+      {
+        "eventType": "237_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "31",
+        "text": "Beitem 队的 Pieter Proot 边路带球前进被阻后马上低传给 Roelant Burms，不过后者射门偏出。"
+      },
+      {
+        "eventType": "218_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "32",
+        "text": "Thobias Cops 将角球轻敲给 Karlfried Kissel，后者面对整个浩大空门竟然射中立柱。"
+      },
+      {
+        "eventType": "181_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "33",
+        "text": "第 33 分钟时 Beitem 队的 Pieter Proot 接到队友巧妙直塞后一脚吊射，球越过门将入网，0-3，主场观众对此感到十分不满。"
+      },
+      {
+        "eventType": "45_3",
+        "isAway": false,
+        "isHome": false,
+        "minute": "45",
+        "text": "半场比分是 0-3。"
+      },
+      {
+        "eventType": "40_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "45",
+        "text": "Liégeois 队有明显的控球优势，高达百分之 53。"
+      },
+      {
+        "eventType": "103_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "47",
+        "text": "第 47 分钟时 Liégeois 队在右边配合， Siebe Forton 最后射门得分，1-3。"
+      },
+      {
+        "eventType": "281_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "48",
+        "text": "第 48 分钟时 Brandão Joaquim Trindade 队中路突施冷箭，球偏出目标。"
+      },
+      {
+        "eventType": "282_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "49",
+        "text": "第 49 分钟时 Beitem 差点通过左路进攻的 Óscar Erosa 门前垫射得手，多亏门将身手了得化解险情。"
+      },
+      {
+        "eventType": "102_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "52",
+        "text": "比赛进行至第 52 分钟时，Liégeois 队的 Fons Paravizzini 灵巧地带球由左路下底内切然后射门，一连串的动作一气呵成，客队领先优势顿时减至 2-3。"
+      },
+      {
+        "eventType": "183_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "60",
+        "text": "第 60 分钟时 Thierry Roudenko 带球由右边突破切入禁区射门得分，主队球迷不由大为颓丧，Beitem 队领先 2-4。"
+      },
+      {
+        "eventType": "352_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "66",
+        "text": "Beitem 队在比赛进行至第 66 分钟时进行换人以为比赛注入新鲜血液， Thobias Cops 和替补他的 Carl Istasse 匆匆拥抱一下后离场。"
+      },
+      {
+        "eventType": "81_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "66",
+        "text": "当 Thobias Cops 不在场上时， Carlos Hillaert 就是新的定位球主罚人选。"
+      },
+      {
+        "eventType": "75_1",
+        "isAway": false,
+        "isHome": false,
+        "minute": "89",
+        "text": "比赛临近结束，裁判觉得应该要有 4 分钟的伤停补时。"
+      },
+      {
+        "eventType": "599_1",
+        "isAway": false,
+        "isHome": false,
+        "minute": "90+4",
+        "text": "比赛结束，最终比分为 2-4 。"
+      },
+      {
+        "eventType": "40_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "Liégeois 队统治着比赛，控球率高达百分之 53。"
+      },
+      {
+        "eventType": "41_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "毫无疑问的， Siebe Forton 是 Liégeois 的场上最佳球员。"
+      },
+      {
+        "eventType": "41_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "",
+        "text": "Beitem 的 Thierry Roudenko 今天的表现简直令人惊叹不已。"
+      }
+    ],
+    "homeGoals": 2,
+    "homeLeftAttack": null,
+    "homeLeftDefense": null,
+    "homeMiddleAttack": null,
+    "homeMiddleDefense": null,
+    "homeMidfield": null,
+    "homeRightAttack": null,
+    "homeRightDefense": null,
+    "homeTactics": null,
+    "homeTacticsLevel": null,
+    "homeTeamId": null,
+    "homeTeamName": "FC Liégeois",
+    "matchDate": "24-08-2025 13.00",
+    "matchId": 754129050,
+    "matchType": "Other",
+    "timelineRatings": null
+  },
+  {
+    "awayGoals": 0,
+    "awayLeftAttack": null,
+    "awayLeftDefense": null,
+    "awayMiddleAttack": null,
+    "awayMiddleDefense": null,
+    "awayMidfield": null,
+    "awayRightAttack": null,
+    "awayRightDefense": null,
+    "awayTactics": null,
+    "awayTacticsLevel": null,
+    "awayTeamId": null,
+    "awayTeamName": "Rsc Lissewege Dark",
+    "events": [
+      {
+        "eventType": "33_4",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "异常炎热的一天， 69473 人来到 Bouletten 观赛。 Sammy de Ruyter 是比赛裁判，助理裁判则是 Unknown Player 和 Vamogo Odi Amon。"
+      },
+      {
+        "eventType": "391_3",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "今天天气十分炎热，那些以身体接触为主要打法，或是得不停来回冲刺的球员，都感觉很吃力。相反的，技术型的球员就十分享受阳光。"
+      },
+      {
+        "eventType": "25_4",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "这场 West-Vlaanderen 地区德比大战轰动全城，两队的球迷纷纷齐集看台。"
+      },
+      {
+        "eventType": "21_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "被派上场的球员有 Olano - Overbeek, Schoenmaekers - Couwenberg, Van Bouwel, Bovit, Floré, Estienne - Toro Bravo, Dubucq, Calahorra。"
+      },
+      {
+        "eventType": "21_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "下列球员被选: Shakira - Cailleau, Amadi, Provost - Raya, Calewaert, Gänslein, Coenegrachts, Thorat - Neufkens, Simons。"
+      },
+      {
+        "eventType": "24_1",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "De Gehaktballen 队以 2-5-3 阵型开始比赛，而 Rsc Lissewege Dark 队则是 3-5-2 阵型。"
+      },
+      {
+        "eventType": "335_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "Gehaktballen 队在场上发挥他们的创造力。"
+      },
+      {
+        "eventType": "333_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "Lissdark 队的战略很明显的是中路进攻，他们的战术水平是威力无边 (15)级别。"
+      },
+      {
+        "eventType": "222_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "11",
+        "text": "Gehaktballen 队错失取得领先的机会，Alberto Toro Bravo 左路突破后进入禁区，角度很窄但他还是勉强起脚，皮球去势软弱，正中 Mohamed Shakira 下怀。"
+      },
+      {
+        "eventType": "219_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "13",
+        "text": "角球时 Alexandre Bovit 占尽空中优势，有好几个头球攻门机会。"
+      },
+      {
+        "eventType": "123_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "15",
+        "text": "比赛进行至第 15 分钟时 Gehaktballen 队的 Alberto Toro Bravo 从右侧斜插入禁区射门入网，为主队取得领先，1-0。"
+      },
+      {
+        "eventType": "116_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "16",
+        "text": "第 16 分钟时 Lucas Estienne 快速启动，把球转交 Rien Couwenberg，后者击败门将得分，新比分是 2-0。"
+      },
+      {
+        "eventType": "132_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "26",
+        "text": "第 26 分钟时 Lucas Estienne 的进球来自左路，随着 Gehaktballen 队再进一球将比分改写为 3-0，客队的处境越来越困难了。 来自 Alexandre Bovit 的精准传球带来了进球。"
+      },
+      {
+        "eventType": "135_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "28",
+        "text": "Gehaktballen 队的 Abel Calahorra 不愧是老将，在敌队禁区一片混乱之际，以其经验射门得分，4-0。"
+      },
+      {
+        "eventType": "231_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "33",
+        "text": "第 33 分钟时 Gehaktballen 队打出经典配合，从快速拦截来球，到禁区前沿 Elmer Dubucq 怒射，可惜无法逾越 Mohamed Shakira 的十指关。"
+      },
+      {
+        "eventType": "45_5",
+        "isAway": false,
+        "isHome": false,
+        "minute": "45",
+        "text": "4-0，这就是上半场的比分。"
+      },
+      {
+        "eventType": "40_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "45",
+        "text": "在四十五分钟的比赛里， Gehaktballen 队的控球率高达百分之 57。"
+      },
+      {
+        "eventType": "185_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "47",
+        "text": "Gehaktballen 队于第 47 分钟时开出的任意球，皮球的运行轨道既短又偏，看起来似乎在随意挥霍这次的机会，但原来其中大有文章，球转眼间就被传中给埋伏在禁区内的 Alberto Toro Bravo，5-0!哈，回去可别忘了感谢设计出这巧妙战术配合的指导!"
+      },
+      {
+        "eventType": "133_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "48",
+        "text": "Helmar Floré 把右边来球顶入网，为 Gehaktballen 队扩大领先优势至 6-0。"
+      },
+      {
+        "eventType": "132_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "73",
+        "text": "Rien Couwenberg 为 Gehaktballen 队再下一城，这次的进球来自左路进攻，他单刀面对门将冷静射门得分，7-0。 有了 Simon-Pierre Schoenmaekers 穿针引线精准妙传，才带来了进球。"
+      },
+      {
+        "eventType": "133_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "87",
+        "text": "第 87 分钟时 Alexandre Bovit 前点高高跃起，把右路传中球轰进远角，Gehaktballen 队领先 8-0。 进球归功于 Alberto Toro Bravo 的妙传。"
+      },
+      {
+        "eventType": "352_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "88",
+        "text": "Lissdark 队在比赛进行至第 88 分钟时进行换人以为比赛注入新鲜血液， Vik Simons 和替补他的 Dave De Scheirder 匆匆拥抱一下后离场。"
+      },
+      {
+        "eventType": "405_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "89",
+        "text": "Gerald Neufkens 于第 89 分钟时伤到了左脚，无法继续比赛。"
+      },
+      {
+        "eventType": "424_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "89",
+        "text": "取代受伤球员的是 Agustín Ferreras。"
+      },
+      {
+        "eventType": "75_3",
+        "isAway": false,
+        "isHome": false,
+        "minute": "89",
+        "text": "球员们看起来十分累了，不过当裁判示意会有 4 分钟的伤停补时，球员们还是支持，这额外的数分钟也是额外的机会让他们显示自己的价值。"
+      },
+      {
+        "eventType": "131_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "89",
+        "text": "第 89 分钟时 Helmar Floré 强行突入禁区，在客队中路防线多人包夹中突围而出，球直入远角，9-0!"
+      },
+      {
+        "eventType": "599_3",
+        "isAway": false,
+        "isHome": false,
+        "minute": "90+4",
+        "text": "比赛结束，最终比分为 9-0 。"
+      },
+      {
+        "eventType": "40_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "Gehaktballen 队统治着比赛，控球率高达百分之 58。"
+      },
+      {
+        "eventType": "41_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "Gehaktballen 的最佳球员为 Alberto Toro Bravo。"
+      },
+      {
+        "eventType": "41_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "",
+        "text": "对 Lissdark 来说，最重要的球员是 Mohamed Shakira。"
+      }
+    ],
+    "homeGoals": 9,
+    "homeLeftAttack": null,
+    "homeLeftDefense": null,
+    "homeMiddleAttack": null,
+    "homeMiddleDefense": null,
+    "homeMidfield": null,
+    "homeRightAttack": null,
+    "homeRightDefense": null,
+    "homeTactics": null,
+    "homeTacticsLevel": null,
+    "homeTeamId": null,
+    "homeTeamName": "De Gehaktballen",
+    "matchDate": "23-11-2025 13.00",
+    "matchId": 754129051,
+    "matchType": "Other",
+    "timelineRatings": null
+  },
+  {
+    "awayGoals": 0,
+    "awayLeftAttack": null,
+    "awayLeftDefense": null,
+    "awayMiddleAttack": null,
+    "awayMiddleDefense": null,
+    "awayMidfield": null,
+    "awayRightAttack": null,
+    "awayRightDefense": null,
+    "awayTactics": null,
+    "awayTacticsLevel": null,
+    "awayTeamId": null,
+    "awayTeamName": "Voldersgilde",
+    "events": [
+      {
+        "eventType": "31_2",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "阴霾的天气无阻 53103 名观众前往 Maartens Arena 观赛。 Vladimir Slavov 是比赛裁判，助理裁判则是 Hareth Tlaymat 和 Pavel Kositsyn。"
+      },
+      {
+        "eventType": "25_1",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "大家都很兴奋地等待即将到来的 Oost-Vlaanderen 地区德比大战，双方球迷的人数势均力敌。"
+      },
+      {
+        "eventType": "21_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "阵容是 Iliaens - Dhaen, Fridakis, Delbeke - El-Tal, Maršál, Shaheen, Noreilde, Potoms - Paoni, Pipitone。"
+      },
+      {
+        "eventType": "21_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "首发是 Mane - Soldino, Andriesse, Arzumanyan, Potesta, Kiekens - Majer, Kaša - Stanišić, Dellaert, Sarnik。"
+      },
+      {
+        "eventType": "24_5",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "这是两种足球哲学的对弈，主队的阵型是 3-5-2，而客队将以 5-2-3 迎战。"
+      },
+      {
+        "eventType": "331_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "Volders 队本场比赛采取全场压迫战略，他们有神妙 (12)级别的战术技能。"
+      },
+      {
+        "eventType": "380_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "5",
+        "text": "Taron Arzumanyan 寸步不离跟着 Alberto Pipitone，令他无从发挥本领，看来这次 Volders 队的冒险赢了。"
+      },
+      {
+        "eventType": "222_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "23",
+        "text": "第 23 分钟时 Maarten 队错过机会，Mathias Delbeke 个人突破来到门前却无法专注心神，劲射离谱歪出目标。"
+      },
+      {
+        "eventType": "235_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "28",
+        "text": "Enrico Paoni 以其老到的经验成功预测敌队防守球员的行动，于第 28 分钟时在禁区制造险情。"
+      },
+      {
+        "eventType": "68_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "29",
+        "text": "Volders 队利用他们的全场压迫技能对敌方施加压力并成功抑制比赛。"
+      },
+      {
+        "eventType": "68_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "39",
+        "text": "Volders 队的全场压迫战略成功遏制对手。"
+      },
+      {
+        "eventType": "122_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "40",
+        "text": "第 40 分钟时 Maarten 队的 Wim Noreilde 在左边巧妙地突破射门，帮助球队把比分超出，1-0。 进球是来自 Alberto Pipitone 恰到好处的妙传，时机也拿捏得十分准确。"
+      },
+      {
+        "eventType": "45_4",
+        "isAway": false,
+        "isHome": false,
+        "minute": "45",
+        "text": "半场休息时比分是 1-0。"
+      },
+      {
+        "eventType": "40_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "45",
+        "text": "Maarten 队有明显的控球优势，高达百分之 78。"
+      },
+      {
+        "eventType": "68_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "54",
+        "text": "Volders 队的全场压迫能力使对手打来十分困难。"
+      },
+      {
+        "eventType": "232_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "57",
+        "text": "第 57 分钟时 Maarten 队的 Zachos Fridakis 禁区左边射门掠过横梁飞出界外。"
+      },
+      {
+        "eventType": "352_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "60",
+        "text": "如果有得选择的话， Simone Potesta 才不愿意下场呢，无奈无法违背教练的决定， Andrija Jugović 进场替补他，这时候是比赛的第 60 分钟。"
+      },
+      {
+        "eventType": "352_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "60",
+        "text": "第 60 分钟时裁判示意让 Volders 队进行换人，被 Donald Saint-Hilaire 换下的球员是 Amit 'Indian Panther' Mane。"
+      },
+      {
+        "eventType": "80_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "60",
+        "text": "David Majer 成为 Volders 队的新队长。"
+      },
+      {
+        "eventType": "422_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "72",
+        "text": "Volders 队的 Svatopluk Kaša 于第 72 分钟时头部被击中，队医马上示意将他换下，这球员以前曾经头部受伤，医疗团队决定不冒险。"
+      },
+      {
+        "eventType": "424_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "72",
+        "text": "取代他的位置的是 Julian Vossoughi。"
+      },
+      {
+        "eventType": "68_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "75",
+        "text": "Volders 队的全场压迫时常见效。"
+      },
+      {
+        "eventType": "510_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "76",
+        "text": "Maarten 队的 Enrico Paoni 凶猛铲球，裁判对他出示黄牌。"
+      },
+      {
+        "eventType": "75_3",
+        "isAway": false,
+        "isHome": false,
+        "minute": "89",
+        "text": "球员们看起来十分累了，不过当裁判示意会有 1 分钟的伤停补时，球员们还是支持，这额外的数分钟也是额外的机会让他们显示自己的价值。"
+      },
+      {
+        "eventType": "599_5",
+        "isAway": false,
+        "isHome": false,
+        "minute": "90+1",
+        "text": "比赛结束，最终比分为 1-0 。"
+      },
+      {
+        "eventType": "40_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "Maarten 队统治着比赛，控球率高达百分之 80。"
+      },
+      {
+        "eventType": "41_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "表现最佳的 Maarten 球员无疑是 Wim Noreilde。"
+      },
+      {
+        "eventType": "41_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "",
+        "text": "Volders 的最佳球员为 Donald Saint-Hilaire。"
+      }
+    ],
+    "homeGoals": 1,
+    "homeLeftAttack": null,
+    "homeLeftDefense": null,
+    "homeMiddleAttack": null,
+    "homeMiddleDefense": null,
+    "homeMidfield": null,
+    "homeRightAttack": null,
+    "homeRightDefense": null,
+    "homeTactics": null,
+    "homeTacticsLevel": null,
+    "homeTeamId": null,
+    "homeTeamName": "Maarten",
+    "matchDate": "24-08-2025 13.00",
+    "matchId": 754129052,
+    "matchType": "Other",
+    "timelineRatings": null
+  },
+  {
+    "awayGoals": 1,
+    "awayLeftAttack": null,
+    "awayLeftDefense": null,
+    "awayMiddleAttack": null,
+    "awayMiddleDefense": null,
+    "awayMidfield": null,
+    "awayRightAttack": null,
+    "awayRightDefense": null,
+    "awayTactics": null,
+    "awayTacticsLevel": null,
+    "awayTeamId": null,
+    "awayTeamName": "Olympic Marche FC",
+    "events": [
+      {
+        "eventType": "33_5",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "红彤彤的太阳高挂天空，Ribici Arena 里的 55505 名观众犹如置身烤炉。 Peeter Ossiander 是比赛裁判，助理裁判则是 Claudio Zambon 和 Moritz Sorio。"
+      },
+      {
+        "eventType": "21_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "下列球员被选: Nussbaumer - Monje, Castro, Brocken - Cerović, Arteni, Hilal, Turunen, Tatera - Piispanen, Arthur。"
+      },
+      {
+        "eventType": "21_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "他们派上 Ahlgård - Sotelo, Coeimans, Gailly - Râcă, Bostyn, Omloop, Palluzzi, Raudjärv - Meister, Latukka。"
+      },
+      {
+        "eventType": "23_5",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "两支球队都排出 3-5-2  阵型。"
+      },
+      {
+        "eventType": "335_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "Ribici 队在场上显示他们的创造力。"
+      },
+      {
+        "eventType": "172_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "16",
+        "text": "比赛进行至第 16 分钟时，客队于左路制造杀着，Davide Luigi Palluzzi 带球绕过包夹防守的后卫，门前抽射击败门将得分，0-1。"
+      },
+      {
+        "eventType": "119_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "19",
+        "text": "第 19 分钟时角球开出来， Stefan Tatera 在人群中高高跃起头球中的，1-1。"
+      },
+      {
+        "eventType": "119_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "30",
+        "text": "Ribici 队得到角球，由 Şansal Hilal 开出，Antti Piispanen 门前鱼跃头球攻门，2-1。"
+      },
+      {
+        "eventType": "231_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "31",
+        "text": "第 31 分钟时 Agaton Ahlgård 精彩扑出 Nathan Arthur 势在必得的射门。"
+      },
+      {
+        "eventType": "209_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "41",
+        "text": "Glorian Omloop 在众敌队球员包围中乱了手脚，只求大脚开出，给候个正着的 Ribici 队的 Ljubiša Cerović 截到球，幸运的是后者面对空门竟然一脚将球打飞。"
+      },
+      {
+        "eventType": "45_3",
+        "isAway": false,
+        "isHome": false,
+        "minute": "45",
+        "text": "半场比分是 2-1。"
+      },
+      {
+        "eventType": "40_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "45",
+        "text": "Ribici 队统治着比赛，控球率高达百分之 58。"
+      },
+      {
+        "eventType": "261_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "59",
+        "text": "Olympic 队错过扳平机会，Yorick Gailly 独自面对门将，却把球打在横梁上沿弹出。"
+      },
+      {
+        "eventType": "352_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "64",
+        "text": "Olympic 队在比赛进行至第 64 分钟时进行换人以为比赛注入新鲜血液， Andres Raudjärv 和替补他的 Mihai-Andrei Bontaş 匆匆拥抱一下后离场。"
+      },
+      {
+        "eventType": "350_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "64",
+        "text": "Olympic 队需要一双充满活力的腿，于是 Glorian Omloop 在第 64 分钟时让位给 Patiyo Toto。"
+      },
+      {
+        "eventType": "81_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "64",
+        "text": "当 Glorian Omloop 离场后，教练示意 Ovidiu Râcă 主罚所有任意球。"
+      },
+      {
+        "eventType": "80_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "64",
+        "text": "Olympic 队的队长下场了，Vincent Coeimans 挺身而出接过此责。"
+      },
+      {
+        "eventType": "352_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "70",
+        "text": "第 70 分钟时裁判示意让 Ribici 队进行换人，被 Conrad Ebben 换下的球员是 Antti Piispanen。"
+      },
+      {
+        "eventType": "352_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "70",
+        "text": "Ribici 队的教练想看到一个新鲜脸孔，于是在第 70 分钟时令旗一挥， Stefan Tatera 下， Roland Klarić 上。"
+      },
+      {
+        "eventType": "352_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "70",
+        "text": "如果有得选择的话， Ljubiša Cerović 才不愿意下场呢，无奈无法违背教练的决定， Vittorio Marcocchi 进场替补他，这时候是比赛的第 70 分钟。"
+      },
+      {
+        "eventType": "80_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "70",
+        "text": "Ribici 队的 Vasile Arteni 接过队长袖标。"
+      },
+      {
+        "eventType": "401_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "72",
+        "text": "第 72 分钟时 Şansal Hilal 突然坐下揉搓自己的左膝盖，一脸愁容，不过最终他还是站了起来。"
+      },
+      {
+        "eventType": "233_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "74",
+        "text": "Ribici 队在右路组织不少攻势，第 74 分钟时 Vittorio Marcocchi 挥霍机会射门偏出。"
+      },
+      {
+        "eventType": "75_2",
+        "isAway": false,
+        "isHome": false,
+        "minute": "89",
+        "text": "裁判宣布补时 1 分钟，球迷还有微弱希望看到自己的球队再组织一次最后进攻。"
+      },
+      {
+        "eventType": "599_4",
+        "isAway": false,
+        "isHome": false,
+        "minute": "90+1",
+        "text": "比赛结束，最终比分为 2-1 。"
+      },
+      {
+        "eventType": "40_3",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "Ribici 队占据着场上主动，拥有百分之 56 的控球率。"
+      },
+      {
+        "eventType": "41_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "表现最佳的 Ribici 球员无疑是 Şansal Hilal。"
+      },
+      {
+        "eventType": "41_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "",
+        "text": "毫无疑问的， Davide Luigi Palluzzi 是 Olympic 的场上最佳球员。"
+      }
+    ],
+    "homeGoals": 2,
+    "homeLeftAttack": null,
+    "homeLeftDefense": null,
+    "homeMiddleAttack": null,
+    "homeMiddleDefense": null,
+    "homeMidfield": null,
+    "homeRightAttack": null,
+    "homeRightDefense": null,
+    "homeTactics": null,
+    "homeTacticsLevel": null,
+    "homeTeamId": null,
+    "homeTeamName": "Ribici",
+    "matchDate": "24-08-2025 13.00",
+    "matchId": 754129053,
+    "matchType": "Other",
+    "timelineRatings": null
+  },
+  {
+    "awayGoals": 1,
+    "awayLeftAttack": null,
+    "awayLeftDefense": null,
+    "awayMiddleAttack": null,
+    "awayMiddleDefense": null,
+    "awayMidfield": null,
+    "awayRightAttack": null,
+    "awayRightDefense": null,
+    "awayTactics": null,
+    "awayTacticsLevel": null,
+    "awayTeamId": null,
+    "awayTeamName": "Eendracht zwanboys",
+    "events": [
+      {
+        "eventType": "33_3",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "53758 名观众在这阳光和煦的一天来到 Het Groene Veldje 看球。 Gabriel Vara del Rey 是比赛裁判，助理裁判则是 Joshua Armfield 和 Bence Pintér。"
+      },
+      {
+        "eventType": "391_4",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "晴朗的天气也是技术型球员最喜欢的天气，不过速度和力量型球员很快就会力竭，无法充分发挥自己的长处。"
+      },
+      {
+        "eventType": "21_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "0",
+        "text": "被派上场的球员有 Minchev - Kotirinta, 藤田 (Fujita), Berrada - Aranya, Trio, Tollenaere, Henderyckx, Ifill - Cheyo, McGuinness。"
+      },
+      {
+        "eventType": "21_1",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "他们派上 Iyeli - Feldman, Gheens, Dockx, Michielsens - Koutsaftis, Rashkovan, van Anrooij, Vlachoyiannis - Pithiviers, van Spijk。"
+      },
+      {
+        "eventType": "24_5",
+        "isAway": false,
+        "isHome": false,
+        "minute": "0",
+        "text": "这是两种足球哲学的对弈，主队的阵型是 3-5-2，而客队将以 4-4-2 迎战。"
+      },
+      {
+        "eventType": "332_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "0",
+        "text": "Eendracht 队尽其所能进行防守反击，充分利用己队超凡入圣 (20)级别的战术水平。"
+      },
+      {
+        "eventType": "218_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "4",
+        "text": "Eendracht 队的 Dean Feldman 是主罚角球的好手，他把球喂到了 Djoerd van Anrooij 的脚下，可惜后者临门一脚欠缺火候。"
+      },
+      {
+        "eventType": "241_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "13",
+        "text": "Eendracht 队的后卫线传出一个漂亮的球，球队马上投入反击，Rivlin Rashkovan 在对方禁区内中路得球后射门高出。"
+      },
+      {
+        "eventType": "510_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "14",
+        "text": "比赛进行至第 14 分钟时 DNS队的 Robbin 'Robinho' Henderyckx 由于铲倒对手而得到黄牌。"
+      },
+      {
+        "eventType": "241_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "16",
+        "text": "Eendracht 队后场长传中路马上展开反击，Bas van Spijk 的射门仅仅被门将及时扑出。"
+      },
+      {
+        "eventType": "407_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "22",
+        "text": "第 22 分钟时 Domien Michielsens 扭伤左脚踝，无奈离场。"
+      },
+      {
+        "eventType": "424_2",
+        "isAway": true,
+        "isHome": false,
+        "minute": "22",
+        "text": "这倒是给了 Guess Deckmyn 一个机会上场。"
+      },
+      {
+        "eventType": "286_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "30",
+        "text": "第 30 分钟时 Eendracht 队发动快速反击但是带球的球员被恶劣侵犯倒地，球队因此得到任意球，球被开进小禁区离门将不远处，不过防守的一方战战兢兢努力抵抗终于让对方无功而返。"
+      },
+      {
+        "eventType": "45_1",
+        "isAway": false,
+        "isHome": false,
+        "minute": "45",
+        "text": "半场比分是 0-0。"
+      },
+      {
+        "eventType": "40_4",
+        "isAway": false,
+        "isHome": true,
+        "minute": "45",
+        "text": "这半场是 DNS 队的天下，控球率高达百分之 69。"
+      },
+      {
+        "eventType": "221_1",
+        "isAway": false,
+        "isHome": true,
+        "minute": "67",
+        "text": "第 67 分钟时 Gaash Aranya 在禁区内与客队门将 Benjamin Iyeli 对抗中倒地，但裁判没有判罚点球。"
+      },
+      {
+        "eventType": "241_3",
+        "isAway": true,
+        "isHome": false,
+        "minute": "68",
+        "text": "Eendracht 队的后卫线创造出反击机会，Themis Koutsaftis 眼见得分在即却把球射在横梁上弹出。"
+      },
+      {
+        "eventType": "352_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "70",
+        "text": "如果有得选择的话， Robert Pithiviers 才不愿意下场呢，无奈无法违背教练的决定， Miguel Ángel Méndez 进场替补他，这时候是比赛的第 70 分钟。"
+      },
+      {
+        "eventType": "143_5",
+        "isAway": true,
+        "isHome": false,
+        "minute": "72",
+        "text": "第 72 分钟时 Eendracht 队沿右路反击，Rivlin Rashkovan 乱军中捉住机会门前轻松偷袭得手，0-1。"
+      },
+      {
+        "eventType": "75_1",
+        "isAway": false,
+        "isHome": false,
+        "minute": "89",
+        "text": "比赛临近结束，裁判觉得应该要有 1 分钟的伤停补时。"
+      },
+      {
+        "eventType": "599_1",
+        "isAway": false,
+        "isHome": false,
+        "minute": "90+1",
+        "text": "比赛结束，最终比分为 0-1 。"
+      },
+      {
+        "eventType": "40_2",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "DNS 队有明显的控球优势，高达百分之 69。"
+      },
+      {
+        "eventType": "41_5",
+        "isAway": false,
+        "isHome": true,
+        "minute": "",
+        "text": "DNS 的 将勝 (Masakatsu) 藤田 (Fujita) 今天的表现简直令人惊叹不已。"
+      },
+      {
+        "eventType": "41_4",
+        "isAway": true,
+        "isHome": false,
+        "minute": "",
+        "text": "表现最佳的 Eendracht 球员无疑是 Bas van Spijk。"
+      }
+    ],
+    "homeGoals": 0,
+    "homeLeftAttack": null,
+    "homeLeftDefense": null,
+    "homeMiddleAttack": null,
+    "homeMiddleDefense": null,
+    "homeMidfield": null,
+    "homeRightAttack": null,
+    "homeRightDefense": null,
+    "homeTactics": null,
+    "homeTacticsLevel": null,
+    "homeTeamId": null,
+    "homeTeamName": "De Nieuwe Start",
+    "matchDate": "24-08-2025 13.00",
+    "matchId": 754129054,
+    "matchType": "Other",
+    "timelineRatings": null
+  }
+]
