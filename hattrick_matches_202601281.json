@@ -1,0 +1,322 @@
+[
+  {
+    "awayGoals": 4,
+    "awayLeftAttack": 10.5,
+    "awayLeftDefense": 18.5,
+    "awayMiddleAttack": 12.75,
+    "awayMiddleDefense": 17.5,
+    "awayMidfield": 10.75,
+    "awayRightAttack": 11.25,
+    "awayRightDefense": 17.25,
+    "awayTactics": null,
+    "awayTacticsLevel": null,
+    "awayTeamId": 193940,
+    "awayTeamName": "Fc Beitem",
+    "events": [
+      {
+        "eventType": "31_2",
+        "isAway": false,
+        "isHome": false,
+        "isSE": false,
+        "minute": "0",
+        "text": "阴霾的天气无阻 60486 名观众前往 La Cuvette 观赛。 Alexandros Goumenos 是比赛裁判，助理裁判则是 苏 (Su) 飞 (Fei) 和 Henrique Baião。"
+      },
+      {
+        "eventType": "21_3",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "0",
+        "text": "阵容是 Grosfils - Tallieu, Fripont, Paravizzini - Dominiak, Dusart, Burms, Forton, Van Slycke - Bauche, Cuyvers。"
+      },
+      {
+        "eventType": "21_2",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "0",
+        "text": "下列球员被选: Riznyk - Hillaert, Erosa, Trindade - Bačo, Mustonen, Burms, Cops, Proot - Roudenko, Kissel。"
+      },
+      {
+        "eventType": "23_4",
+        "isAway": false,
+        "isHome": false,
+        "isSE": false,
+        "minute": "0",
+        "text": "3-5-2 阵型是双方教练的选择。"
+      },
+      {
+        "eventType": "334_2",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "0",
+        "text": "Liégeois 的攻势来自边路进攻，利用其divine (+2) (22)级别的战术能力。"
+      },
+      {
+        "eventType": "408_1",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "3",
+        "text": "第 3 分钟时 Fons Paravizzini 扭伤右脚踝，不过他还是咬牙强忍继续比赛。"
+      },
+      {
+        "attackDirection": "right",
+        "attackRating": 11.25,
+        "defenseRating": 14.5,
+        "eventType": "173_1",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "10",
+        "ratio": 0.4368932038834951,
+        "scoringChance": 0.248152282469847,
+        "text": "第 10 分钟时 Beitem 队自右边发动攻势，Thierry Roudenko 的进球帮助客队领先 0-1，主场球迷顿时鸦雀无声。"
+      },
+      {
+        "attackDirection": "right",
+        "attackRating": 17.75,
+        "defenseRating": 18.5,
+        "eventType": "213_2",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "14",
+        "ratio": 0.4896551724137931,
+        "scoringChance": 0.39654369792053124,
+        "text": "第 14 分钟时 Lieven Dusart 队在右路连串的巧妙突破后起脚，但球滑门而出，主队无功而返。"
+      },
+      {
+        "eventType": "510_5",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "23",
+        "text": "第 23 分钟时 Beitem 队的 Roelant Burms 从背后绊倒对手但仅仅得到黄牌警告，众人都觉得裁判的判罚尺度太宽松了。"
+      },
+      {
+        "eventType": "407_2",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "23",
+        "text": "第 23 分钟时 Falco Tallieu 扭伤左脚踝，无奈离场。"
+      },
+      {
+        "eventType": "424_2",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "23",
+        "text": "这倒是给了 Riccardo Verboomen 一个机会上场。"
+      },
+      {
+        "attackDirection": "center",
+        "attackRating": 12.75,
+        "defenseRating": 15.75,
+        "eventType": "181_5",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "29",
+        "ratio": 0.4473684210526316,
+        "scoringChance": 0.27475898304974056,
+        "text": "第 29 分钟时 Beitem 队的 Pieter Proot 突破中路防线后长驱直入，小禁区前劲射入网，0-2。"
+      },
+      {
+        "attackDirection": "special",
+        "attackRating": 12.75,
+        "defenseRating": 15.75,
+        "eventType": "237_4",
+        "isAway": true,
+        "isHome": false,
+        "isSE": true,
+        "minute": "31",
+        "ratio": 0.4473684210526316,
+        "scoringChance": 0.27475898304974056,
+        "text": "Beitem 队的 Pieter Proot 边路带球前进被阻后马上低传给 Roelant Burms，不过后者射门偏出。"
+      },
+      {
+        "attackDirection": "special",
+        "attackRating": 12.75,
+        "defenseRating": 15.75,
+        "eventType": "218_4",
+        "isAway": true,
+        "isHome": false,
+        "isSE": true,
+        "minute": "32",
+        "ratio": 0.4473684210526316,
+        "scoringChance": 0.27475898304974056,
+        "text": "Thobias Cops 将角球轻敲给 Karlfried Kissel，后者面对整个浩大空门竟然射中立柱。"
+      },
+      {
+        "attackDirection": "center",
+        "attackRating": 12.75,
+        "defenseRating": 15.75,
+        "eventType": "181_1",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "33",
+        "ratio": 0.4473684210526316,
+        "scoringChance": 0.27475898304974056,
+        "text": "第 33 分钟时 Beitem 队的 Pieter Proot 接到队友巧妙直塞后一脚吊射，球越过门将入网，0-3，主场观众对此感到十分不满。"
+      },
+      {
+        "eventType": "45_3",
+        "isAway": false,
+        "isHome": false,
+        "isSE": false,
+        "minute": "45",
+        "text": "半场比分是 0-3。"
+      },
+      {
+        "eventType": "40_2",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "45",
+        "text": "Liégeois 队有明显的控球优势，高达百分之 53。"
+      },
+      {
+        "attackDirection": "right",
+        "attackRating": 17.75,
+        "defenseRating": 18.5,
+        "eventType": "103_2",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "47",
+        "ratio": 0.4896551724137931,
+        "scoringChance": 0.39654369792053124,
+        "text": "第 47 分钟时 Liégeois 队在右边配合， Siebe Forton 最后射门得分，1-3。"
+      },
+      {
+        "attackDirection": "center",
+        "attackRating": 12.75,
+        "defenseRating": 15.75,
+        "eventType": "281_5",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "48",
+        "ratio": 0.4473684210526316,
+        "scoringChance": 0.27475898304974056,
+        "text": "第 48 分钟时 Brandão Joaquim Trindade 队中路突施冷箭，球偏出目标。"
+      },
+      {
+        "attackDirection": "left",
+        "attackRating": 10.5,
+        "defenseRating": 14.75,
+        "eventType": "282_5",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "49",
+        "ratio": 0.4158415841584158,
+        "scoringChance": 0.1999841957252857,
+        "text": "第 49 分钟时 Beitem 差点通过左路进攻的 Óscar Erosa 门前垫射得手，多亏门将身手了得化解险情。"
+      },
+      {
+        "attackDirection": "left",
+        "attackRating": 16,
+        "defenseRating": 17.25,
+        "eventType": "102_4",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "52",
+        "ratio": 0.48120300751879697,
+        "scoringChance": 0.37076316074445204,
+        "text": "比赛进行至第 52 分钟时，Liégeois 队的 Fons Paravizzini 灵巧地带球由左路下底内切然后射门，一连串的动作一气呵成，客队领先优势顿时减至 2-3。"
+      },
+      {
+        "attackDirection": "right",
+        "attackRating": 11.25,
+        "defenseRating": 14.5,
+        "eventType": "183_1",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "60",
+        "ratio": 0.4368932038834951,
+        "scoringChance": 0.248152282469847,
+        "text": "第 60 分钟时 Thierry Roudenko 带球由右边突破切入禁区射门得分，主队球迷不由大为颓丧，Beitem 队领先 2-4。"
+      },
+      {
+        "eventType": "352_3",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "66",
+        "text": "Beitem 队在比赛进行至第 66 分钟时进行换人以为比赛注入新鲜血液， Thobias Cops 和替补他的 Carl Istasse 匆匆拥抱一下后离场。"
+      },
+      {
+        "eventType": "81_1",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "66",
+        "text": "当 Thobias Cops 不在场上时， Carlos Hillaert 就是新的定位球主罚人选。"
+      },
+      {
+        "eventType": "75_1",
+        "isAway": false,
+        "isHome": false,
+        "isSE": false,
+        "minute": "89",
+        "text": "比赛临近结束，裁判觉得应该要有 4 分钟的伤停补时。"
+      },
+      {
+        "eventType": "599_1",
+        "isAway": false,
+        "isHome": false,
+        "isSE": false,
+        "minute": "90+4",
+        "text": "比赛结束，最终比分为 2-4 。"
+      },
+      {
+        "eventType": "40_5",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "",
+        "text": "Liégeois 队统治着比赛，控球率高达百分之 53。"
+      },
+      {
+        "eventType": "41_2",
+        "isAway": false,
+        "isHome": true,
+        "isSE": false,
+        "minute": "",
+        "text": "毫无疑问的， Siebe Forton 是 Liégeois 的场上最佳球员。"
+      },
+      {
+        "eventType": "41_5",
+        "isAway": true,
+        "isHome": false,
+        "isSE": false,
+        "minute": "",
+        "text": "Beitem 的 Thierry Roudenko 今天的表现简直令人惊叹不已。"
+      }
+    ],
+    "homeGoals": 2,
+    "homeLeftAttack": 16,
+    "homeLeftDefense": 14.5,
+    "homeMiddleAttack": 8,
+    "homeMiddleDefense": 15.75,
+    "homeMidfield": 12,
+    "homeRightAttack": 17.75,
+    "homeRightDefense": 14.75,
+    "homeTactics": "Attack on Wings",
+    "homeTacticsLevel": 22,
+    "homeTeamId": 321305,
+    "homeTeamName": "FC Liégeois",
+    "matchDate": "24-08-2025 13.00",
+    "matchId": 754129050,
+    "matchType": "League",
+    "timelineRatings": null,
+    "weather": "cloudy"
+  }
+]
