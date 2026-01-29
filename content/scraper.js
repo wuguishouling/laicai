@@ -33,6 +33,7 @@
     // Storage key for persisting data
     const STORAGE_KEY = 'foxtrick_scraper_data';
     const STORAGE_STATE_KEY = 'foxtrick_scraper_state';
+    const STORAGE_OPTIONS_KEY = 'foxtrick_scraper_options';
 
     // ==================== DOM Elements ====================
 
@@ -51,13 +52,16 @@
             idList: document.getElementById('id-list'),
             rangeCount: document.getElementById('range-count'),
             listCount: document.getElementById('list-count'),
-            intervalInput: document.getElementById('interval'),
+            interval: document.getElementById('interval'),
 
             // Options
-            optEvents: document.getElementById('opt-events'),
-            optTimeline: document.getElementById('opt-timeline'),
-            optRatings: document.getElementById('opt-ratings'),
+
+            // Options
+            optIncludeTimeline: document.getElementById('opt-timeline'),
+            optIncludeRatings: document.getElementById('opt-ratings'),
+            optIncludeEvents: document.getElementById('opt-events'),
             optUseChpp: document.getElementById('opt-use-chpp'),
+            chppStatus: document.getElementById('chpp-status'),
 
             // Buttons
             btnStart: document.getElementById('btn-start'),
@@ -354,11 +358,11 @@
         if (!ids) return;
 
         // Get options
-        state.options.includeEvents = elements.optEvents.checked;
-        state.options.includeTimeline = elements.optTimeline.checked;
-        state.options.includeRatings = elements.optRatings.checked;
+        state.options.includeEvents = elements.optIncludeEvents.checked;
+        state.options.includeTimeline = elements.optIncludeTimeline.checked;
+        state.options.includeRatings = elements.optIncludeRatings.checked;
         state.options.useChppApi = elements.optUseChpp.checked;
-        state.interval = parseFloat(elements.intervalInput.value) * 1000 || 2000;
+        state.interval = parseFloat(elements.interval.value) * 1000 || 2000;
 
         // Initialize state
         state.matchIds = ids;
@@ -631,12 +635,80 @@
         exportCsv: exportCsvFile
     };
 
+    // ==================== Options Management ====================
+
+    function saveOptions() {
+        const options = {
+            interval: parseFloat(elements.interval.value),
+            includeTimeline: elements.optIncludeTimeline.checked,
+            includeRatings: elements.optIncludeRatings.checked,
+            includeEvents: elements.optIncludeEvents.checked,
+            useChppApi: elements.optUseChpp.checked
+        };
+        chrome.storage.local.set({ [STORAGE_OPTIONS_KEY]: options });
+    }
+
+    async function loadOptions() {
+        try {
+            const result = await chrome.storage.local.get(STORAGE_OPTIONS_KEY);
+            const saved = result[STORAGE_OPTIONS_KEY];
+            if (saved) {
+                if (saved.interval) elements.interval.value = saved.interval;
+                elements.optIncludeTimeline.checked = saved.includeTimeline !== false;
+                elements.optIncludeRatings.checked = saved.includeRatings !== false;
+                elements.optIncludeEvents.checked = saved.includeEvents !== false;
+                elements.optUseChpp.checked = saved.useChppApi === true;
+
+                // If CHPP is enabled, check status
+                if (saved.useChppApi) {
+                    checkChppAvailability();
+                }
+            }
+        } catch (e) {
+            console.error('Error loading options:', e);
+        }
+    }
+
+    function checkChppAvailability() {
+        if (!elements.chppStatus) return; // Guard clause
+
+        elements.chppStatus.textContent = ' 正在检查...';
+        elements.chppStatus.style.color = '#666';
+
+        chrome.runtime.sendMessage({ type: 'CHECK_CHPP_STATUS' }, (response) => {
+            if (chrome.runtime.lastError) {
+                elements.chppStatus.textContent = ' (检查失败)';
+                elements.chppStatus.style.color = 'red';
+                return;
+            }
+
+            if (response && response.available) {
+                elements.chppStatus.textContent = ' ✅ ' + response.message;
+                elements.chppStatus.style.color = '#2e7d32'; // green
+            } else {
+                elements.chppStatus.textContent = ' ❌ ' + (response ? response.message : '不可用');
+                elements.chppStatus.style.color = '#d32f2f'; // red
+            }
+        });
+    }
+
     // ==================== Event Listeners ====================
 
     function initEventListeners() {
         // Tab switching
         elements.tabBtns.forEach(btn => {
             btn.addEventListener('click', () => switchTab(btn.dataset.mode));
+        });
+
+        // Option listeners
+        elements.interval.addEventListener('change', saveOptions);
+        elements.optIncludeTimeline.addEventListener('change', saveOptions);
+        elements.optIncludeRatings.addEventListener('change', saveOptions);
+        elements.optIncludeEvents.addEventListener('change', saveOptions);
+        elements.optUseChpp.addEventListener('change', (e) => {
+            saveOptions();
+            if (e.target.checked) checkChppAvailability();
+            else elements.chppStatus.textContent = '';
         });
 
         // Input changes for count update
@@ -749,6 +821,7 @@
 
     async function init() {
         initElements();
+        await loadOptions(); // Load options first
         initEventListeners();
         await loadSavedData();
 

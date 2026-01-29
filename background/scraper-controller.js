@@ -26,6 +26,60 @@ async function findHattrickTab() {
     return tabs.length > 0 ? tabs[0] : null;
 }
 
+/**
+ * Check if CHPP scraping is available (Hattrick tab exists + Foxtrick authorized)
+ * @returns {Promise<{available: boolean, message: string}>}
+ */
+async function checkChppStatus() {
+    const tab = await findHattrickTab();
+    if (!tab) {
+        return { available: false, message: '未检测到 Hattrick 标签页，请先登录' };
+    }
+
+    try {
+        const results = await chrome.scripting.executeScript({
+            target: { tabId: tab.id },
+            func: () => {
+                return new Promise((resolve) => {
+                    if (typeof Foxtrick === 'undefined' || !Foxtrick.util || !Foxtrick.util.api) {
+                        resolve({ available: false, message: '页面未加载 Foxtrick API' });
+                        return;
+                    }
+
+                    // Try a lightweight API call to verify authorization
+                    // managercompendium requires auth and is lightweight
+                    Foxtrick.util.api.retrieve(
+                        document,
+                        [['file', 'managercompendium']],
+                        { cache: 'default' },
+                        (xml, errorText) => {
+                            if (errorText) {
+                                // Common auth errors
+                                if (errorText.includes('authorize') || errorText.includes('access')) {
+                                    resolve({ available: false, message: '未授权: 请在 Foxtrick 设置中授权访问' });
+                                } else {
+                                    resolve({ available: false, message: 'API 连接失败: ' + errorText });
+                                }
+                            } else {
+                                const teamName = xml.text ? (xml.text('Loginname') || 'User') : 'Authorized';
+                                resolve({ available: true, message: '就绪 (用户: ' + teamName + ')' });
+                            }
+                        }
+                    );
+                });
+            }
+        });
+
+        const status = results && results[0] ? results[0].result : null;
+        if (!status) return { available: false, message: '检测脚本执行失败' };
+
+        return status;
+
+    } catch (e) {
+        return { available: false, message: '检查环境时出错: ' + e.message };
+    }
+}
+
 async function handleScrapeMatch(matchId, url, options) {
     const startTime = performance.now();
     console.log(`[TIMING] Match ${matchId}: Starting scraper request...`);
@@ -988,5 +1042,6 @@ function runChppScraperInTab(matchId) {
 // Export for use as ES module
 export const ScraperController = {
     handleScrapeMatch,
-    closeScraperWindow
+    closeScraperWindow,
+    checkChppStatus
 };

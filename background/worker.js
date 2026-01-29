@@ -57,6 +57,12 @@ chrome.runtime.onMessage.addListener((msg, sender, responseCallback) => {
 		return true;
 	}
 
+	if (msg.type === 'CHECK_CHPP_STATUS') {
+		ScraperController.checkChppStatus()
+			.then(status => responseCallback(status));
+		return true;
+	}
+
 	// Handle file download requests
 	if (msg.type === 'DOWNLOAD_FILE') {
 		const { content, filename, mimeType } = msg;
