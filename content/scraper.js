@@ -25,7 +25,8 @@
         options: {
             includeEvents: true,
             includeTimeline: true,
-            includeRatings: true
+            includeRatings: true,
+            useChppApi: false
         }
     };
 
@@ -56,6 +57,7 @@
             optEvents: document.getElementById('opt-events'),
             optTimeline: document.getElementById('opt-timeline'),
             optRatings: document.getElementById('opt-ratings'),
+            optUseChpp: document.getElementById('opt-use-chpp'),
 
             // Buttons
             btnStart: document.getElementById('btn-start'),
@@ -277,6 +279,13 @@
                         state.completedMatches = savedState.completedMatches || 0;
                         state.failedMatches = savedState.failedMatches || [];
                         state.options = savedState.options || state.options;
+                        // Restore checkbox states from saved options
+                        if (elements.optUseChpp && state.options.useChppApi !== undefined) {
+                            elements.optUseChpp.checked = state.options.useChppApi;
+                        }
+                        if (elements.optEvents && state.options.includeEvents !== undefined) {
+                            elements.optEvents.checked = state.options.includeEvents;
+                        }
                         state.interval = savedState.interval || state.interval;
                         state.totalMatches = state.matchIds.length;
 
@@ -292,9 +301,7 @@
     }
 
     async function clearAllData() {
-        if (!confirm('确定要清除所有已收集的数据吗？')) {
-            return;
-        }
+        console.log('[DEBUG] clearAllData called - executing clear...');
 
         state.collectedData = [];
         state.failedMatches = [];
@@ -312,6 +319,7 @@
         elements.errorsList.innerHTML = '';
         elements.previewSection.classList.add('hidden');
         elements.previewTbody.innerHTML = '';
+        elements.previewCount.textContent = '(0 条)';
 
         // Also hide export container
         const exportContainer = document.getElementById('export-data-container');
@@ -349,6 +357,7 @@
         state.options.includeEvents = elements.optEvents.checked;
         state.options.includeTimeline = elements.optTimeline.checked;
         state.options.includeRatings = elements.optRatings.checked;
+        state.options.useChppApi = elements.optUseChpp.checked;
         state.interval = parseFloat(elements.intervalInput.value) * 1000 || 2000;
 
         // Initialize state

@@ -17,10 +17,62 @@
 // Global scraper window ID to allow reuse
 let scraperWindowId = null;
 
+/**
+ * Find an existing Hattrick tab where Foxtrick is authorized
+ * @returns {Promise<chrome.tabs.Tab|null>}
+ */
+async function findHattrickTab() {
+    const tabs = await chrome.tabs.query({ url: '*://*.hattrick.org/*' });
+    return tabs.length > 0 ? tabs[0] : null;
+}
+
 async function handleScrapeMatch(matchId, url, options) {
     const startTime = performance.now();
     console.log(`[TIMING] Match ${matchId}: Starting scraper request...`);
 
+    // CHPP Mode: Use existing Hattrick tab (no new window needed)
+    if (options.useChppApi) {
+        console.log(`[TIMING] Match ${matchId}: CHPP mode - finding existing Hattrick tab...`);
+
+        const existingTab = await findHattrickTab();
+        if (!existingTab) {
+            return Promise.reject(new Error('未找到已打开的 Hattrick 页面。请先在浏览器中打开 hattrick.org 并登录。'));
+        }
+
+        console.log(`[TIMING] Match ${matchId}: Using existing tab ${existingTab.id}`);
+
+        return new Promise(async (resolve, reject) => {
+            try {
+                // Inject CHPP scraper code
+                await chrome.scripting.executeScript({
+                    target: { tabId: existingTab.id },
+                    files: ['background/chpp-scraper.js']
+                });
+
+                // Run CHPP Scraper
+                const results = await chrome.scripting.executeScript({
+                    target: { tabId: existingTab.id },
+                    func: runChppScraperInTab,
+                    args: [matchId]
+                });
+
+                const data = results && results[0] ? results[0].result : null;
+                const endTime = performance.now();
+                console.log(`[TIMING] Match ${matchId}: CHPP completed in ${(endTime - startTime).toFixed(0)}ms`);
+
+                if (data && !data.error) {
+                    resolve(data);
+                } else {
+                    reject(new Error(data?.error || '无法获取数据'));
+                }
+            } catch (error) {
+                console.error(`[CHPP] Error for match ${matchId}:`, error);
+                reject(error);
+            }
+        });
+    }
+
+    // DOM Scraping Mode: Use window-based approach
     return new Promise(async (resolve, reject) => {
         try {
             // Check if scraper window already exists and is valid
@@ -799,26 +851,54 @@ function navigateAndScrape(windowId, tabId, matchId, url, options, resolve, reje
             if (resolved) return;
 
             // Execute extraction script
-            let results = await chrome.scripting.executeScript({
-                target: { tabId },
-                func: extractMatchData,
-                args: [matchId, options]
-            });
+            let results;
+            let data;
 
-            // RETRY LOGIC: If data is missing (e.g. homeTeamName is null), wait and retry once
-            // This handles cases where page says 'complete' but DOM is still hydrating
-            let data = results && results[0] ? results[0].result : null;
+            if (options.useChppApi) {
+                console.log(`[TIMING] Match ${matchId}: Using CHPP API Scraper...`);
+                // Inject CHPP scraper code
+                await chrome.scripting.executeScript({
+                    target: { tabId },
+                    files: ['background/chpp-scraper.js']
+                });
 
-            if (!data || !data.homeTeamName) {
-                console.log(`[TIMING] Match ${matchId}: Data incomplete, retrying in 1500ms...`);
-                await new Promise(r => setTimeout(r, 1500));
+                // Run CHPP Scraper
+                results = await chrome.scripting.executeScript({
+                    target: { tabId },
+                    func: runChppScraperInTab,
+                    args: [matchId]
+                });
+                data = results && results[0] ? results[0].result : null;
 
+                if (!data) {
+                    // Possible loading issue or API delay?
+                    // CHPP API usually doesn't need DOM wait, but if API call failed in script
+                    console.log(`[TIMING] Match ${matchId}: CHPP Fetch failed or returned null.`);
+                }
+
+            } else {
+                // DOM Scraping
                 results = await chrome.scripting.executeScript({
                     target: { tabId },
                     func: extractMatchData,
                     args: [matchId, options]
                 });
+
                 data = results && results[0] ? results[0].result : null;
+
+                // RETRY LOGIC for DOM scraping: If data is missing (e.g. homeTeamName is null), wait and retry once
+                // This handles cases where page says 'complete' but DOM is still hydrating
+                if (!data || (!data.homeTeamName && !data.error)) {
+                    console.log(`[TIMING] Match ${matchId}: Data incomplete, retrying in 1500ms...`);
+                    await new Promise(r => setTimeout(r, 1500));
+
+                    results = await chrome.scripting.executeScript({
+                        target: { tabId },
+                        func: extractMatchData,
+                        args: [matchId, options]
+                    });
+                    data = results && results[0] ? results[0].result : null;
+                }
             }
 
             const extractTime = performance.now();
@@ -861,6 +941,48 @@ async function closeScraperWindow() {
         }
         scraperWindowId = null;
     }
+}
+
+/**
+ * Run CHPP Scraper in the tab context
+ * requires chpp-scraper.js to be injected first
+ * @param {number} matchId
+ */
+function runChppScraperInTab(matchId) {
+    return new Promise((resolve, reject) => {
+        // Debug environment
+        console.log('[CHPP-INJECT] Checking environment...');
+        if (typeof Foxtrick === 'undefined') {
+            console.error('[CHPP-INJECT] FATAL: Foxtrick global object is missing!');
+            resolve({ error: 'Foxtrick 插件未在此页面加载，请刷新 Hattrick 页面重试' });
+            return;
+        }
+
+        if (!window.CHPPScraper) {
+            console.error('[CHPP-INJECT] FATAL: CHPPScraper module missing!');
+            resolve({ error: 'CHPPScraper 模块注入失败' });
+            return;
+        }
+
+        // Run fetch
+        console.log(`[CHPP-INJECT] Starting fetch for match ${matchId}...`);
+        try {
+            window.CHPPScraper.fetchMatch(document, matchId, (data, error) => {
+                if (error) {
+                    console.error("[CHPP-INJECT] Fetch error:", error);
+                    // Ensure error is a string for transport
+                    const errorMsg = error.message || error.toString();
+                    resolve({ error: errorMsg });
+                } else {
+                    console.log("[CHPP-INJECT] Fetch success");
+                    resolve(data);
+                }
+            });
+        } catch (e) {
+            console.error("[CHPP-INJECT] Exception calling fetchMatch:", e);
+            resolve({ error: '调用异常: ' + e.message });
+        }
+    });
 }
 
 // Export for use as ES module
